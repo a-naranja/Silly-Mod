@@ -1,0 +1,10 @@
+{
+	"graphics":{
+		"blueprint_packages":{
+			"silly_package":"graphics/icons/cargo/package_silly.png"
+		},
+		"characters":{
+			"mrsilly.png":"graphics/characters/mrsilly.png"
+		}
+	}
+}

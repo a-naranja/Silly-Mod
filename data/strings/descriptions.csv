@@ -1,0 +1,15 @@
+id,type,text1,text2,text3,text4,notes
+,,,,,,
+silly_burden,SHIP,"An unusual ship very similar to the Afflictor, the Burden trades more reactor power for heavier armour plating.",,,,
+silly_mudskipper7,SHIP,"A series of ill-advised modifications have been made to the already questionable Mudskipper Mk.II to turn the large ballistic hardpoint into a turret. The amazing success of this conversion is often times eclipsed by the humble combat capacity of the base hull. 
+
+Most commonly used as interplanetary ferry, the Mudskipper is indeed interstellar-capable. The ship has no built-in shield generator so must rely on its durable - for a civilian craft - armor to protect passengers and cargo. There is little hope for the Mudskipper in combat, but it is generally equipped with a rear-facing turret to foil attacks by the ever-popular Salamander missile.",,,,
+silly_ap,SHIP,"A mediocre attempt at hacking an Apogee blueprint is the reason the Ap exists. Severely incomplete compared to the cruiser, the Ap has been made into a missile boat to still perform against the sector more traditional frigates. Some of the original exploration equipment remains, aiding cartographing efforts.",,,,
+,,,,,,
+silly_falalaf,SHIP,"Falalaf hulls are born from salvaged Eagles welded together. While the turrets might not have the best angles, the cruiser features multiple forward hardpoints.",,,,
+silly_shortquest,SHIP,"After thinking long and hard about ways to improve upon the great Conquest, the great Doohickey engineers decided to cut short the capital to install a smaller but more efficient shield projector. The result is a promising cruiser hull, able to install heavy weaponry and a great shield. For some reason, pirates have been known to mock Shortquest captains.",,,,
+,,,,,,
+,,,,,,
+lemat_description,CUSTOM,Lemat is the home and main operative base of Doohickey Corporation. An overgrown jungle and exotic gases are the main enemy of colonization efforts.,Lemat,"Lemat, choking with vegetation, stands before you.",,
+,,,,,,
+doohickeyCorp,FACTION,"Doohickey Corporation, often just Doohickey Corp., was once the project of an independent entrepreneur group to research new technology after the collapse and produce new, functional hulls and weapons with the now less opresive Domain regulations. After the first AI War, however, tight regulations were imposed by the Hegemony and this new persean corporation could not manage to lift off, much less rival the ever-present Tri-Tachyon. Knowing that Doohickey Corp. could not afford to take part in the already saturated field of AI development and high-power generators, the board has taken interest in producing more ""affordable"" and ""interesting"" spacecraft and military-grade weaponry that is often sold to independent and Hegemony contractors alike.",,,,

@@ -1,0 +1,30 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 30,
+    "fluxVents": 5,
+    "goalVariant": true,
+    "hullId": "silly_falalaf",
+    "hullMods": [
+        "targetingunit"
+    ],
+    "quality": 0.0,
+    "variantId": "silly_falalaf_Assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 004": "gravitonbeam",
+                "WS 005": "gravitonbeam",
+                "WS 006": "ionbeam",
+                "WS 007": "ionbeam",
+                "WS 008": "heavymauler",
+                "WS 009": "heavymauler",
+                "WS 010": "hveldriver",
+                "WS 011": "hveldriver",
+                "WS 000": "pdlaser",
+                "WS 001": "pdlaser"
+            }
+        }
+    ]
+}

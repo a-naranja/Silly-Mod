@@ -1,0 +1,58 @@
+{
+    "hullName": "Mudskipper Mk.VII",
+    "hullId": "silly_mudskipper7",
+    "hullSize": "FRIGATE",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/mudskipper7.png",
+    "height": 84,
+    "width": 64,
+    "center": [
+        32, 42
+    ],
+    "collisionRadius": 50,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 0,
+    "viewOffset": 0,
+    "builtInMods": [
+        "civgrade",
+        "ill_advised",
+        "comp_storage",
+        "damaged_mounts"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "LARGE",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 260,
+            "angle": 0,
+            "locations": [
+                    19.5,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -39, 0
+            ],
+            "length": 19.5,
+            "width": 19,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+             -40,      -30,
+            38.5,    -28.5,
+            38.5,     28.5,
+             -40,       30
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 3,
+    "fluxVents": 3,
+    "goalVariant": true,
+    "hullId": "silly_mudskipper7",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "silly_mudskipper7_Custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "mjolnir"
+            }
+        }
+    ]
+}

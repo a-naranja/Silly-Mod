@@ -1,0 +1,24 @@
+{
+    "displayName": "Missile",
+    "fluxCapacitors": 2,
+    "fluxVents": 10,
+    "goalVariant": true,
+    "hullId": "silly_ap",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "silly_ap_Missile",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "gorgon",
+                "WS 002": "gorgon",
+                "WS 003": "gorgon",
+                "WS 001": "gorgon",
+                "WS 004": "pdburst",
+                "WS 005": "pdburst"
+            }
+        }
+    ]
+}
