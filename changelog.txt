@@ -2,6 +2,7 @@
 Added Shortquest
 Rebalanced Lemat, added ring to Whimsy
 Added portrait
+Added github support, billions must commit...
 
 
 0.1.1
