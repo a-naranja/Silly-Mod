@@ -6,19 +6,16 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.EconomyAPI;
-import com.fs.starfarer.api.characters.FullName;
-import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Conditions;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.ids.Industries;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import com.fs.starfarer.api.impl.campaign.ids.Terrain;
+
 //em fokin colours
 import java.awt.*;
 
-//magiclib for people and fleets
-import org.magiclib.util.MagicCampaign;
 
 public class WhimsyStarPlugin extends BaseModPlugin {
     @Override
@@ -130,10 +127,5 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//column 4(text 2) for title when mouse is over it, column 5(text 3) shows when approaching planet so uhh no idea
 		//planet_id.setCustomDescriptionId("column_1_id");
 		lemat.setCustomDescriptionId("lemat_description");
-
-		//persons now NOT WORKING
-		MagicCampaign.addCustomPerson(lemat_market, "Mister", "Silly", "mrsilly.png",
-				FullName.Gender.MALE, "doohickeyCorp", "FACTION_LEADER", "EXECUTIVE", true, 1,
-				0);
     }
 }
