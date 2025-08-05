@@ -6,12 +6,9 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.EconomyAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Conditions;
+import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Industries;
-import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
-import com.fs.starfarer.api.impl.campaign.ids.Terrain;
 
 //em fokin colours
 import java.awt.*;
@@ -80,9 +77,12 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		lemat_market.addIndustry(Industries.FARMING);
 		lemat_market.addIndustry(Industries.PATROLHQ);
 		lemat_market.addIndustry(Industries.HEAVYINDUSTRY);
+		lemat_market.addIndustry(Silly_Industries.SILLY_STATION);
+		lemat_market.addIndustry(Silly_Industries.SILLY_RESEARCH);
 		//add submarkets for open market, black market and storage; maybe add custom doohickey or silly later?
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+		lemat_market.addSubmarket(Submarkets.GENERIC_MILITARY);
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
 		//set market to the planet so it knows it's not a station or something
 		lemat_market.setPrimaryEntity(lemat);

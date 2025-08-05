@@ -8,7 +8,7 @@ import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 
 public class silly_People extends People{
-    public static void lematPeople() {
+    public void onNewGame() {
         ImportantPeopleAPI importantP = Global.getSector().getImportantPeople();
         MarketAPI market = null;
 

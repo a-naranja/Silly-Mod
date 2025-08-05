@@ -1,3 +1,10 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
 #NPC doohickey only?,,,,,,,,,,,,,,
 # doohickey_research,Doohickey Research District,10,10,,10,,," unraidable, codex_unlockable",,graphics/illustrations/research_district.jpg,data.scripts.resesarchIndustry,Doohickey's research and specialty items are developed and produced here. A small number of those can be adquired - for a price.,201,HIGH
+silly_orbitalstation,Orbital Station - Silly,50,90,,3,,,"station, sub_item, unraidable, structure","{
+radius:55,
+variant:silly_station_custom,
+fleetName:Orbital Station,
+}",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A silly space station, featuring heavy firepower on one side and rapid axial rotation.
+
+Must be reduced before a bombardment can be attempted.",2100,
