@@ -1,6 +1,6 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
 #NPC doohickey only?,,,,,,,,,,,,,,
-# doohickey_research,Doohickey Research District,10,10,,10,,," unraidable, codex_unlockable",,graphics/illustrations/research_district.jpg,data.scripts.resesarchIndustry,Doohickey's research and specialty items are developed and produced here. A small number of those can be adquired - for a price.,201,HIGH
+silly_research,Doohickey Research District,10,10,,10,,,"unraidable, codex_unlockable",,graphics/illustrations/research_district.jpg,data.scripts.researchDistrict,Doohickey's research and specialty items are developed and produced here. A small number of those can be adquired - for a price.,201,HIGH
 silly_orbitalstation,Orbital Station - Silly,50,90,,3,,,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:silly_station_custom,
