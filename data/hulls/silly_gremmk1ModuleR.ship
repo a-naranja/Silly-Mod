@@ -1,0 +1,40 @@
+{
+    "hullName": "Grem Module",
+    "hullId": "silly_gremmk1ModuleR",
+    "hullSize": "FRIGATE",
+    "style": "THREAT",
+    "spriteName": "graphics/ships/mk1gremModuleRight.png",
+    "height": 159,
+    "width": 103,
+    "center": [
+        51.5, 79.5
+    ],
+    "collisionRadius": 78.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 86.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "reduced_explosion",
+        "always_detaches"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": [
+            42.5,     49.5,
+              76,       15,
+              19,    -44.5,
+               4,      -31,
+           -25.5,    -47.5,
+        
+           -79.5,       -9,
+           -67.5,      4.5,
+           -25.5,      -27,
+              46,     12.5,
+            23.5,       37
+    ]
+}

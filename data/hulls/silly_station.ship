@@ -1,0 +1,68 @@
+{
+    "hullName": "Silly Orbital Station",
+    "hullId": "silly_station",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "MIDLINE",
+    "spriteName": "graphics/ships/station/station_silly.png",
+    "height": 512,
+    "width": 512,
+    "center": [
+        256, 256
+    ],
+    "collisionRadius": 261,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 271.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "vastbulk",
+        "axialrotation",
+        "supercomputer",
+        "shared_flux_sink"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      87,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 180,
+            "locations": [
+                   -79.5,        0
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+            -168,      -77,
+            -123,     -208,
+             -49,     -254,
+              50,     -252,
+             100,     -142,
+        
+             233,        0,
+             100,      142,
+              50,      252,
+             -49,      254,
+            -123,      208,
+        
+            -168,       77
+    # 11 points total.
+    ]
+}
