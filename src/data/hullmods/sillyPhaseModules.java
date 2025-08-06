@@ -13,6 +13,9 @@ public class sillyPhaseModules extends BaseHullMod {
             if (module.getStationSlot() != null && module.isAlive() && ship.isPhased()) {
                 module.setPhased(true);
                 module.getPhaseCloak().forceState(ShipSystemAPI.SystemState.ACTIVE, amount);
+            } else {
+                module.setPhased(false);
+                module.getPhaseCloak().forceState(ShipSystemAPI.SystemState.IDLE, amount);
             }
         }
     }
