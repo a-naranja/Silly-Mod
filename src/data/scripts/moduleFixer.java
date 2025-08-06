@@ -1,0 +1,17 @@
+package data.scripts;
+
+import com.fs.starfarer.api.combat.BaseHullMod;
+import com.fs.starfarer.api.combat.ShipAPI;
+
+public class moduleFixer extends BaseHullMod {
+    public static String PHASE_MODULES = "phase_modules";
+
+    public void advanceInCombat(ShipAPI ship, float amount){
+        super.advanceInCombat(ship, amount);
+        for(ShipAPI module : ship.getChildModulesCopy()) {
+            if (module.getStationSlot() != null && module.isAlive() && ship.isPhased()) {
+                module.setPhased(true);
+            }
+        }
+    }
+}
