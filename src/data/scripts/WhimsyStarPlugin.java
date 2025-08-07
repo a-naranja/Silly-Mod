@@ -129,4 +129,10 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//planet_id.setCustomDescriptionId("column_1_id");
 		lemat.setCustomDescriptionId("lemat_description");
     }
+
+	@Override
+	public void onGameLoad(boolean newGame){
+		super.onGameLoad(newGame);
+		Global.getSector().getEconomy().addUpdateListener(new sillyParticlesListener());
+	}
 }
