@@ -4,7 +4,7 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.econ.SubmarketAPI;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
 import com.fs.starfarer.api.impl.campaign.ids.Commodities;
-import com.fs.starfarer.api.impl.campaign.ids.Silly_Factions;
+import data.ids.sillyFactions;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 
 import static com.fs.starfarer.api.campaign.RepLevel.getRepInt;
@@ -34,7 +34,7 @@ public class researchDistrict extends BaseIndustry {
                 } else {
                     market.addSubmarket(Submarkets.GENERIC_MILITARY);
                     SubmarketAPI mil = market.getSubmarket(Submarkets.GENERIC_MILITARY);
-                    mil.setFaction(Global.getSector().getFaction(Silly_Factions.DOOHICKEYCORP));
+                    mil.setFaction(Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP));
                     Global.getSector().getEconomy().forceStockpileUpdate(market);
                 }
             }
