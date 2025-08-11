@@ -133,7 +133,6 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 	@Override
 	public void onGameLoad(boolean newGame){
 		super.onGameLoad(newGame);
-		Global.getSector().getEconomy().addUpdateListener(new sillyParticlesListener());
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
 	}
 }
