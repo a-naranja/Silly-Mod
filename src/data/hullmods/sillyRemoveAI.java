@@ -1,7 +1,6 @@
 package data.hullmods;
 
 import com.fs.starfarer.api.combat.BaseHullMod;
-import com.fs.starfarer.api.combat.ShipAIPlugin;
 import com.fs.starfarer.api.combat.ShipAPI;
 
 public class sillyRemoveAI extends BaseHullMod {
