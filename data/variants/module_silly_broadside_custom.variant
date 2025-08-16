@@ -1,0 +1,64 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "module_silly_broadside",
+    "hullMods": [],
+    "quality": 1.0,
+    "variantId": "module_silly_broadside_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "multineedler",
+                "WS 000": "multineedler",
+                "WS 020": "multineedler"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "tachyonlance",
+                "WS 004": "tachyonlance",
+                "WS 007": "gigacannon",
+                "WS 006": "gigacannon",
+                "WS 003": "gigacannon",
+                "WS 002": "gigacannon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "gazerpod",
+                "WS 008": "gazerpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "dragon",
+                "WS 013": "dragon",
+                "WS 010": "dragon",
+                "WS 012": "dragon"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 018": "vulcan",
+                "WS 017": "vulcan",
+                "WS 015": "vulcan",
+                "WS 021": "vulcan",
+                "WS 014": "vulcan",
+                "WS 016": "vulcan",
+                "WS 019": "vulcan"
+            }
+        }
+    ]
+}

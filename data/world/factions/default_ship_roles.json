@@ -15,10 +15,11 @@
 	"combatLarge":{
 		"silly_falalaf_Assault":10,
 		"silly_shortquest_Custom":10,
+		"silly_eagle_elite":1,
 		"fallback":{"combatMedium":1}
 	},
 	"combatCapital":{
-		
+		"silly_atlas_custom":1,
 		"fallback":{"combatLarge":1}
 	},
 	"combatFreighterSmall":{
@@ -48,7 +49,7 @@
 		"fallback2":{"carrierLarge":0.5}
 	},
 	"carrierLarge":{
-		
+		"silly_atlas_custom":1,
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1}
 	},

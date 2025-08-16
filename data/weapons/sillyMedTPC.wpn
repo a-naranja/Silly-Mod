@@ -1,0 +1,27 @@
+{
+	"id":"sillyMedTPC",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/sillyMedTPC.png",
+	"turretGlowSprite":"graphics/weapons/sillyMedTPC_glow.png",
+	"hardpointSprite":"graphics/weapons/sillyMedTPC.png",
+	"hardpointGlowSprite":"graphics/weapons/sillyMedTPC_glow.png",
+	"turretOffsets":[0,0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0,0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"glowColor":[220,0,220,100],
+	"muzzleFlashSpec":{"length":20.0,
+					   "spread":4.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":15.0,
+					   "particleDuration":0.9,
+					   "particleCount":8,
+					   "particleColor":[155,0,155,50]},
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"silly_tpc_shot",  # projectile that will be fired
+	"fireSoundTwo":"thermal_pulse_cannon_fire",
+}

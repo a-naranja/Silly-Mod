@@ -1,0 +1,2 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+silly_cargo_wing,silly_cargo_Fighter,"no_sell, no_drop, low",1,,4,0,CLAW,1000,300,,1,FIGHTER,"""Heavy Fighter""",10,4100,,,,,,,,,,,,,20

@@ -1,0 +1,15 @@
+id,name,iconPath,npcSpawnWeight,plugin
+#Commando,,,,
+silly_skill1,New Cruiser School,graphics/skills/newCS.png,1,data.scSkills.silly_skill1
+,,,,
+silly_skill2,Guerrilla Warfare,graphics/skills/guerrilla.png,0.5,data.scSkills.silly_skill2
+silly_skill3,Strategic Redeployment,graphics/skills/stratDeploy.png,0.5,data.scSkills.silly_skill3
+silly_skill4,Light Cruiser Training,graphics/skills/LCtraining.png,2,data.scSkills.silly_skill4
+silly_skill5,Heavy Cruiser Training,graphics/skills/CAtraining.png,2,data.scSkills.silly_skill5
+silly_skill6,Support Cruiser Training,graphics/skills/supportC.png,1,data.scSkills.silly_skill6
+,,,,
+silly_skill7,Standalone Specialists,graphics/skills/standalone.png,0.5,data.scSkills.silly_skill7
+silly_skill8,Combined Arms,graphics/skills/combinedArms.png,2,data.scSkills.silly_skill8
+,,,,
+silly_skill9,Task Force,graphics/skills/taskforce.png,1,data.scSkills.silly_skill9
+silly_skill10,Black Ops,graphics/skills/BO.png,0,data.scSkills.silly_skill10

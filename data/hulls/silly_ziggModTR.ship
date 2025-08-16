@@ -1,0 +1,37 @@
+{
+    "hullName": "Vambrace",
+    "hullId": "silly_ziggModTR",
+    "hullSize": "DESTROYER",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/z_mk1_tr.png",
+    "height": 186,
+    "width": 153,
+    "center": [
+        76.5, 93
+    ],
+    "collisionRadius": 124.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 124,
+    "viewOffset": 0,
+    "builtInMods": [
+        "silly_no_ai"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": [
+              89,       74,
+              92,     55.5,
+            20.5,      -37,
+           -42.5,    -75.5,
+             -91,    -61.5,
+        
+           -83.5,    -48.5,
+               9,      -12,
+              45,     50.5
+    ]
+}

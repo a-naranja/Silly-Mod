@@ -6,19 +6,14 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.EconomyAPI;
-import com.fs.starfarer.api.characters.FullName;
-import com.fs.starfarer.api.characters.PersonAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Conditions;
+import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import com.fs.starfarer.api.impl.campaign.ids.Industries;
-import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
-import com.fs.starfarer.api.impl.campaign.ids.Terrain;
+import data.ids.sillyIndustries;
+
 //em fokin colours
 import java.awt.*;
 
-//magiclib for people and fleets
-import org.magiclib.util.MagicCampaign;
 
 public class WhimsyStarPlugin extends BaseModPlugin {
     @Override
@@ -83,9 +78,12 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		lemat_market.addIndustry(Industries.FARMING);
 		lemat_market.addIndustry(Industries.PATROLHQ);
 		lemat_market.addIndustry(Industries.HEAVYINDUSTRY);
+		lemat_market.addIndustry(sillyIndustries.SILLY_STATION);
+		lemat_market.addIndustry(sillyIndustries.SILLY_RESEARCH);
 		//add submarkets for open market, black market and storage; maybe add custom doohickey or silly later?
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
+		lemat_market.addSubmarket(Submarkets.GENERIC_MILITARY);
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_STORAGE);
 		//set market to the planet so it knows it's not a station or something
 		lemat_market.setPrimaryEntity(lemat);
@@ -130,10 +128,11 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//column 4(text 2) for title when mouse is over it, column 5(text 3) shows when approaching planet so uhh no idea
 		//planet_id.setCustomDescriptionId("column_1_id");
 		lemat.setCustomDescriptionId("lemat_description");
-
-		//persons now NOT WORKING
-		MagicCampaign.addCustomPerson(lemat_market, "Mister", "Silly", "mrsilly.png",
-				FullName.Gender.MALE, "doohickeyCorp", "FACTION_LEADER", "EXECUTIVE", true, 1,
-				0);
     }
+
+	@Override
+	public void onGameLoad(boolean newGame){
+		super.onGameLoad(newGame);
+		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
+	}
 }

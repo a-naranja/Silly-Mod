@@ -1,0 +1,42 @@
+{
+	"id":"silly_repeater_particle",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/silly_repeater_particle.png",
+	"size":[10,10],
+	"center":[5,5],
+	"collisionClass":"PROJECTILE_NO_FF",
+	"collisionRadius":1,
+	"explosionColor":[255,0,255,255],  # purely visual, will get a white additively blended core on top of this color
+	"flameoutTime":0.1, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
+	"fadeTime":0.25, # fadeout duration
+	"explosionRadius":100, # purely visual
+		"maxFlightTime":4,
+	"engineSpec":{"turnAcc":250,
+				  "turnRate":100,
+				  "acc":100,
+				  "dec":50},
+	"engineSlots":[{"id":"ES1",
+    					"loc":[0, 0],
+    				    "style":"CUSTOM",
+    					"styleSpec":{
+    						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+    						"engineColor":[255,0,255,100],
+    						"glowSizeMult":1,
+    						"contrailDuration":1,
+    						"contrailWidthMult":1,
+    						"contrailWidthAddedFractionAtEnd":-1,  # can be negative. makes trail spread out/narrow at the end
+    						"contrailMinSeg":3, # min segment length, in pixels
+    						"contrailMaxSpeedMult":.0f,
+    						"contrailAngularVelocityMult":0f,
+    						"contrailSpawnDistMult":0, # how far away from engine it starts
+    						"contrailColor":[255,0,255,100],
+    						#"contrailParticleSizeMult":8,
+    						#"contrailParticleDuration":2,
+    						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode
+    					},
+    			    "width":10.0,
+    				"length":10.0,
+    				"angle":180.0}]
+}

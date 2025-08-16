@@ -1,0 +1,4 @@
+name,id,tags,planetary,decivRemove,script,desc,icon,order
+Trace Silly Particles,silly_particles_trace,,TRUE,,data.scripts.sillyResourceConditions,"Trace amounts of Silly Particles are found in $market, barely warranting extraction.",graphics/icons/markets/silly_particles_trace.png,39
+Moderate Silly Particles,silly_particles_moderate,,TRUE,,data.scripts.sillyResourceConditions,A moderate amount of Silly Particles flutter and twirl around the planet. Extraction will still be expensive but viable.,graphics/icons/markets/silly_particels_moderate.png,39
+Abundant Silly Particles,silly_particles_abundant,,TRUE,,data.scripts.sillyResourceConditions,"A great amount of Silly Particles have made $market their home. While extracting them will be expensive, the returns will be equally great.",graphics/icons/markets/silly_particles_abundant.png,39

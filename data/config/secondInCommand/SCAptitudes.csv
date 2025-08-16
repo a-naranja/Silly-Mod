@@ -1,0 +1,2 @@
+id,name,categories,spawnWeight,color,tags,order,plugin
+silly_sc_commando,Commando,,0.4,"225,0,225,255",,810,data.scAptitudes.silly_sc_commando

@@ -241,7 +241,7 @@
             "length": 28,
             "width": 22,
             "angle": 180,
-            "contrailSize": 12,
+            "contrailSize": 128,
             "style": "MIDLINE"
         },
         {
@@ -251,7 +251,7 @@
             "length": 28,
             "width": 22,
             "angle": 180,
-            "contrailSize": 12,
+            "contrailSize": 128,
             "style": "MIDLINE"
         }
     ],

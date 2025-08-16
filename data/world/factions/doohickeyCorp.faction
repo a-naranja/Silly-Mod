@@ -29,23 +29,47 @@
 	},
 	"hullFrequency":{
 		"tags":{
-			"silly_bp":1,
 		},
 		"hulls":{
-			"silly_burden":3,
-			"silly_ap":5,
-			"silly_falalaf":3,
-			"silly_shortquest":1,
+		    "silly_gremmk1":0,
+		    "silly_zigguratmk1":0,
 		},
 	},
 	"shipsWhenImporting":{
-		"tags":["silly_bp"],
+		"tags":[],
 		"hulls":[
 		],
 	},
 	"knownShips":{
-		"tags":["ind","independent","silly_bp"],
+		"tags":["ind","independent","silly_bp","elite_silly_bp"],
 		"hulls":[
+		"crig",
+        	"ox",
+        	"dram",
+        	"phaeton",
+        	"prometheus",
+        	"gemini",
+        	"atlas",
+        	"mercury",
+        	"hermes",
+        	"kite_original",
+        	"mudskipper",
+        	"wayfarer",
+        	"nebula",
+        	"valkyrie",
+        	"starliner",
+
+		    "silly_burden",
+		    "silly_mudskipper7",
+		    "silly_ap",
+		    "silly_gremmk1",
+
+		    "silly_falalaf",
+		    "silly_shortquest",
+		    "silly_eagle",
+
+		    "silly_atlas",
+		    "silly_zigguratmk1",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -53,6 +77,7 @@
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
+		    "silly_eagle",
 		],
 	},
 	"knownFighters":{
@@ -67,6 +92,8 @@
 			"trident_wing",
 			"cobra_wing",
 			"longbow_wing",
+
+			"silly_cargo_wing",
 		],
 	},
 	"priorityFighters":{
@@ -75,7 +102,7 @@
 		],
 	},
 	"knownWeapons":{
-		"tags":["tritachyon","silly_bp"],
+		"tags":["tritachyon","silly_bp","elite_silly_bp"],
 		"weapons":[
 			"pdlaser",
 			"taclaser",
@@ -130,15 +157,17 @@
 			"heavyneedler",
 			"mjolnir",
 			"multineedler",
+
+			"sploinkBeam",
 		],
 	},
 	"priorityWeapons":{
-		"tags":["silly_bp"],
+		"tags":["silly_bp","elite_silly_bp"],
 		"weapons":[
 		],
 	},
 	"knownHullMods":{
-		"tags":["standard", "tritachyon", "ind", "independent"],
+		"tags":["standard", "tritachyon", "ind", "independent", "silly_bp"],
 		"hullMods":[
 		],
 	},
@@ -163,8 +192,11 @@
 		
 		"squall":10,
 		"locust":10,
+
+		"sploinkBeam":10,
 	},
 	"fighterSellFrequency":{
+	    "silly_cargo_wing":5,
 	},
 	"hullmodSellFrequency":{
 		"adaptive_coils":5,

@@ -1,4 +1,13 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
-# Add your weapons here. One left commented out as a reference.
-# See https://starsector.fandom.com/wiki/Weapon_data.csv
-#Light Machine Gun,lightmg,0,,100,300,,25,,1,50,3,,,,KINETIC,3,,0,0.4,5,0.1,0,5,1,15,,600,,,10,,,PD,"pd6, kinetic3, SR, base_bp, ind",,,,Point Defense,,,,,,,,,,0.5
+#SMALL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Silly Repeater,sillyrepeater,3,,35000,1000,300,150,20,2,10,10,,,,ENERGY,100,200,0,0.5,1,,,,,,,500,100,10,100,,,DO_NOT_AIM,"elite_silly_bp, no_dealer, codex_unlockable, no_drop_salvage, energy_10, missile_5",,Silly Elite,,Suppression,Very Fast,Homing,,Perfect,Fires a tracking particle that only damages enemies.,,,,,100
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#MEDIUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Sploink Beam,sploinkBeam,1,0.5,3000,1000,100,,100,200,15,10,,,,ENERGY,,100,0.1,0.1,,,10,20,1,5,700,,,,,,,FIRE_WHEN_INEFFICIENT,"beam10, LR, silly_bp",,Silly,,Suppression,,,,,,,Creates fluctuations that destabilize targets and pushes them off-course.,,,120
+Silly Medium Thermal Pulse Cannon,sillyMedTPC,0,,80000,800,,180,,0,0,,15,1.5,,ENERGY,108,,0,0.2,1,,0,8,1.5,3,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",,,,,General,,,,,,,,,,121
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#LARGES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#DECOS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,sillyEagleDecoL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,140
+,sillyEagleDecoR,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,141
