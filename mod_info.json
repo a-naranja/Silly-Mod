@@ -1,9 +1,9 @@
 {
   "id": "orange-sillyMod",
-  "name": "Silly Mod",
+  "name": "Silly-Mod",
   "author": "Orange",
   "utility": false,
-  "version": { "major": '0', "minor": '1', "patch": '2' },
+  "version": { "major": '0', "minor": '2', "patch": '0' },
   "description": "Silly hulls, Doohickey corp, Whimsy",
   "gameVersion": "0.98a",
   "jars": [ "jars/Silly Mod.jar" ],
