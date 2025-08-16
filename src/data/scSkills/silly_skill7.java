@@ -1,0 +1,34 @@
+package data.scSkills;
+
+import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.combat.ShipVariantAPI;
+import com.fs.starfarer.api.fleet.FleetMemberAPI;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
+import com.fs.starfarer.api.util.Misc;
+import second_in_command.SCData;
+import second_in_command.specs.SCBaseSkillPlugin;
+
+public class silly_skill7 extends SCBaseSkillPlugin {
+    @Override
+    public String getAffectsString() {
+        return "Cruisers with Officers";
+    }
+
+    @Override
+    public void addTooltip(SCData scData, TooltipMakerAPI tt) {
+        tt.addPara("Reduces the cooldown of the ship system by 25%%",0f, Misc.getHighlightColor(),Misc.getHighlightColor());
+        tt.addPara("Increases the recharge of the ship system by 25%%",0f, Misc.getHighlightColor(),Misc.getHighlightColor());
+        tt.addPara("Increases the recharge of ammunition weapons 25%%",0f, Misc.getHighlightColor(),Misc.getHighlightColor());
+    }
+    @Override
+    public void applyEffectsBeforeShipCreation(SCData data, MutableShipStatsAPI stats, ShipVariantAPI variant, ShipAPI.HullSize hullSize, String id){
+        FleetMemberAPI fmem = stats.getFleetMember();
+        if(hullSize== ShipAPI.HullSize.CRUISER && fmem.getCaptain()!=null){
+            stats.getSystemCooldownBonus().modifyPercent(id,25f);
+            stats.getSystemRegenBonus().modifyPercent(id,25f);
+            stats.getBallisticAmmoRegenMult().modifyPercent(id,25f);
+            stats.getEnergyAmmoRegenMult().modifyPercent(id,25f);
+        }
+    }
+}
