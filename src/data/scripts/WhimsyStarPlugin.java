@@ -70,8 +70,10 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		lemat_market.addCondition(Conditions.HOT);
 		lemat_market.addCondition(Conditions.HABITABLE);
 		lemat_market.addCondition(Conditions.FARMLAND_POOR);
-		lemat_market.addCondition(Conditions.VOLATILES_TRACE);
+		lemat_market.addCondition("silly_particles_trace");
+		lemat_market.addCondition(Conditions.INIMICAL_BIOSPHERE);
 		lemat_market.addCondition(Conditions.POPULATION_3);
+		lemat_market.addCondition(Conditions.FREE_PORT);
 		//add industry if needed, no need if it's not populated
 		lemat_market.addIndustry(Industries.POPULATION);
 		lemat_market.addIndustry(Industries.SPACEPORT);
@@ -79,7 +81,7 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		lemat_market.addIndustry(Industries.PATROLHQ);
 		lemat_market.addIndustry(Industries.HEAVYINDUSTRY);
 		lemat_market.addIndustry(sillyIndustries.SILLY_STATION);
-		lemat_market.addIndustry(sillyIndustries.SILLY_RESEARCH);
+		lemat_market.addIndustry(sillyIndustries.SILLY_RESEARCH_PARK);
 		//add submarkets for open market, black market and storage; maybe add custom doohickey or silly later?
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
@@ -113,7 +115,7 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		traitor_market.setPlanetConditionMarketOnly(true);
 		traitor_market.addCondition(Conditions.VERY_COLD);
 		traitor_market.addCondition(Conditions.THIN_ATMOSPHERE);
-		traitor_market.addCondition(Conditions.VOLATILES_DIFFUSE);
+		traitor_market.addCondition("silly_particles_abundant");
 		traitor_market.addCondition(Conditions.ORE_MODERATE);
 		traitor_market.addCondition(Conditions.RARE_ORE_MODERATE);
 		traitor_market.addCondition(Conditions.RUINS_SCATTERED);

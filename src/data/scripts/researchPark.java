@@ -4,30 +4,31 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.econ.SubmarketAPI;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
 import com.fs.starfarer.api.impl.campaign.ids.Commodities;
+import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
-import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 
-import static com.fs.starfarer.api.campaign.RepLevel.getRepInt;
-
-
-public class researchDistrict extends BaseIndustry {
+public class researchPark extends BaseIndustry {
 
     protected transient SubmarketAPI saved = null;
 
-    public void apply(){
-        //apply things when industry is built
+    @Override
+    public void apply() {
         super.apply(true);
-
-        //declare vars, save time
         int size = market.getSize();
-        //ask for stuff, you can also use supply(Commodities. to add supply but eh not now not for this
-        demand(Commodities.SHIPS, size -2);
-        demand(Commodities.METALS, size -1);
-        demand(Commodities.RARE_METALS, size -2);
-        demand(Commodities.DRUGS, size -2);
-        demand(sillyCommodities.SILLY_PARTICLES, size -2);
-        //add doohikey mil market if built on player colonies
+        demand(Commodities.SHIPS, size -1);
+        demand(Commodities.METALS, size);
+        demand(Commodities.RARE_METALS, size -1);
+        demand(Commodities.DRUGS, size -1);
+        demand(sillyCommodities.SILLY_PARTICLES, size -1);
+        if(!isFunctional()){
+            supply.clear();
+            unapply();
+        }
+        if(isFunctional()){
+            supply(Commodities.SHIPS, 1);
+            supply(Commodities.HAND_WEAPONS,1);
+        }
         if (isFunctional() && market.isPlayerOwned()) {
             SubmarketAPI open = market.getSubmarket(Submarkets.GENERIC_MILITARY);
             if (open == null) {
@@ -43,6 +44,7 @@ public class researchDistrict extends BaseIndustry {
         } else if (market.isPlayerOwned()) {
             market.removeSubmarket(Submarkets.GENERIC_MILITARY);
         }
+        getIncome().modifyFlat("Silly Research Park", 42000f);
     }
     @Override
     public void unapply() {
@@ -53,5 +55,6 @@ public class researchDistrict extends BaseIndustry {
             saved = mil;
             market.removeSubmarket(Submarkets.GENERIC_MILITARY);
         }
+        getIncome().unmodify("Silly Research Park");
     }
 }
