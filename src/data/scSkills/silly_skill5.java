@@ -21,8 +21,8 @@ public class silly_skill5 extends SCBaseSkillPlugin {
     @Override
     public void applyEffectsBeforeShipCreation(SCData data, MutableShipStatsAPI stats, ShipVariantAPI variant, ShipAPI.HullSize hullSize, String id){
         if(hullSize == ShipAPI.HullSize.CRUISER){
-            stats.getDamageToCruisers().modifyPercent(id, 20f);
-            stats.getDamageToCapital().modifyPercent(id,20f);
+            stats.getDamageToCruisers().modifyPercent("Heavy Cruiser Training", 20f);
+            stats.getDamageToCapital().modifyPercent("Heavy Cruiser Training",20f);
         }
     }
 }

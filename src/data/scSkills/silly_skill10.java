@@ -30,15 +30,15 @@ public class silly_skill10 extends SCBaseSkillPlugin {
         for(int i = getdmods; dmod < i; ++dmod) {
             redmult *= 0.8f;
         }
-        stats.getSuppliesPerMonth().modifyMult(id, redmult);
-        stats.getBallisticWeaponFluxCostMod().modifyPercent(id,0.9f);
-        stats.getEnergyWeaponFluxCostMod().modifyPercent(id,0.9f);
-        stats.getMissileWeaponFluxCostMod().modifyPercent(id,0.9f);
+        stats.getSuppliesPerMonth().modifyMult("Black Ops", redmult);
+        stats.getBallisticWeaponFluxCostMod().modifyPercent("Black Ops",0.9f);
+        stats.getEnergyWeaponFluxCostMod().modifyPercent("Black Ops",0.9f);
+        stats.getMissileWeaponFluxCostMod().modifyPercent("Black Ops",0.9f);
         float fp = data.getFleet().getFleetData().getFleetPointsUsed();
         if(fp<=180){
-            stats.getBallisticWeaponDamageMult().modifyMult(id,20f);
-            stats.getEnergyWeaponDamageMult().modifyMult(id,20f);
-            stats.getMissileWeaponDamageMult().modifyMult(id,20f);
+            stats.getBallisticWeaponDamageMult().modifyMult("Black Ops",20f);
+            stats.getEnergyWeaponDamageMult().modifyMult("Black Ops",20f);
+            stats.getMissileWeaponDamageMult().modifyMult("Black Ops",20f);
         }
     }
 }

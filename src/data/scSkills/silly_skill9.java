@@ -21,9 +21,9 @@ public class silly_skill9 extends SCBaseSkillPlugin {
     }
     @Override
     public void applyEffectsBeforeShipCreation(SCData data, MutableShipStatsAPI stats, ShipVariantAPI variant, ShipAPI.HullSize hullSize, String id){
-        stats.getSuppliesPerMonth().modifyMult(id,0.9f);
-        stats.getEnergyWeaponDamageMult().modifyPercent(id,10f);
-        stats.getBallisticWeaponDamageMult().modifyPercent(id,10f);
-        stats.getMissileWeaponDamageMult().modifyPercent(id,10f);
+        stats.getSuppliesPerMonth().modifyMult("Task Force",0.9f);
+        stats.getEnergyWeaponDamageMult().modifyPercent("Task Force",10f);
+        stats.getBallisticWeaponDamageMult().modifyPercent("Task Force",10f);
+        stats.getMissileWeaponDamageMult().modifyPercent("Task Force",10f);
     }
 }

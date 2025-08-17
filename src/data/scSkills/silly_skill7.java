@@ -25,10 +25,10 @@ public class silly_skill7 extends SCBaseSkillPlugin {
     public void applyEffectsBeforeShipCreation(SCData data, MutableShipStatsAPI stats, ShipVariantAPI variant, ShipAPI.HullSize hullSize, String id){
         FleetMemberAPI fmem = stats.getFleetMember();
         if(hullSize== ShipAPI.HullSize.CRUISER && fmem.getCaptain()!=null){
-            stats.getSystemCooldownBonus().modifyPercent(id,25f);
-            stats.getSystemRegenBonus().modifyPercent(id,25f);
-            stats.getBallisticAmmoRegenMult().modifyPercent(id,25f);
-            stats.getEnergyAmmoRegenMult().modifyPercent(id,25f);
+            stats.getSystemCooldownBonus().modifyPercent("Standalone Specialists",25f);
+            stats.getSystemRegenBonus().modifyPercent("Standalone Specialists",25f);
+            stats.getBallisticAmmoRegenMult().modifyPercent("Standalone Specialists",25f);
+            stats.getEnergyAmmoRegenMult().modifyPercent("Standalone Specialists",25f);
         }
     }
 }

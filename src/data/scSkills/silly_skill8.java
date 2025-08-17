@@ -22,10 +22,10 @@ public class silly_skill8 extends SCBaseSkillPlugin {
     @Override
     public void applyEffectsBeforeShipCreation(SCData data, MutableShipStatsAPI stats, ShipVariantAPI variant, ShipAPI.HullSize hullSize, String id){
         if(hullSize== ShipAPI.HullSize.DESTROYER||hullSize== ShipAPI.HullSize.FRIGATE){
-            stats.getMaxCombatReadiness().modifyFlat(id,0.10f);
-            stats.getHullDamageTakenMult().modifyMult(id,0.9f);
-            stats.getArmorDamageTakenMult().modifyMult(id,0.9f);
-            stats.getShieldDamageTakenMult().modifyMult(id,0.9f);
+            stats.getMaxCombatReadiness().modifyFlat("Combined Arms",0.10f);
+            stats.getHullDamageTakenMult().modifyMult("Combined Arms",0.9f);
+            stats.getArmorDamageTakenMult().modifyMult("Combined Arms",0.9f);
+            stats.getShieldDamageTakenMult().modifyMult("Combined Arms",0.9f);
         }
     }
 }

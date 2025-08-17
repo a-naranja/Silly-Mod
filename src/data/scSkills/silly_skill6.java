@@ -21,8 +21,8 @@ public class silly_skill6 extends SCBaseSkillPlugin {
     @Override
     public void applyEffectsBeforeShipCreation(SCData data, MutableShipStatsAPI stats, ShipVariantAPI variant, ShipAPI.HullSize hullSize, String id){
         if(hullSize== ShipAPI.HullSize.CRUISER){
-            stats.getMissileWeaponDamageMult().modifyPercent(id,20f);
-            stats.getFighterRefitTimeMult().modifyPercent(id, 0.70f);
+            stats.getMissileWeaponDamageMult().modifyPercent("Support Cruiser Training",20f);
+            stats.getFighterRefitTimeMult().modifyPercent("Support Cruiser Training", 0.70f);
         }
     }
 }

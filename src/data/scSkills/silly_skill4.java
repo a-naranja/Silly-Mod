@@ -19,13 +19,17 @@ public class silly_skill4 extends SCBaseSkillPlugin {
     public void addTooltip(SCData scData, TooltipMakerAPI tt) {
         tt.addPara("Improves the Cruisers autofire aim accuracy",0f,Misc.getHighlightColor(),Misc.getHighlightColor());
         tt.addPara("Deals 50%% more damage to missiles and fighters",0f, Misc.getHighlightColor(),Misc.getHighlightColor());
+        tt.addPara("Increases speed and acceleration by 10%%",0f, Misc.getHighlightColor(),Misc.getHighlightColor());
     }
     @Override
     public void applyEffectsBeforeShipCreation(SCData data,MutableShipStatsAPI stats,ShipVariantAPI variant,ShipAPI.HullSize hullSize,String id){
         if(hullSize == ShipAPI.HullSize.CRUISER){
-            stats.getAutofireAimAccuracy().modifyFlat(id, 0.25f);
-            stats.getDamageToFighters().modifyPercent(id, 50f);
-            stats.getDamageToMissiles().modifyPercent(id, 50f);
+            String desc = "Light Cruiser Training";
+            stats.getAutofireAimAccuracy().modifyFlat(desc, 0.25f);
+            stats.getDamageToFighters().modifyPercent(desc, 50f);
+            stats.getDamageToMissiles().modifyPercent(desc, 50f);
+            stats.getMaxSpeed().modifyPercent(desc,10f);
+            stats.getAcceleration().modifyPercent(desc,10f);
         }
     }
 }

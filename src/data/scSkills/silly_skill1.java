@@ -22,7 +22,8 @@ public class silly_skill1 extends SCBaseSkillPlugin {
     @Override
     public void applyEffectsBeforeShipCreation(SCData data, MutableShipStatsAPI stats, ShipVariantAPI variant, ShipAPI.HullSize hullSize, String id) {
         if (hullSize == ShipAPI.HullSize.CRUISER) {
-            stats.getMaxCombatReadiness().modifyFlat(id, 0.10f);
+            String desc = "New Cruiser School";
+            stats.getMaxCombatReadiness().modifyFlat(desc, 0.10f);
         }
     }
 }
