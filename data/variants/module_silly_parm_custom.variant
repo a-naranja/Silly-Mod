@@ -1,0 +1,34 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "module_silly_parm",
+    "hullMods": [],
+    "quality": 1.0,
+    "variantId": "module_silly_parm_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "dragonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "gorgonpod",
+                "WS 002": "gorgonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "sillyrepeater"
+            }
+        }
+    ]
+}

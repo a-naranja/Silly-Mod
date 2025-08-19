@@ -10,6 +10,7 @@
     "weaponGroups": [],
     "modules": {
         "WS 000": "module_silly_broadside_custom",
-        "WS 001": "module_silly_support_custom"
+        "WS 001": "module_silly_support_custom",
+	"WS 002": "module_silly_parm_custom"
     }
 }

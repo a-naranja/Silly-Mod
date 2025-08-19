@@ -31,6 +31,11 @@
 		"tags":{
 		},
 		"hulls":{
+		    "silly_burden":2,
+		    "silly_ap":4,
+		    "silly_falalaf":2,
+		    "silly_shortquest":6,
+		    "silly_eagle":4,
 		    "silly_gremmk1":0,
 		    "silly_zigguratmk1":0,
 		},
@@ -41,9 +46,9 @@
 		],
 	},
 	"knownShips":{
-		"tags":["ind","independent","silly_bp","elite_silly_bp"],
+		"tags":["silly_bp","elite_silly_bp"],
 		"hulls":[
-		"crig",
+		    "crig",
         	"ox",
         	"dram",
         	"phaeton",
@@ -51,9 +56,6 @@
         	"gemini",
         	"atlas",
         	"mercury",
-        	"hermes",
-        	"kite_original",
-        	"mudskipper",
         	"wayfarer",
         	"nebula",
         	"valkyrie",
@@ -77,6 +79,7 @@
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
+		    "silly_shortquest",
 		    "silly_eagle",
 		],
 	},
@@ -89,8 +92,6 @@
 			"wasp_wing",
 			"xyphos_wing",
 			"claw_wing",
-			"trident_wing",
-			"cobra_wing",
 			"longbow_wing",
 
 			"silly_cargo_wing",
@@ -99,6 +100,7 @@
 	"priorityFighters":{
 		"tags":["silly_bp"],
 		"fighters":[
+		    "silly_cargo_wing",
 		],
 	},
 	"knownWeapons":{
@@ -111,6 +113,7 @@
 			"lrpdlaser",
 			"pdburst",
 			"amblaster",
+			"sillyrepeater",
 			
 			"phasebeam",
 			"gravitonbeam",
@@ -119,35 +122,33 @@
 			"heavyburst",
 			"ionpulser",
 			"ionbeam",
+			"sploinkBeam",
 			
 			"plasma",
 			"hil",
 			"autopulse",
 			"guardian",
 			"tachyonlance",
-			
-			
-			"reaper",
-			"atropos",
-			"atropos_single",
-			"swarmer",
-			"annihilator",
+			"gigacannon",
+
+			"gorgon",
+			"gazer",
+			"dragon",
 			"heatseeker",
-			"harpoon",
-			"harpoon_single",
 			"breach",
 			"sabot",
 			"sabot_single",
-			
-			"harpoonpod",
+
+            "gorgonpod",
+            "gazerpod",
 			"breachpod",
 			"sabotpod",
 			"salamanderpod",
 			"phasecl",
 			"typhoon",
-			
-			"cyclone",
-			"hurricane",
+
+			"dragonpod",
+			"hydra",
 			"squall",
 			"locust",
 			
@@ -157,13 +158,12 @@
 			"heavyneedler",
 			"mjolnir",
 			"multineedler",
-
-			"sploinkBeam",
 		],
 	},
 	"priorityWeapons":{
 		"tags":["silly_bp","elite_silly_bp"],
 		"weapons":[
+		    "sploinkBeam",
 		],
 	},
 	"knownHullMods":{
@@ -176,24 +176,21 @@
 		"irpulse":5,
 		
 		"gravitonbeam":5,
-		"phasebeam":5,
-		"pulselaser":5,
 		"heavyblaster":10,
 		"ionpulser":10,
 		"ionbeam":5,
+		"sploinkBeam":20,
 		
 		"hil":5,
 		"guardian":5,
 		"autopulse":10,
 		
-		"atropos":5,
-		"typhoon":5,
-		"phasecl":5,
+		"grogon":5,
+		"gazer":5,
+		"dragon":5,
 		
 		"squall":10,
 		"locust":10,
-
-		"sploinkBeam":10,
 	},
 	"fighterSellFrequency":{
 	    "silly_cargo_wing":5,

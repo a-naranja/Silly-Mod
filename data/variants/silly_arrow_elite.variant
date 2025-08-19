@@ -1,0 +1,46 @@
+{
+    "displayName": "Elite",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "silly_arrow",
+    "hullMods": [
+        "eccm",
+        "unstable_injector"
+    ],
+    "quality": 0.1,
+    "variantId": "silly_arrow_elite",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "gazerpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "sploinkBeam",
+                "WS 007": "sploinkBeam"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "vulcan",
+                "WS 003": "vulcan"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 008": "vulcan",
+                "WS 009": "vulcan"
+            }
+        }
+    ]
+}

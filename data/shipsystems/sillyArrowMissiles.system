@@ -1,0 +1,30 @@
+{
+	"id":"sillyArrowMissiles",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipSystems.sillyArrowMissilesAI",
+
+	"weaponDataId":"sillyMissilesPod",
+	
+	"useSound":"system_darkened_gaze_activate",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	# purely required to make the phase cloak AI/other AI understand the damage this deals
+	# not used for actually dealing this damage
+	"empDamage":1200,
+	"damage":3000,
+	"damageType":ENERGY,
+	
+	"aiHints":{
+		"threatRange":1200,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":10,
+		"threatOnlyWhenCloseToActive":true,
+	}
+
+}
+
+
+
+
