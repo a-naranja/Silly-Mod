@@ -8,6 +8,7 @@ public class sillyArrowMissilesAnimR implements EveryFrameWeaponEffectPlugin {
         return -10f;
     }
     float ox1;
+    float oy1;
     boolean runOnce = false;
     @Override
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
@@ -16,6 +17,7 @@ public class sillyArrowMissilesAnimR implements EveryFrameWeaponEffectPlugin {
         if(!ship.isAlive())return;
         if(!runOnce){
             ox1 = weapon.getSprite().getCenterX();
+            oy1 = weapon.getSprite().getCenterY();
             runOnce=true;
         }
         ShipSystemAPI sys = ship.getSystem();
@@ -23,5 +25,6 @@ public class sillyArrowMissilesAnimR implements EveryFrameWeaponEffectPlugin {
         float l1 = sys.getEffectLevel();
         float l2 = l1*l1;
         weapon.getSprite().setCenterX(ox1+l2*offset());
+        weapon.getSprite().setCenterY(oy1+l2*offset());
     }
 }
