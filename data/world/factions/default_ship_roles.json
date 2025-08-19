@@ -16,6 +16,7 @@
 		"silly_falalaf_Assault":10,
 		"silly_shortquest_Custom":10,
 		"silly_eagle_elite":1,
+		"silly_arrow_elite": 2,
 		"fallback":{"combatMedium":1}
 	},
 	"combatCapital":{

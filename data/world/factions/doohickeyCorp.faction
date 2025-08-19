@@ -69,6 +69,7 @@
 		    "silly_falalaf",
 		    "silly_shortquest",
 		    "silly_eagle",
+		    "silly_arrow",
 
 		    "silly_atlas",
 		    "silly_zigguratmk1",
@@ -81,6 +82,7 @@
 		"hulls":[
 		    "silly_shortquest",
 		    "silly_eagle",
+		    "silly_arrow",
 		],
 	},
 	"knownFighters":{

@@ -1,29 +1,27 @@
 package data.scripts;
 
-import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
-import org.magiclib.util.MagicAnim;
 
 public class sillyArrowMissilesAnimR implements EveryFrameWeaponEffectPlugin {
-    private float defaultX;
-    private float defaultY;
 
-    public void getPos(WeaponAPI weapon){
-        defaultX = weapon.getSprite().getCenterX();
-        defaultY = weapon.getSprite().getCenterY();
+    public float offset(){
+        return -10f;
     }
-    public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon){
+    float ox1;
+    boolean runOnce = false;
+    @Override
+    public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
         ShipAPI ship = weapon.getShip();
-        ShipSystemAPI system = ship.getSystem();
-        //float moveX = MagicAnim.smoothNormalizeRange(system.getEffectLevel(), 0f,0.2f)*2;
-        //float in = MagicAnim.cycle(system.getEffectLevel(),0.8f,1f);
-        float open = defaultX+2;
-        if(!Global.getCombatEngine().isPaused()){
-            if(system.getState().equals(ShipSystemAPI.SystemState.IDLE)){
-                weapon.getSprite().setCenter(defaultX,defaultY);
-            } else if (system.getState().equals(ShipSystemAPI.SystemState.ACTIVE)) {
-                weapon.getSprite().setCenterX(open);
-            }
+        if(engine.isPaused())return;
+        if(!ship.isAlive())return;
+        if(!runOnce){
+            ox1 = weapon.getSprite().getCenterX();
+            runOnce=true;
         }
+        ShipSystemAPI sys = ship.getSystem();
+        float dir = Math.signum(weapon.getSlot().getLocation().getX());
+        float l1 = sys.getEffectLevel();
+        float l2 = l1*l1;
+        weapon.getSprite().setCenterX(ox1+l2*offset());
     }
 }
