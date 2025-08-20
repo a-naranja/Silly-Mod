@@ -6,9 +6,10 @@ Cargo Fighter,silly_cargo,,Silly,canister_flak,,1100,500,300,,30,0,,100,100,100,
 Burden,silly_burden,Phase Frigate,Silly,entropyamplifier,10,3000,600,2500,,350,45,,150,100,80,50,100,300,PHASE,phasecloak,90,,,0.008,0.010,6,12,15,30,1,30,10,40000,10,25,160,0.25,8,8,,,,,,,,"silly_bp, rare_bp, merc, ind",,,0.7,0.5,2,2,,241
 Mudskipper Mk.VII,silly_mudskipper7,Converted Transport,Silly,maneuveringjets,4,1000,150,750,,75,30,,90,80,50,45,60,200,NONE,,,,,,,5,100,70,40,1,40,9,3000,5,20,180,0.25,2,2,,,,,,,LINER,"silly_bp, rare_bp, merc, ind",,,1,0.5,2,2,,242
 Ap,silly_ap,Frigate,Silly,flarelauncher_active,6,1200,200,2000,,180,40,,120,130,110,80,120,200,OMNI,,180,0.3,0.8,,,10,20,40,20,1,20,10,31000,12,10,240,0.25,5,5,,,,,,,,"silly_bp, rare_bp, merc, ind",,,0.7,0.3,2,2,,243
-Grem-Mk1,silly_gremmk1,Phase Prototype,Silly Elite,flarelauncher_active,10,5000,1000,4000,,400,60,,125,90,70,60,100,800,PHASE,phasecloak,90,,,0.008,0.010,8,16,20,30,1,30,10,80000,10,10,980,0.25,8,8,,,,,,,SHIP_WITH_MODULES,"elite_silly_bp, no_auto_penalty, codex_unlockable, no_dealer",,,0,0,1,1,,244
+Grem-Mk1,silly_gremmk1,Phase Prototype,Silly Elite,flarelauncher_active,10,5000,1000,4000,,400,60,,125,90,70,60,100,800,PHASE,phasecloak,90,,,0.008,0.010,8,16,20,30,1,30,10,80000,10,10,980,0.25,8,8,,,,,,,SHIP_WITH_MODULES,"no_auto_penalty, codex_unlockable, no_dealer",,,0,0,1,1,,244
 ,silly_gremmk1ModuleL,Carcass Module,Silly Elite,,1,3000,1000,4000,,400,0,,0,0,0,10,10,100,PHASE,phasecloak,90,0,0,0,0,0,0,0,0,1,0,,30000,1,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,3,,2444
 ,silly_gremmk1ModuleR,Carcass Module,Silly Elite,,1,3000,1000,4000,,400,0,,0,0,0,10,10,100,PHASE,phasecloak,90,0,0,0,0,0,0,0,0,1,0,,30000,1,,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,3,,2444
+Hell Hound,silly_hound,Combat Superfrigate,Silly,flarelauncher,6,2000,400,750,,100,38,,180,175,100,90,120,200,NONE,,0,0,0,,,30,80,150,60,3,20,10,15000,5,10,240,0.25,6,6,,,,,,,SHIP_WITH_MODULES,"base_bp, ind",,,,0.4,2,2,,245
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #DESTROYERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
@@ -21,7 +22,7 @@ Thingamajing,silly_thingamajing,Elite Cruiser,Silly Elite,plasmajets,30,9000,130
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #CAPITALS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Silly Atlas,silly_atlas,Modified Superfreighter,Silly,damper,18,9000,750,8000,,350,220,6,30,8,4,4,2,4000,OMNI,,60,0.5,1,,,300,1000,200,400,10,40,7,150000,2,20,720,0.25,24,24,,,,,,,CARRIER,"silly_bp, rare_bp",,,0.3,0.7,2,4,,520
-Ziggurat-Mk1,silly_zigguratmk1,Battleship,Silly Elite,silly_mote_control,30,30000,1200,15000,12500,500,300,,20,8,8,4,4,4000,PHASE,phasecloak,90,0,0,0.05,0.1,0,0,700,800,10,80,7,300000,5,10,,,50,50,,,,,,,SHIP_WITH_MODULES,"elite_silly_bp, no_auto_penalty, codex_unlockable, no_dealer",,,0,0.4,2,4,,521
+Ziggurat-Mk1,silly_zigguratmk1,Battleship,Silly Elite,silly_mote_control,30,30000,1200,15000,12500,500,300,,20,8,8,4,4,4000,PHASE,phasecloak,90,0,0,0.05,0.1,0,0,700,800,10,80,7,300000,5,10,,,50,50,,,,,,,SHIP_WITH_MODULES,"no_auto_penalty, codex_unlockable, no_dealer",,,0,0.4,2,4,,521
 ,silly_ziggModTL,Vambrace Module,Silly Elite,,1,15000,1200,0,2500,100,0,,0,0,0,10,10,300,PHASE,phasecloak,90,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2445
 ,silly_ziggModTR,Vambrace Module,Silly Elite,,1,15000,1200,0,2500,100,0,,0,0,0,10,10,300,PHASE,phasecloak,90,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2445
 ,silly_ziggModBL,Vambrace Module,Silly Elite,,1,15000,1200,0,2500,100,0,,0,0,0,10,10,300,PHASE,phasecloak,90,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2445

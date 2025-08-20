@@ -1,0 +1,120 @@
+{
+    "hullName": "Hell Hound",
+    "hullId": "silly_hound",
+    "hullSize": "FRIGATE",
+    "style": "LOW_TECH",
+    "spriteName": "graphics/ships/silly_hound.png",
+    "height": 72,
+    "width": 62,
+    "center": [
+        31, 36
+    ],
+    "collisionRadius": 49.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 61.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "rugged",
+        "shielded_holds"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                      23,     -6.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 290,
+            "angle": 145,
+            "locations": [
+                   -13.5,        4
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "SYSTEM",
+            "mount": "HIDDEN",
+            "arc": 90,
+            "angle": 180,
+            "locations": [
+                   -27.5,        0
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -9.5,       31
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "HARDPOINT",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    -9.5,      -31
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -35, 22.5
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -35, -22.5
+            ],
+            "length": 80,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 64,
+            "style": "LOW_TECH"
+        }
+    ],
+    "bounds": [
+            34.5,      9.5,
+              28,     17.5,
+             7.5,       18,
+             7.5,     26.5,
+             -17,       30,
+        
+           -34.5,       28,
+             -35,    -29.5,
+               7,    -27.5,
+             7.5,      -18,
+            29.5,    -15.5,
+        
+            30.5,      3.5
+    # 11 points total.
+    ]
+}

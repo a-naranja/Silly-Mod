@@ -3,7 +3,6 @@
 		
         "trigger_marketFaction_any": ["doohickeyCorp"],
 		"trigger_playerRelationship_atLeast": {"doohickeyElite": 60},
-		"trigger_market_id": ["lemat_market"],
 
         "job_name": "Special Investigation",
         "job_description": "The Elite Resources department from Doohickey Corporation has contacted us within a private channel to entrust us with a rather boring request: sector fringe exploration. However, all the security measures taken and the generous reward they offer seem to indicate that this is no regular exploration mission. We have been advised to bring a warfleet and to \"Make sure the source signal is not spoken of... nor traced back to the Corporation\".",
@@ -34,7 +33,6 @@
         "target_personality":"steady",
         "target_level":7,
         "target_elite_skills":7,
-        "target_skill_preference": "YES_ENERGY_NO_BALLISTIC_YES_MISSILE_YES_DEFENSE",
 
         "fleet_name":"Anomaly",
         "fleet_faction":"DWELLER",
@@ -51,7 +49,7 @@
 		"fleet_no_retreat": true,
         "fleet_behavior": "PASSIVE",
 		"fleet_preset_ships": {
-			"silly_grimmk1_custom":4
+			"silly_gremmk1_custom":4
 		},
 		"location_distance": "FAR",
         "location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
