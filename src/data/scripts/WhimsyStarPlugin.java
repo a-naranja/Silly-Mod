@@ -131,10 +131,15 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//column 4(text 2) for title when mouse is over it, column 5(text 3) shows when approaching planet so uhh no idea
 		//planet_id.setCustomDescriptionId("column_1_id");
 		lemat.setCustomDescriptionId("lemat_description");
+
+		//add relations with other factions
 		Global.getSector().getFaction(Factions.INDEPENDENT).setRelationship(sillyFactions.DOOHICKEYCORP, 0.25f);
 		Global.getSector().getFaction(Factions.HEGEMONY).setRelationship(sillyFactions.DOOHICKEYCORP, 0.10f);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.INDEPENDENT, 0.25f);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.HEGEMONY, 0.10f);
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PIRATES, RepLevel.HOSTILE);
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.TRITACHYON, RepLevel.SUSPICIOUS);
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PERSEAN, RepLevel.SUSPICIOUS);
     }
 	@Override
 	public void onGameLoad(boolean newGame){
