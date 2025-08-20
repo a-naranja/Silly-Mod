@@ -6,13 +6,13 @@
 	"size":[10,10],
 	"center":[5,5],
 	"collisionClass":"PROJECTILE_NO_FF",
-	"collisionRadius":1,
-	"explosionColor":[255,0,255,255],  # purely visual, will get a white additively blended core on top of this color
-	"flameoutTime":0.1, # total time from flameout to full fadeout
-	"noEngineGlowTime":0.1, # time spent without the engine glow being rendered
-	"fadeTime":0.25, # fadeout duration
+	"collisionRadius":2,
+	"explosionColor":[255,0,255,155],  # purely visual, will get a white additively blended core on top of this color
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0.8, # fadeout duration
 	"explosionRadius":100, # purely visual
-		"maxFlightTime":4,
+		"maxFlightTime":3,
 	"engineSpec":{"turnAcc":250,
 				  "turnRate":100,
 				  "acc":100,
@@ -31,7 +31,7 @@
     						"contrailMaxSpeedMult":.0f,
     						"contrailAngularVelocityMult":0f,
     						"contrailSpawnDistMult":0, # how far away from engine it starts
-    						"contrailColor":[255,0,255,100],
+    						"contrailColor":[255,0,255,50],
     						#"contrailParticleSizeMult":8,
     						#"contrailParticleDuration":2,
     						"type":"GLOW" # GLOW or SMOKE; additive or regular blend mode

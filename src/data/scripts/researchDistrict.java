@@ -8,8 +8,6 @@ import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 
-import static com.fs.starfarer.api.campaign.RepLevel.getRepInt;
-
 
 public class researchDistrict extends BaseIndustry {
 
@@ -27,8 +25,8 @@ public class researchDistrict extends BaseIndustry {
         demand(Commodities.RARE_METALS, size -2);
         demand(Commodities.DRUGS, size -2);
         demand(sillyCommodities.SILLY_PARTICLES, size -2);
-        //add doohikey mil market if built on player colonies
-        if (isFunctional() && market.isPlayerOwned()) {
+        //add doohikey mil market if working and get supplied silly particles
+        if (isFunctional()) {
             SubmarketAPI open = market.getSubmarket(Submarkets.GENERIC_MILITARY);
             if (open == null) {
                 if (saved != null) {
@@ -48,10 +46,8 @@ public class researchDistrict extends BaseIndustry {
     public void unapply() {
         //unapply things when industry is demolished
         super.unapply();
-        if (market.isPlayerOwned()) {
-            SubmarketAPI mil = market.getSubmarket(Submarkets.GENERIC_MILITARY);
-            saved = mil;
-            market.removeSubmarket(Submarkets.GENERIC_MILITARY);
-        }
+        SubmarketAPI mil = market.getSubmarket(Submarkets.GENERIC_MILITARY);
+        saved = mil;
+        market.removeSubmarket(Submarkets.GENERIC_MILITARY);
     }
 }

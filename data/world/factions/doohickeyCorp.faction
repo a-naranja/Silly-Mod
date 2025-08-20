@@ -70,6 +70,7 @@
 		    "silly_shortquest",
 		    "silly_eagle",
 		    "silly_arrow",
+		    "silly_thingamajing",
 
 		    "silly_atlas",
 		    "silly_zigguratmk1",
@@ -83,6 +84,7 @@
 		    "silly_shortquest",
 		    "silly_eagle",
 		    "silly_arrow",
+		    "silly_thingamajing",
 		],
 	},
 	"knownFighters":{
@@ -160,6 +162,7 @@
 			"heavyneedler",
 			"mjolnir",
 			"multineedler",
+			"devastator",
 		],
 	},
 	"priorityWeapons":{

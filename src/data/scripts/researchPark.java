@@ -20,7 +20,7 @@ public class researchPark extends BaseIndustry {
         demand(Commodities.METALS, size);
         demand(Commodities.RARE_METALS, size -1);
         demand(Commodities.DRUGS, size -1);
-        demand(sillyCommodities.SILLY_PARTICLES, size -1);
+        demand(sillyCommodities.SILLY_PARTICLES, size);
         if(!isFunctional()){
             supply.clear();
             unapply();
@@ -29,7 +29,7 @@ public class researchPark extends BaseIndustry {
             supply(Commodities.SHIPS, 1);
             supply(Commodities.HAND_WEAPONS,1);
         }
-        if (isFunctional() && market.isPlayerOwned()) {
+        if (isFunctional()) {
             SubmarketAPI open = market.getSubmarket(Submarkets.GENERIC_MILITARY);
             if (open == null) {
                 if (saved != null) {
@@ -37,7 +37,7 @@ public class researchPark extends BaseIndustry {
                 } else {
                     market.addSubmarket(Submarkets.GENERIC_MILITARY);
                     SubmarketAPI mil = market.getSubmarket(Submarkets.GENERIC_MILITARY);
-                    mil.setFaction(Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP));
+                    mil.setFaction(Global.getSector().getFaction(sillyFactions.DOOHICKEYELITE));
                     Global.getSector().getEconomy().forceStockpileUpdate(market);
                 }
             }
@@ -50,11 +50,9 @@ public class researchPark extends BaseIndustry {
     public void unapply() {
         //unapply things when industry is demolished
         super.unapply();
-        if (market.isPlayerOwned()) {
-            SubmarketAPI mil = market.getSubmarket(Submarkets.GENERIC_MILITARY);
-            saved = mil;
-            market.removeSubmarket(Submarkets.GENERIC_MILITARY);
-        }
+        SubmarketAPI mil = market.getSubmarket(Submarkets.GENERIC_MILITARY);
+        saved = mil;
+        market.removeSubmarket(Submarkets.GENERIC_MILITARY);
         getIncome().unmodify("Silly Research Park");
     }
 }

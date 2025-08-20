@@ -1,0 +1,273 @@
+{
+	id:"doohickeyElite",
+
+	"color":[176,83,146,255],
+	"secondaryUIColor":[150,150,150,255],
+	"secondarySegments":3,
+
+	"displayName":"Doohickey Elite",
+	"displayNameWithArticle":"the Doohickey Elite",
+	"displayNameLong":"Doohickey Corporation Elite Procurements",
+	"displayNameLongWithArticle":"the Doohickey Corporation Elite Procurements",
+
+	"personNamePrefixAOrAn":"a",
+	"displayNameIsOrAre":"are",
+
+	"showInIntelTab":false,
+
+	"logo":"graphics/factions/doohickeyElite_logo.png",
+	"crest":"graphics/factions/doohickeyElite_crest.png",
+	"shipNamePrefix":"DE",
+	"shipNameSources":{
+		"SPACE":1,
+	},
+	"names":{
+		"future":1,
+		"myth":1,
+	},
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		    "silly_eagle":4,
+            "silly_arrow":4,
+            "silly_thingamajing":2,
+		},
+	},
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":["silly_bp","elite_silly_bp"],
+		"hulls":[
+            "phantom",
+            "revenant",
+
+		    "silly_gremmk1",
+
+		    "silly_eagle",
+		    "silly_arrow",
+		    "silly_thingamajing",
+
+		    "silly_zigguratmk1",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	# listing capitals as priority will make them be picked even when they're the wrong "type" re: warship/carrier/phase ship
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+		    "silly_eagle",
+		    "silly_arrow",
+		    "silly_thingamajing",
+		],
+	},
+	"knownFighters":{
+		"tags":["tritachyon","silly_bp"],
+		"fighters":[
+			"wasp_wing",
+			"xyphos_wing",
+			"longbow_wing",
+
+			"silly_cargo_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":["silly_bp"],
+		"fighters":[
+		    "silly_cargo_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["tritachyon","silly_bp","elite_silly_bp"],
+		"weapons":[
+			"pdburst",
+			"amblaster",
+			"sillyrepeater",
+
+			"heavyblaster",
+			"ionpulser",
+			"ionbeam",
+			"sploinkBeam",
+
+			"autopulse",
+			"guardian",
+			"gigacannon",
+
+			"gorgon",
+			"gazer",
+			"dragon",
+			"sabot",
+
+            "gorgonpod",
+            "gazerpod",
+			"sabotpod",
+
+			"dragonpod",
+			"hydra",
+			"squall",
+			"locust",
+
+			"lightneedler",
+			"heavyneedler",
+			"mjolnir",
+			"multineedler",
+			"devastator",
+		],
+	},
+	"priorityWeapons":{
+		"tags":["silly_bp","elite_silly_bp"],
+		"weapons":[
+		    "sillyrepeater",
+		    "sploinkBeam",
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard", "tritachyon", "ind", "independent", "silly_bp"],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+        "sillyrepeater":5,
+
+		"heavyblaster":10,
+		"ionpulser":10,
+		"ionbeam":5,
+		"sploinkBeam":20,
+
+		"guardian":5,
+		"autopulse":10,
+		
+		"grogon":5,
+		"gazer":5,
+		"dragon":5,
+		
+		"squall":10,
+		"locust":10,
+	},
+	"fighterSellFrequency":{
+	    "silly_cargo_wing":5,
+	},
+	"hullmodSellFrequency":{
+		"adaptive_coils":5,
+		"phase_anchor":5,
+		"hardenedshieldemitter":10,
+		"insulatedengine":5,
+	},		
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":0,
+		"phaseShips":3,
+		
+		"officerQuality":1,
+		"shipQuality":5,
+		"numShips":1,
+		
+		"shipSize":4,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+
+		"officerSkillsShuffleProbability":1f,
+		"officerSkills":[
+			"energy_weapon_mastery",
+			"field_modulation",
+		],
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"electronic_warfare",
+			"crew_training",
+			"cybernetic_augmentation",
+		],
+	},
+	"illegalCommodities":[
+		"organs",
+		"ai_cores",
+	],
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/dcm1.png",
+			"graphics/portraits/dcm2.png",
+			"graphics/portraits/dcm3.png",
+			"graphics/portraits/dcm4.png",
+		],
+		"standard_female":[
+			"graphics/portraits/dcf1.png",
+			"graphics/portraits/dcf2.png",
+			"graphics/portraits/dcf3.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"spaceAdmiral":{"name":"Senior Voidcraft Manager"},
+			"spaceCommander":{"name":"Voidcraft Manager"},
+			
+			"factionLeader":{"name":"CEO"},
+		},
+		"posts":{
+			"factionLeader":{"name":"CEO"},
+			"patrolCommander":{"name":"Patrol Director"},
+			"fleetCommander":{"name":"Voidcraft Director"},
+			"baseCommander":{"name":"Base Director"},
+			"intelligenceDirector":{"name":"Special Experimentations Director"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+		},
+		"MEDIUM":{
+			"official":5,
+		},
+		"HIGH":{
+			"official":5,
+		},
+	},		
+	"custom":{
+		"offersCommissions":false,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"postsNoBounties":true,
+		"engageWhenEvenStrength":true,
+		"AICoreValueMult":3,
+		"AICoreRepMult":0.5,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":false,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},	
+	"fleetTypeNames":{
+		"trade":"Doohickey Trader",
+		"tradeSmuggler":"Silly Smuggler",
+		"smallTrader":"Doohickey Supplier",
+		
+		"patrolSmall":"Security Patrol",
+		"patrolMedium":"Security Flotilla",
+		"patrolLarge":"Voidcraft Fleet",
+		
+		#"inspectionFleet":"QA Inspector",
+		"taskForce":"Special Affairs Fleet",
+		
+		"foodReliefFleet":"Relief Convoy",
+		
+		#"mercScout":"Contract Scout",
+		"mercBountyHunter":"Retrieval Contractor",
+		"mercPrivateer":"Security Contractor",
+		#"mercPatrol":"Contracted Patrol",
+		#"mercArmada":"Contracted Armada",
+	}
+},
+

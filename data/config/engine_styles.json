@@ -1,10 +1,6 @@
 {
-	# Reserved engine style ids (can not be used):
-	# "CUSTOM"
-	
-	
 	"SILLYENGINE":{
-		"engineColor":[255,0,255,255],
+		"engineColor":[225,0,225,255],
 		"contrailParticleSizeMult":1,
 		"contrailParticleDuration":2,
 		"contrailParticleFinalSizeMult":2.5,
@@ -12,6 +8,6 @@
 		"contrailAngularVelocityMult":0,
 		"contrailColor":[170,0,170,25],
 		"contrailCampaignColor":[170,0,170,75],
-		"type":"GLOW" # GLOW or SMOKE
+		"type":"SMOKE" # GLOW or SMOKE
 	},
 }

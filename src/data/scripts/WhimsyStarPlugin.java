@@ -9,6 +9,7 @@ import com.fs.starfarer.api.campaign.econ.EconomyAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
 
 //em fokin colours
@@ -60,10 +61,10 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//start creating planets. First planet...
 		PlanetAPI lemat = system.addPlanet("lemat", star, "Lemat", "jungle", 33, 200, 3000, 350);
 		//give it to a faction
-		lemat.setFaction("doohickeyCorp");
+		lemat.setFaction(sillyFactions.DOOHICKEYCORP);
 		//now market...
 		MarketAPI lemat_market = Global.getFactory().createMarket("lemat_market", "Lemat", 4);
-		lemat_market.setFactionId("doohickeyCorp");
+		lemat_market.setFactionId(sillyFactions.DOOHICKEYCORP);
 		//make it populated
 		lemat_market.setPlanetConditionMarketOnly(false);
 		//add conditions
@@ -130,11 +131,15 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//column 4(text 2) for title when mouse is over it, column 5(text 3) shows when approaching planet so uhh no idea
 		//planet_id.setCustomDescriptionId("column_1_id");
 		lemat.setCustomDescriptionId("lemat_description");
+		Global.getSector().getFaction(Factions.INDEPENDENT).setRelationship(sillyFactions.DOOHICKEYCORP, 0.25f);
+		Global.getSector().getFaction(Factions.HEGEMONY).setRelationship(sillyFactions.DOOHICKEYCORP, 0.10f);
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.INDEPENDENT, 0.25f);
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.HEGEMONY, 0.10f);
     }
-
 	@Override
 	public void onGameLoad(boolean newGame){
 		super.onGameLoad(newGame);
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
+		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
 	}
 }
