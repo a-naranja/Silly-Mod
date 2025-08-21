@@ -142,7 +142,6 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.TRITACHYON, RepLevel.SUSPICIOUS);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PERSEAN, RepLevel.SUSPICIOUS);
 
-		MemKeys $sillyZiggBounty;
     }
 	@Override
 	public void onGameLoad(boolean newGame){
