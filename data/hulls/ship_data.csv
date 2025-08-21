@@ -22,7 +22,7 @@ Thingamajing,silly_thingamajing,Elite Cruiser,Silly Elite,plasmajets,30,9000,130
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #CAPITALS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Silly Atlas,silly_atlas,Modified Superfreighter,Silly,damper,18,9000,750,8000,,350,220,6,30,8,4,4,2,4000,OMNI,,60,0.5,1,,,300,1000,200,400,10,40,7,150000,2,20,720,0.25,24,24,,,,,,,CARRIER,"silly_bp, rare_bp",,,0.3,0.7,2,4,,520
-Ziggurat-Mk1,silly_zigguratmk1,Battleship,Silly Elite,silly_mote_control,30,30000,1200,15000,12500,500,300,,20,8,8,4,4,4000,PHASE,phasecloak,90,0,0,0.05,0.1,0,0,700,800,10,80,7,300000,5,10,,,50,50,,,,,,,SHIP_WITH_MODULES,"no_auto_penalty, codex_unlockable, no_dealer",,,0,0.4,2,4,,521
+Ziggurat-Mk1,silly_zigguratmk1,Battleship,Silly Elite,silly_mote_control,30,30000,1200,15000,12500,500,300,,20,8,8,4,4,4000,PHASE,phasecloak,90,0,0,0.05,0.1,0,0,700,800,10,80,7,300000,5,10,,,50,50,,,,,,,SHIP_WITH_MODULES,"silly_zigg_bp, no_auto_penalty, codex_unlockable, no_dealer",,,0,0.4,2,4,,521
 ,silly_ziggModTL,Vambrace Module,Silly Elite,,1,15000,1200,0,2500,100,0,,0,0,0,10,10,300,PHASE,phasecloak,90,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2445
 ,silly_ziggModTR,Vambrace Module,Silly Elite,,1,15000,1200,0,2500,100,0,,0,0,0,10,10,300,PHASE,phasecloak,90,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2445
 ,silly_ziggModBL,Vambrace Module,Silly Elite,,1,15000,1200,0,2500,100,0,,0,0,0,10,10,300,PHASE,phasecloak,90,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2445

@@ -55,5 +55,7 @@
         "location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
 		"location_prioritizeUnexplored": true,
         "location_defaultToAnyEntity": true,
+
+        "job_memKey": "$sillyZiggBounty",
     },
 }

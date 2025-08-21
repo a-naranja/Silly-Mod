@@ -3,7 +3,7 @@
 	"specClass":"beam",
 	"type":"DECORATIVE",
 	"size":"SMALL",
-	"showDamageWhenDecorative":false,
+	"showDamageWhenDecorative":true,
 	"renderBelowAllWeapons":false,
 	"turretSprite":"graphics/weapons/decorative/silly_eagleDecoL.png",
 	"hardpointSprite":"graphics/weapons/decorative/silly_eagleDecoL.png",

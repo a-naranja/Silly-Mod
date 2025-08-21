@@ -1,0 +1,4 @@
+id,name,stageDays,stageCostGP,stageCostCredits,stageCostOther,lineRenderMode,lineOriginMode,uiCordOfStageComponent,uiCordsOfPointsOnHologram,
+silly_zigg_stage1,Field Manipulation Understanding,80,ships:20,2000000,alpha_core:COMMODITY:4,STEPPED,HORIZONTAL,"920,600","650,700;750,700",
+silly_zigg_stage2,Armor Appliques Re-Design,40,"ships:80,advanced_components:80",500000,,STRAIGHT,VERTICAL,"525,250","600,600;800,600",
+silly_zigg_stage3,Silly Synchronization,42,"domain_heavy_machinery:20,advanced_components:120",4200000,alpha_core:COMMODITY:2,STEPPED,HORIZONTAL,"100,700","700,800",

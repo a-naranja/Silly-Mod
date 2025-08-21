@@ -4,7 +4,7 @@
 	"everyFrameEffect":"data.scripts.sillyArrowMissilesAnimR",
 	"type":"DECORATIVE",
 	"size":"SMALL",
-	"showDamageWhenDecorative":false,
+	"showDamageWhenDecorative":true,
 	"renderBelowAllWeapons":false,
 	"turretSprite":"graphics/weapons/decorative/silly_arrowAR.png",
 	"hardpointSprite":"graphics/weapons/decorative/silly_arrowAR.png",
