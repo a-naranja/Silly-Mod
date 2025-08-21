@@ -127,6 +127,7 @@
 			"ionpulser",
 			"ionbeam",
 			"sploinkBeam",
+			"sillyFlak",
 			
 			"plasma",
 			"hil",
@@ -169,6 +170,8 @@
 		"tags":["silly_bp","elite_silly_bp"],
 		"weapons":[
 		    "sploinkBeam",
+		    "sillyrepeater",
+		    "sillyFlak",
 		],
 	},
 	"knownHullMods":{
@@ -185,6 +188,7 @@
 		"ionpulser":10,
 		"ionbeam":5,
 		"sploinkBeam":20,
+		"sillyFlak":20,
 		
 		"hil":5,
 		"guardian":5,
@@ -290,8 +294,8 @@
 		"offersCommissions":false,
 		"engagesInHostilities":false,
 		"buysAICores":true,
-		"AICoreValueMult":3,
-		"AICoreRepMult":0.5,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
 		"buysSurveyData":true,
 		"hostilityImpactOnGrowth":true,
 		"punitiveExpeditionData":{

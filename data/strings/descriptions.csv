@@ -37,6 +37,7 @@ sillyrepeater,WEAPON,"""If someone asks, you have not seen or heard about any sp
 ,,,,,,
 sploinkBeam,WEAPON,"An exotic weapon that successfully makes use of Silly Particles. The core influences the stress-energy tensor to manipulate gravitons and force them to follow a tracer laser beam. Anything caught inside experiences denormalization and loses momentum, making this an excellent disruptive weapon that deflects missiles and stops small ships on their tracks.",,,,
 sillyMedTPC,WEAPON,"A post-collapse production that mixes old Domain TPC technology and Silly Particles. Just like its bigger counterpart, the Silly Medium TPC is integrated inside the hull but the addition of new technology allows the  smaller cruiser reactor to power both guns without too much strain on the flux grid.",,,,
+sillyFlak,WEAPON,"An alteration of the regular Flak Cannon, the Silly Flak makes use of low grade Silly Particles encased on a regular flak ammunition. The result is a weapon almost identical to the regular Flak but easier to install.",,,,
 ,,,,,,
 #SHIP SYSTEMS,,,,,,
 silly_mote_control,SHIP_SYSTEM,Energy motes deal heavy EMP damage to ships and obliterate fighters and missiles. Using the system creates a temporary attractor point for the motes. The motes automatically target nearby missiles and fighters unless an attractor point is set on an enemy ship.,,,,

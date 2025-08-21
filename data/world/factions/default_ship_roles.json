@@ -15,7 +15,7 @@
 	"combatLarge":{
 		"silly_falalaf_Assault":10,
 		"silly_shortquest_Custom":10,
-		"silly_eagle_elite":2,
+		"silly_eagle_elite": 4,
 		"silly_arrow_elite": 4,
 		"silly_thingamajing_experimental": 1,
 		"fallback":{"combatMedium":1}

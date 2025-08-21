@@ -49,7 +49,10 @@
 		"fleet_no_retreat": true,
         "fleet_behavior": "PASSIVE",
 		"fleet_preset_ships": {
-			"silly_gremmk1_custom":4
+			"silly_gremmk1_custom":4,
+            "silly_arrow_elite": 6,
+            "silly_eagle_elite": 6,
+            "silly_thingamajing_experimental": 4,
 		},
 		"location_distance": "FAR",
         "location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],

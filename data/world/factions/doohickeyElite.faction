@@ -91,6 +91,7 @@
 			"ionpulser",
 			"ionbeam",
 			"sploinkBeam",
+			"sillyFlak",
 
 			"autopulse",
 			"guardian",
@@ -122,6 +123,7 @@
 		"weapons":[
 		    "sillyrepeater",
 		    "sploinkBeam",
+		    "sillyFlak",
 		],
 	},
 	"knownHullMods":{
@@ -136,6 +138,7 @@
 		"ionpulser":10,
 		"ionbeam":5,
 		"sploinkBeam":20,
+		"sillyFlak":20,
 
 		"guardian":5,
 		"autopulse":10,
@@ -235,8 +238,8 @@
 		"buysAICores":true,
 		"postsNoBounties":true,
 		"engageWhenEvenStrength":true,
-		"AICoreValueMult":3,
-		"AICoreRepMult":0.5,
+		"AICoreValueMult":2,
+		"AICoreRepMult":2,
 		"buysSurveyData":true,
 		"hostilityImpactOnGrowth":true,
 		"punitiveExpeditionData":{
