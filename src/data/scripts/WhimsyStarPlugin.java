@@ -106,6 +106,7 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//add conditions
 		skeleton_market.addCondition(Conditions.NO_ATMOSPHERE);
 		skeleton_market.addCondition(Conditions.LOW_GRAVITY);
+		skeleton_market.addCondition(Conditions.HOT);
 		skeleton_market.addCondition(Conditions.ORE_RICH);
 		skeleton_market.addCondition(Conditions.RARE_ORE_SPARSE);
 		skeleton_market.setPrimaryEntity(skeleton);
