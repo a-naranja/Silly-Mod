@@ -17,7 +17,7 @@ public class silly_skill4 extends SCBaseSkillPlugin {
 
     @Override
     public void addTooltip(SCData scData, TooltipMakerAPI tt) {
-        tt.addPara("Improves the Cruisers autofire aim accuracy",0f,Misc.getHighlightColor(),Misc.getHighlightColor());
+        tt.addPara("Improves autofire aim accuracy",0f,Misc.getHighlightColor(),Misc.getHighlightColor());
         tt.addPara("Deals 50%% more damage to missiles and fighters",0f, Misc.getHighlightColor(),Misc.getHighlightColor());
         tt.addPara("Increases speed and acceleration by 10%%",0f, Misc.getHighlightColor(),Misc.getHighlightColor());
     }
