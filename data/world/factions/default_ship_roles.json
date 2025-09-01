@@ -10,6 +10,7 @@
 	},
 	"combatMedium":{
 		"silly_shortquest_Overdriven":5,
+		"silly_skong_custom": 10,
 		"fallback":{"combatSmall":1}
 	},
 	"combatLarge":{

@@ -55,7 +55,7 @@
             "type": "UNIVERSAL",
             "mount": "HARDPOINT",
             "renderOrderMod": -1,
-            "arc": 0,
+            "arc": 5,
             "angle": 0,
             "locations": [
                     65.5,        0

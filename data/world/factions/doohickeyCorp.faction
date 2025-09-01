@@ -31,11 +31,12 @@
 		"tags":{
 		},
 		"hulls":{
-		    "silly_burden":2,
-		    "silly_ap":4,
-		    "silly_falalaf":2,
-		    "silly_shortquest":6,
-		    "silly_eagle":4,
+		    "silly_burden":8,
+		    "silly_ap":10,
+		    "silly_skong":10,
+		    "silly_falalaf":6,
+		    "silly_shortquest":10,
+		    "silly_eagle":8,
 		    "silly_gremmk1":0,
 		    "silly_zigguratmk1":0,
 		},
@@ -66,6 +67,8 @@
 		    "silly_ap",
 		    "silly_gremmk1",
 
+		    "silly_skong",
+
 		    "silly_falalaf",
 		    "silly_shortquest",
 		    "silly_eagle",
@@ -81,6 +84,7 @@
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
+		    "silly_skong",
 		    "silly_shortquest",
 		    "silly_eagle",
 		    "silly_arrow",

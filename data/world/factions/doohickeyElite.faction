@@ -29,9 +29,10 @@
 		"tags":{
 		},
 		"hulls":{
-		    "silly_eagle":4,
-            "silly_arrow":4,
-            "silly_thingamajing":2,
+		    "silly_skong":10,
+		    "silly_eagle":8,
+            "silly_arrow":10,
+            "silly_thingamajing":8,
 		},
 	},
 	"shipsWhenImporting":{
@@ -47,6 +48,8 @@
 
 		    "silly_gremmk1",
 
+		    "silly_skong",
+
 		    "silly_eagle",
 		    "silly_arrow",
 		    "silly_thingamajing",
@@ -59,6 +62,7 @@
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
+		    "silly_skong",
 		    "silly_eagle",
 		    "silly_arrow",
 		    "silly_thingamajing",
