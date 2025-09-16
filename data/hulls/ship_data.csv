@@ -1,6 +1,6 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
 #FIGTHERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Cargo Fighter,silly_cargo,,Silly,canister_flak,,1100,500,300,,30,0,,100,100,100,60,60,100,NONE,,0,0,0,,,10,10,,,,,,,,,,,,,,,,,,,,"silly_bp, rare_bp, merc, ind",,,,0,,,,130
+Cargo Fighter,silly_cargo,,Silly,canister_flak,,1100,500,300,,30,0,,100,100,100,60,60,100,NONE,,0,0,0,,,10,10,,,,,,,,,,,,,,,,,,,,,,,,0,,,,130
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #FRIGATES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Burden,silly_burden,Phase Frigate,Silly,entropyamplifier,10,3000,600,2500,,350,45,,150,100,80,50,100,300,PHASE,phasecloak,90,,,0.008,0.010,6,12,15,30,1,30,10,40000,10,25,160,0.25,8,8,,,,,,,,"silly_bp, rare_bp, merc, ind",,,0.7,0.5,2,2,,241

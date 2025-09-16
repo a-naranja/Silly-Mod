@@ -18,7 +18,7 @@ public class ziggmk1Project extends AoTDSpecialProject {
         return Global.getSector().getMemory().is("$sillyZiggBounty", true) && AoTDMainResearchManager.getInstance().isResearchedForPlayer("aotd_tech_stella_manufactorium");
     }
 
-    public void grantReward() {
+    public Object grantReward() {
         MarketAPI gatheringPoint = Global.getSector().getPlayerFaction().getProduction().getGatheringPoint();
         if (gatheringPoint == null) {
             gatheringPoint = (MarketAPI)Misc.getPlayerMarkets(true).get(0);
@@ -27,5 +27,6 @@ public class ziggmk1Project extends AoTDSpecialProject {
         CargoAPI cargo = gatheringPoint.getSubmarket("storage").getCargo();
         SpecialItemData bp = new SpecialItemData("silly_ziggBP","silly_ziggBP");
         cargo.addSpecial(bp,1);
+        return null;
     }
 }
