@@ -30,7 +30,6 @@ Ziggurat-Mk1,silly_zigguratmk1,Battleship,Silly Unknown,silly_mote_control,30,30
 ,silly_ziggModBR,Vambrace Module,Silly Unknown,,1,15000,1200,0,2500,100,0,,0,0,0,10,10,300,PHASE,phasecloak,90,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2445
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #STATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Silly Orbital Station,silly_station,Orbital Station,Silly,,150,40000,1600,1000,,100,0,,30,200,200,7,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,2005.1
-,module_silly_broadside,Heavy Broadside Module,Silly,forgevats_station,1,40000,1500,30000,,1250,1000,,0,0,0,10,10,3500,FRONT,,90,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,0.5,2,4,,2080
-,module_silly_support,Heavy Support Module,Silly,forgevats_station,1,20000,1000,15000,,800,1000,4,0,0,0,10,10,2500,FRONT,,100,0.4,1,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,0.5,2,4,,2081
-,module_silly_parm,Experimental Support Module,Silly Elite,forgevats_station,1,20000,1000,15000,,800,1000,,0,0,0,10,10,1500,PHASE,phasecloak,180,0,0,0.06,0.04,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2082
+Silly Orbital Station,silly_station,Orbital Station,Silly,,100,40000,1600,1000,,100,0,,30,200,200,7,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,2005.1
+,bigMod,Corner Module,Silly,forgevats_station,1,30000,1200,25000,,1000,1000,,0,0,0,10,10,3500,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2080
+,diagMod,Experimental Support Module,Silly Elite,forgevats_station,1,20000,1000,15000,,800,1000,,0,0,0,10,10,1500,PHASE,phasecloak,180,0,0,0.06,0.04,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2081

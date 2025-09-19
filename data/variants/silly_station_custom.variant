@@ -2,15 +2,16 @@
     "displayName": "Custom",
     "fluxCapacitors": 50,
     "fluxVents": 50,
-    "goalVariant": true,
+    "goalVariant": false,
     "hullId": "silly_station",
     "hullMods": [],
-    "quality": 1.0,
+    "quality": 0.2,
     "variantId": "silly_station_custom",
     "weaponGroups": [],
     "modules": {
-        "WS 000": "module_silly_broadside_custom",
-        "WS 001": "module_silly_support_custom",
-	"WS 002": "module_silly_parm_custom"
+        "WS 000": "diagMod_custom",
+        "WS 003": "diagMod_custom",
+        "WS 001": "bigMod_custom",
+        "WS 002": "bigMod_custom"
     }
 }
