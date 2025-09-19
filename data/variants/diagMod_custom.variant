@@ -1,0 +1,20 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": false,
+    "hullId": "diagMod",
+    "hullMods": [],
+    "quality": 0.2,
+    "variantId": "diagMod_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "dragonpod",
+                "WS 000": "gazer"
+            }
+        }
+    ]
+}
