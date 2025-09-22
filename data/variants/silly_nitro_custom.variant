@@ -1,0 +1,36 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 20,
+    "fluxVents": 19,
+    "goalVariant": false,
+    "hullId": "silly_nitro",
+    "hullMods": [
+        "stabilizedshieldemitter"
+    ],
+    "quality": 0.0,
+    "variantId": "silly_nitro_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "amblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "lightdualmg",
+                "WS 001": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "pdburst"
+            }
+        }
+    ]
+}

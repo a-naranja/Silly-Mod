@@ -2,7 +2,7 @@
     "hullName": "Silly Arrow",
     "hullId": "silly_arrow",
     "hullSize": "CRUISER",
-    "style": "MIDLINE",
+    "style": "SILLY_TECH",
     "spriteName": "graphics/ships/silly_arrowF.png",
     "height": 218,
     "width": 168,
@@ -16,6 +16,9 @@
     ],
     "shieldRadius": 113.5,
     "viewOffset": 0,
+    "builtInMods": [
+        "sillyShield"
+    ],
     "builtInWeapons": {
         "WS 001": "silly_arrowDeco",
         "WS 011": "sillyArrowDecoAL",
@@ -119,7 +122,7 @@
             "type": "BALLISTIC",
             "mount": "TURRET",
             "arc": 220,
-            "angle": 90,
+            "angle": 115,
             "locations": [
                      -47,     38.5
             ]
@@ -130,7 +133,7 @@
             "type": "BALLISTIC",
             "mount": "TURRET",
             "arc": 220,
-            "angle": 270,
+            "angle": 245,
             "locations": [
                      -47,    -38.5
             ]

@@ -2,7 +2,7 @@
     "hullName": "Experimental Support Module",
     "hullId": "diagMod",
     "hullSize": "CAPITAL_SHIP",
-    "style": "HIGH_TECH",
+    "style": "SILLY_TECH",
     "spriteName": "graphics/ships/station/diagMod.png",
     "height": 140,
     "width": 100,

@@ -1,7 +1,7 @@
 id,name,cost mult,build time,income,upkeep,downgrade,upgrade,tags,data,image,plugin,desc,order,disruptDanger
 #NPC doohickey only?,,,,,,,,,,,,,,
-silly_research,Doohickey Research District,30,30,,10,,silly_research_park,"unraidable, codex_unlockable",,graphics/illustrations/research_district.jpg,data.scripts.researchDistrict,Doohickey's research and specialty items are developed and produced here. A small number of those can be adquired - for a price.,201,HIGH
-silly_research_park,Silly Research Park,60,60,,30,silly_research,,"unraidable, codex_unlockable",,graphics/illustrations/research_park.jpg,data.scripts.researchPark,"A massive research complex (for post-collapse standards) stands in $market. Varied experiments with Silly Particles are conducted here, it's results quickly shipped to the marketing and sales department. This state of the art facility provides a great amount of exotic and advanced weaponry and hulls.",202,EXTREME
+silly_research,Doohickey Research District,30,30,,10,,silly_research_park,"unraidable, codex_unlockable, structure",,graphics/illustrations/research_district.jpg,data.scripts.researchDistrict,Doohickey's research and specialty items are developed and produced here. A small number of those can be adquired - for a price.,201,HIGH
+silly_research_park,Silly Research Park,60,60,,20,silly_research,,"unraidable, codex_unlockable, structure",,graphics/illustrations/research_park.jpg,data.scripts.researchPark,"A massive research complex (for post-collapse standards) stands in this planet. Varied experiments with Silly Particles are conducted here, it's results quickly shipped to the marketing and sales department. This state of the art facility provides a great amount of exotic and advanced weaponry and hulls.",202,EXTREME
 silly_orbitalstation,Orbital Station - Silly,50,90,,3,,,"station, sub_item, unraidable, structure","{
 radius:55,
 variant:silly_station_custom,
@@ -9,3 +9,4 @@ fleetName:Orbital Station,
 }",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A silly space station, featuring heavy firepower on one side and rapid axial rotation.
 
 Must be reduced before a bombardment can be attempted.",2100,
+silly_refining,Silly Particles Refinery,80,140,,20,,,"codex_unlockable, industry, industrial",,graphics/illustrations/sillyRefining.png,data.scripts.sillyRefining,Specialized facilities interlinked and prepared to handle the exotic nature of Silly Particles. This plant processes the substance into a more refined and powerful version known as Refined Silly Particles. Security and qualified personnel are required to run this expensive industry.,550,HIGH

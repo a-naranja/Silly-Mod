@@ -1,12 +1,13 @@
 {
     "displayName": "Elite",
-    "fluxCapacitors": 30,
+    "fluxCapacitors": 27,
     "fluxVents": 30,
     "goalVariant": true,
     "hullId": "silly_arrow",
     "hullMods": [
         "eccm",
-        "unstable_injector"
+        "unstable_injector",
+        "frontemitter"
     ],
     "quality": 0.1,
     "variantId": "silly_arrow_elite",

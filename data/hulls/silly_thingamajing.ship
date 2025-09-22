@@ -2,7 +2,7 @@
     "hullName": "Thingamajing",
     "hullId": "silly_thingamajing",
     "hullSize": "CRUISER",
-    "style": "MIDLINE",
+    "style": "SILLY_TECH",
     "spriteName": "graphics/ships/thingamajing.png",
     "height": 217,
     "width": 178,
@@ -17,6 +17,7 @@
     "shieldRadius": 150,
     "viewOffset": 0,
     "builtInMods": [
+        "sillyShield",
         "reinforcedhull",
         "insulatedengine"
     ],

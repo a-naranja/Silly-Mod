@@ -2,7 +2,7 @@
     "hullName": "Silly Eagle",
     "hullId": "silly_eagle",
     "hullSize": "CRUISER",
-    "style": "MIDLINE",
+    "style": "SILLY_TECH",
     "spriteName": "graphics/ships/silly_eagle.png",
     "height": 218,
     "width": 168,
@@ -16,6 +16,9 @@
     ],
     "shieldRadius": 120,
     "viewOffset": 0,
+    "builtInMods": [
+        "sillyShield"
+    ],
     "builtInWeapons": {
         "WS 000": "sillyMedTPC",
         "WS 001": "sillyMedTPC",

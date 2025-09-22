@@ -2,7 +2,7 @@
     "hullName": "Silly Station",
     "hullId": "silly_station",
     "hullSize": "CAPITAL_SHIP",
-    "style": "HIGH_TECH",
+    "style": "SILLY_TECH",
     "spriteName": "graphics/ships/station/station_sillyWIP.png",
     "height": 512,
     "width": 512,

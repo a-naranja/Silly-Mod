@@ -12,6 +12,7 @@ import com.fs.starfarer.api.impl.campaign.ids.*;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
+import data.scripts.aotdvok.sillyGPManager;
 
 //em fokin colours
 import java.awt.*;

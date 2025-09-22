@@ -2,13 +2,14 @@
 	"graphics":{
 		"blueprint_packages":{
 			"silly_package":"graphics/icons/cargo/package_silly.png",
-			"silly_elite_package":"graphics/icons/cargo/package_silly_elite.png"
+			"silly_elite_package":"graphics/icons/cargo/package_silly_elite.png",
+			"sillyshieldfx": "graphics/fx/sillyShield2.png",
 		},
 		"characters":{
 			"mrsilly.png":"graphics/characters/mrsilly.png"
 		},
 		"icons": {
 			"uma": "graphics/uma.png"
-		}
+		},
 	}
 }

@@ -2,7 +2,7 @@
     "hullName": "Corner Module",
     "hullId": "bigMod",
     "hullSize": "CAPITAL_SHIP",
-    "style": "HIGH_TECH",
+    "style": "SILLY_TECH",
     "spriteName": "graphics/ships/station/bigMod.png",
     "height": 200,
     "width": 200,

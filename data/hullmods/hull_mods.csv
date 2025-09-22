@@ -1,3 +1,4 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
 Phased Modules,silly_phase_modules,,,Silly,"no_drop, no_drop_salvage",,,,TRUE,,0,0,0,0,data.hullmods.sillyPhaseModules,"This hull has linked its own phase arrays with its modules' own, managing to phase both ship and add-ons in sync.",Phasing will phase modules too.,,graphics/hullmods/phase_coils_experimental.png
 No AI,silly_no_ai,,,Silly,,,,,TRUE,,0,0,0,0,data.hullmods.sillyRemoveAI,The subsystems and actuators of this element have been set to dormant. They will not respond unless instructed from an outside command.,Element does not do anything.,,graphics/hullmods/delicate_machinery.png
+Silly Shield,sillyShield,,,Silly,,,,,TRUE,,0,0,0,0,data.hullmods.sillyShield,Silly shield fx yea,silly shield,,graphics/hullmods/augmented_drive_field.png
