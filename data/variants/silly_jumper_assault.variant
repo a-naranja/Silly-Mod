@@ -1,0 +1,46 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 20,
+    "fluxVents": 12,
+    "goalVariant": false,
+    "hullId": "silly_jumper",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "unstable_injector"
+    ],
+    "quality": 0.3,
+    "variantId": "silly_jumper_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "hammer",
+                "WS 000": "hammer"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "lightdualmg",
+                "WS 002": "lightdualmg"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "miningblaster",
+                "WS 004": "miningblaster"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 006": "vulcan"
+            }
+        }
+    ]
+}
