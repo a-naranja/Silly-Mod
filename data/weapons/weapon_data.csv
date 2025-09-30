@@ -4,9 +4,9 @@ Silly Repeater,sillyrepeater,2,,35000,1000,300,150,20,2,10,10,,,,ENERGY,100,200,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #MEDIUM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Sploink Beam,sploinkBeam,1,0.5,3000,1000,100,,100,200,15,10,,,,ENERGY,,100,0.1,0.1,,,10,20,1,5,700,,,,,,,FIRE_WHEN_INEFFICIENT,"beam10, LR, silly_bp",,Silly,,Suppression,,,,,,,Creates fluctuations that destabilize targets and pushes them off-course.,,,120
-Silly Medium Thermal Pulse Cannon,sillyMedTPC,0,,80000,800,,180,,0,0,,15,1.5,,ENERGY,108,,0,0.2,1,,0,8,1.5,3,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",,,,,General,,,,,,,,,,121
-Silly Missile Pod,sillyMissilesPod,0,,20000,1200,,500,,15,10,0,120,,,ENERGY,0,,0.2,6,6,0.1,0,0,0,,,500,50,4,700,,,"SYSTEM, DO_NOT_AIM, MISSILE_SPREAD",,,,,General,Fast,Good,,,,,,,,122
-Silly Flak,sillyFlak,0,,3000,500,,200,,10,40,8,,,,ENERGY,50,,0,1,1,,0,10,2,10,,700,,,30,,,"PD,PD_ALSO","pd15, SR, silly_bp",,,,Point Defense (Area),,,,,,,,,,123
+Silly Medium Thermal Pulse Cannon,sillyMedTPC,0,,80000,800,,180,,0,0,,15,1.5,,ENERGY,108,,0,0.2,1,,0,8,1.5,3,,1000,,,,,,"SYSTEM,SHOW_IN_CODEX",,,Silly Elite,,General,,,,,,,,,,121
+Silly Missile Pod,sillyMissilesPod,0,,20000,1200,,500,,15,10,0,120,,,ENERGY,0,,0.2,6,6,0.1,0,0,0,,,500,50,4,700,,,"SYSTEM, DO_NOT_AIM, MISSILE_SPREAD",,,Silly Elite,,General,Fast,Good,,,,,,,,122
+Silly Flak,sillyFlak,0,,3000,500,,200,,10,40,8,,,,ENERGY,50,,0,1,1,,0,10,2,10,,700,,,30,,,"PD,PD_ALSO","pd15, SR, silly_bp, rare_bp, merc",,Silly,,Point Defense (Area),,,Excellent,Good,,,,,,123
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #LARGES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,7 @@
+id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+#COMBAT,,,,,,,,,,,,,
+silly_logi,Quartermaster,1600,1,0,0,"Y'know, they say there was an old game, old before those new limelight highs... It was quite a simple one, just stack pieces on top of each other. Can you believe it?",Logistics' officer rumor,TRUE,,,npc_only,graphics/icons/skills/logistics.png,
+,,,,,,,,,,,,,
+#ADMIN,,,,,,,,,,,,,
+silly_recycle,Industrial Reprocessing,1601,1,0,0,"Waste not, want not... And we will want the profits, so ya lot better wheel those back to the plants.","Industrial Crew Overseer, Lemat (attributed)",,,TRUE,npc_only,graphics/icons/skills/recycle.png,
+,,,,,,,,,,,,,

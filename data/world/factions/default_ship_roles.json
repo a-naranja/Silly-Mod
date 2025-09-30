@@ -1,28 +1,36 @@
 {
 	"combatSmallForSmallFleet":{
 		"silly_mudskipper7_Custom":10,
+		"silly_nitro_custom":5,
+		"silly_hound_custom": 10,
 		"fallback":{"combatSmall":1}
 	},
 	"combatSmall":{
 		"silly_mudskipper7_Custom":5,
+		"silly_nitro_custom":10,
 		"silly_ap_Missile":10,
+		"silly_hound_custom":5,
+		"silly_skong_custom": 5,
 		"fallback":{"combatMedium":0.5}
 	},
 	"combatMedium":{
 		"silly_shortquest_Overdriven":5,
+		"silly_shortquest_Custom":5,
 		"silly_skong_custom": 10,
+		"silly_eagle_elite": 5,
+		"silly_arrow_elite": 5,
 		"fallback":{"combatSmall":1}
 	},
 	"combatLarge":{
 		"silly_falalaf_Assault":10,
 		"silly_shortquest_Custom":10,
-		"silly_eagle_elite": 4,
-		"silly_arrow_elite": 4,
-		"silly_thingamajing_experimental": 1,
+		"silly_eagle_elite": 10,
+		"silly_arrow_elite": 10,
+		"silly_thingamajing_experimental": 5,
 		"fallback":{"combatMedium":1}
 	},
 	"combatCapital":{
-		"silly_atlas_custom":1,
+		"silly_atlas_custom":10,
 		"fallback":{"combatLarge":1}
 	},
 	"combatFreighterSmall":{
@@ -52,7 +60,7 @@
 		"fallback2":{"carrierLarge":0.5}
 	},
 	"carrierLarge":{
-		"silly_atlas_custom":1,
+		"silly_atlas_custom":10,
 		"fallback":{"carrierMedium":1},
 		"fallback2":{"carrierSmall":1}
 	},

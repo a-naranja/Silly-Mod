@@ -162,6 +162,8 @@
 		"phase_anchor":5,
 		"hardenedshieldemitter":10,
 		"insulatedengine":5,
+		"sillyCiv":10,
+		"sillyNoSystem":10,
 	},		
 	"factionDoctrine":{
 		"warships":4,

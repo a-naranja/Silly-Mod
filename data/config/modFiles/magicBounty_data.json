@@ -61,4 +61,53 @@
 
         "job_memKey": "$sillyZiggBounty",
     },
+    "sillyHounds_bounty":{
+        "trigger_player_minLevel": 5,
+
+        "job_name": "Five Hundred Hounds",
+        "job_description": "A rather strange request has been made public on mercenary channels: The Doohickey Corporation is asking any warfleet captain to take down a specially numerous pirate fleet composed of the corporation's hound variant as it is \"A bad look for business\". Precaution is advised.",
+        "job_comm_reply": "Oi, what'cha doin' 'ere? Lookin' for a whoopin'?",
+        "job_intel_success": "We have subdued the pirates.",
+        "job_forFaction": "doohickeyCorp",
+        "job_credit_reward": 50000,
+        "job_reward_scaling": 0,
+        "job_reputation_reward":20,
+        "job_type":"neutralisation",
+        "job_show_type": true,
+        "job_show_captain": false,
+        "job_show_fleet": "vanilla",
+        "job_show_distance": "vanilla",
+        "job_show_arrow": false,
+        "job_difficultyDescription": "auto",
+        "job_pick_option": "Accept the job",
+        "job_item_reward": {
+            "ship_bp silly_hound": 1
+        },
+
+        "target_personality":"reckless",
+        "target_level":5,
+        "target_elite_skills":3,
+
+        "fleet_name":"The Five Houndred",
+        "fleet_faction":"PIRATES",
+        "fleet_flagship_variant":"silly_hound_custom",
+        "fleet_flagship_name":"Houndiny",
+        "fleet_flagship_recoverable": false,
+        "fleet_flagship_autofit": false,
+        "fleet_scaling_multiplier":0,
+        "fleet_min_FP":-1,
+        "fleet_composition_faction":"pirates",
+        "fleet_composition_quality":3,
+        "fleet_preset_autofit": true,
+        "fleet_transponder": true,
+        "fleet_no_retreat": true,
+        "fleet_behavior": "PASSIVE",
+        "fleet_preset_ships": {
+            "silly_hound_custom":166,
+        },
+        "location_distance": "CORE",
+        "location_themes_blacklist": ["theme_already_occupied", "theme_already_colonized", "theme_hidden", "no_pulsar_blackhole"],
+        "location_prioritizeUnexplored": false,
+        "location_defaultToAnyEntity": true,
+    }
 }

@@ -1,0 +1,17 @@
+{
+	"id":"silly_recycle",
+	"governingAptitude":"industry",
+	"compressHullmods":false,
+	"scope":"GOVERNED_OUTPOST",
+	"effectGroups":[
+		{
+			"requiredSkillLevel":1,
+			"effectBasedOnLevel":false,
+			"effects":[
+				{"type":"CHARACTER_STATS", "script":"data.skills.IndustrialReprocessing$Level1"},
+				{"type":"GOVERNED_OUTPOST", "script":"data.skills.IndustrialReprocessing$Level2"},
+			]
+		},
+	],
+}
+

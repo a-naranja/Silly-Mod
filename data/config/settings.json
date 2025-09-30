@@ -9,7 +9,9 @@
 			"mrsilly.png":"graphics/characters/mrsilly.png"
 		},
 		"icons": {
-			"uma": "graphics/uma.png"
+			"uma": "graphics/uma.png",
+			"uma1": "graphics/uma1.png",
+			"uma2": "graphics/uma2.png",
 		},
 	}
 }

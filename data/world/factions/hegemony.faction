@@ -1,0 +1,20 @@
+{
+    "knownShips":{
+    	"hulls":[
+    		"silly_skong",
+    	],
+    },
+	"knownWeapons":{
+		"weapons":[
+			"sillyFlak",
+		],
+	},
+	"weaponSellFrequency":{
+	    "sillyFlak":1,
+	},
+	"hullFrequency":{
+    	"hulls":{
+    		"silly_skong":0.3,
+    	},
+    },
+},

@@ -216,6 +216,8 @@
 		"insulatedengine":5,
 		"surveying_equipment":5,
 		"efficiency_overhaul":10,
+		"sillyCiv":10,
+		"sillyNoSystem":10,
 	},		
 	"factionDoctrine":{
 		"warships":4,
