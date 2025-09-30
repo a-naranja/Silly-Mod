@@ -11,12 +11,14 @@
 		"silly_ap_Missile":10,
 		"silly_hound_custom":5,
 		"silly_skong_custom": 5,
+		"silly_jumper_assault": 5,
 		"fallback":{"combatMedium":0.5}
 	},
 	"combatMedium":{
 		"silly_shortquest_Overdriven":5,
 		"silly_shortquest_Custom":5,
 		"silly_skong_custom": 10,
+		"silly_jumper_assault": 10,
 		"silly_eagle_elite": 5,
 		"silly_arrow_elite": 5,
 		"fallback":{"combatSmall":1}

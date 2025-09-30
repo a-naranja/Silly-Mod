@@ -12,8 +12,9 @@ Grem-Mk1,silly_gremmk1,Phase Prototype,Silly Elite,flarelauncher_active,10,5000,
 Hell Hound,silly_hound,Combat Superfrigate,Silly,flarelauncher,6,2000,400,750,,100,38,,180,175,100,90,120,200,NONE,,0,0,0,,,30,80,150,60,3,20,10,15000,5,10,240,0.25,6,6,,,,,,,SHIP_WITH_MODULES,"base_bp, ind",,,,0.4,2,2,,245
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #DESTROYERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Skong,silly_skong,Destroyer,Silly,maneuveringjets,10,5000,400,5000,,300,90,,100,70,50,40,70,450,OMNI,,200,0.4,0.8,,,61,100,100,60,2,30,9,56000,5,12,360,0.25,10,10,,,,,,,,"silly_bp, rare_bp, merc, ind",,,,0.5,2,3,,330
+Skong,silly_skong,Destroyer,Silly,maneuveringjets,10,5000,500,5000,,300,90,,100,70,50,40,70,450,OMNI,,200,0.4,0.8,,,61,100,100,60,2,30,9,56000,5,12,360,0.25,10,10,,,,,,,,"silly_bp, rare_bp, merc, ind",,,,0.5,2,3,,330
 Nitro,silly_nitro,Destroyer,Silly,maneuveringjets,5,3000,300,2500,,200,70,,180,200,60,100,100,500,OMNI,,90,0.6,1,,,40,50,20,60,2,30,11,20000,5,10,120,0.25,4,4,,,,,,,,"silly_bp, rare_bp,  ind, pirate_bp",,,,1,2,4,,331
+Jumper,silly_jumper,Destroyer,Silly Elite,maneuveringjets,10,5000,400,7000,,400,90,,110,80,60,50,50,400,FRONT,,200,0.4,0.8,,,52,60,60,60,2,30,10,80000,5,12,360,0.25,12,12,,,,,,,,"elite_silly_bp, codex_unlockable, merc, rare_bp",,,0.8,1,2,4,,332
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #CRUISERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Falalaf,silly_falalaf,Cruiser,Silly,maneuveringjets,14,7500,900,10000,,400,150,,60,40,30,15,20,1200,FRONT,,270,0.4,0.8,,,150,250,150,100,3,33,8,100000,3,12,480,0.25,20,20,,,,,,,,"silly_bp, rare_bp, merc, ind",,,0.9,0.5,2,3,,441

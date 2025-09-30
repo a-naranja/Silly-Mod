@@ -34,6 +34,8 @@
 		    "silly_burden":8,
 		    "silly_ap":10,
 		    "silly_skong":10,
+		    "silly_nitro":5,
+		    "silly_jumper":10,
 		    "silly_falalaf":6,
 		    "silly_shortquest":10,
 		    "silly_eagle":8,
@@ -68,6 +70,8 @@
 		    "silly_gremmk1",
 
 		    "silly_skong",
+		    "silly_nitro",
+		    "silly_jumper",
 
 		    "silly_falalaf",
 		    "silly_shortquest",
@@ -85,7 +89,7 @@
 		"tags":[],
 		"hulls":[
 		    "silly_skong",
-		    "silly_shortquest",
+		    "silly_jumper",
 		    "silly_eagle",
 		    "silly_arrow",
 		    "silly_thingamajing",
