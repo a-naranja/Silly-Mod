@@ -4,6 +4,7 @@ import data.ids.sillyCommodities;
 import data.kaysaar.aotd.vok.campaign.econ.industry.MiningMegaplex;
 
 public class sillyMiningFix extends MiningMegaplex {
+    //doesnt fucking work bc megaplex has a retarded way to pull planet info cakesarr fix pls
     @Override
     public void apply(){
         int bonus = -4;

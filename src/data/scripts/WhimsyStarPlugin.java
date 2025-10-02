@@ -88,7 +88,7 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		lemat_market.addIndustry(Industries.PATROLHQ);
 		lemat_market.addIndustry(Industries.HEAVYINDUSTRY);
 		lemat_market.addIndustry(sillyIndustries.SILLY_STATION);
-		lemat_market.addIndustry(sillyIndustries.SILLY_RESEARCH_PARK);
+		lemat_market.addIndustry(sillyIndustries.SILLY_RESEARCH);
 		//add submarkets for open market, black market and storage; maybe add custom doohickey or silly later?
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_OPEN);
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_BLACK);
@@ -147,14 +147,11 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PIRATES, RepLevel.HOSTILE);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.TRITACHYON, RepLevel.SUSPICIOUS);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PERSEAN, RepLevel.SUSPICIOUS);
-		GPManager.commodities.put("silly_refined_particles", GPManager.GPResourceType.COMMODITY);
-
     }
 	@Override
 	public void onGameLoad(boolean newGame){
 		super.onGameLoad(newGame);
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
 		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
-		GPManager.commodities.put("silly_refined_particles", GPManager.GPResourceType.COMMODITY);
 	}
 }
