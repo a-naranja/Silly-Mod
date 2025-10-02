@@ -1,0 +1,39 @@
+{
+	"id":"silly_rubberShot",
+	"specClass":"missile",
+	"missileType":"PHASE_MINE",
+	"sprite":"graphics/missiles/silly_rubber.png",
+	"size":[20,20],
+	"center":[10,10],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_FF",
+	"explosionColor":[50,50,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":0, # purely visual
+	"armingTime":10,
+	"explosionSpec":{"duration":0.1f, # not visual
+					 "radius":0,
+					 "coreRadius":0, # full damage within core radius
+					 "collisionClass":HITS_SHIPS_AND_ASTEROIDS,
+					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS},				  
+	"engineSpec":{"turnAcc":500,
+				  "turnRate":150,
+				  "acc":20,
+				  "dec":20},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+    					"range":0,
+    					"slowToMaxSpeed":true,
+    					"delay":20,
+    					"explosionSpec":{"duration":0.1f,
+    									 "radius":0,
+    									 "coreRadius":0, # full damage within core radius
+    									 "collisionClass":MISSILE_FF,
+    									 "collisionClassByFighter":MISSILE_FF,
+    									 "particleSizeMin":0,
+    									 "particleSizeRange":0,
+    									 "particleDuration":0,
+    									 "particleCount":0,
+    									 "particleColor":[50,50,50,255],
+    									 "explosionColor":[50,50,50,255],
+    									 "useDetailedExplosion":false},
+    					}
+}

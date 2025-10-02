@@ -29,10 +29,13 @@
 		"silly_eagle_elite": 10,
 		"silly_arrow_elite": 10,
 		"silly_thingamajing_experimental": 5,
+		"silly_penance_custom": 5,
 		"fallback":{"combatMedium":1}
 	},
 	"combatCapital":{
-		"silly_atlas_custom":10,
+		"silly_atlas_custom":5,
+		"silly_penance_custom": 5,
+		"silly_penance_silly": 5,
 		"fallback":{"combatLarge":1}
 	},
 	"combatFreighterSmall":{

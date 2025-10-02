@@ -41,6 +41,8 @@
 		    "silly_eagle":8,
 		    "silly_gremmk1":0,
 		    "silly_zigguratmk1":0,
+		    "silly_atlas":5,
+		    "silly_penance":10,
 		},
 	},
 	"shipsWhenImporting":{
@@ -81,6 +83,7 @@
 
 		    "silly_atlas",
 		    "silly_zigguratmk1",
+		    "silly_penance",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -93,6 +96,7 @@
 		    "silly_eagle",
 		    "silly_arrow",
 		    "silly_thingamajing",
+		    "silly_penance",
 		],
 	},
 	"knownFighters":{
@@ -126,6 +130,7 @@
 			"pdburst",
 			"amblaster",
 			"sillyrepeater",
+			"silly_flareLauncher",
 			
 			"phasebeam",
 			"gravitonbeam",
@@ -143,6 +148,7 @@
 			"guardian",
 			"tachyonlance",
 			"gigacannon",
+			"silly_rubberCannon",
 
 			"gorgon",
 			"gazer",

@@ -1,0 +1,23 @@
+{
+	"id":"silly_rubberCannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"BALLISTIC",
+	"size":"LARGE",
+	"turretSprite":"graphics/weapons/rubberCannon_turret.png",
+	"hardpointSprite":"graphics/weapons/rubberCannon_hard.png",
+	"turretOffsets":[31, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[43, 0],
+	"hardpointAngleOffsets":[0],
+	"animationType":"SMOKE",
+	"barrelMode":"ALTERNATING",
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":7.0,
+					   "particleDuration":0.2,
+					   "particleCount":12,
+					   "particleColor":[255,255,255,175]},
+	"projectileSpecId":"silly_rubberShot",  # projectile that will be fired
+	"fireSoundTwo":"flak_fire",
+}

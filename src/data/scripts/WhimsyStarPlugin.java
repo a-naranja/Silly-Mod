@@ -10,12 +10,16 @@ import com.fs.starfarer.api.campaign.rules.MemKeys;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
+import data.kaysaar.aotd.vok.campaign.econ.globalproduction.models.GPManager;
 import data.scripts.aotdvok.sillyGPManager;
 
 //em fokin colours
 import java.awt.*;
+
+import static data.kaysaar.aotd.vok.campaign.econ.globalproduction.models.GPManager.commodities;
 
 
 public class WhimsyStarPlugin extends BaseModPlugin {
@@ -143,6 +147,7 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PIRATES, RepLevel.HOSTILE);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.TRITACHYON, RepLevel.SUSPICIOUS);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PERSEAN, RepLevel.SUSPICIOUS);
+		GPManager.commodities.put("silly_refined_particles", GPManager.GPResourceType.COMMODITY);
 
     }
 	@Override
@@ -150,5 +155,6 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		super.onGameLoad(newGame);
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
 		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
+		GPManager.commodities.put("silly_refined_particles", GPManager.GPResourceType.COMMODITY);
 	}
 }

@@ -34,6 +34,7 @@
 		    "silly_eagle":8,
             "silly_arrow":10,
             "silly_thingamajing":8,
+            "silly_penance":10,
 		},
 	},
 	"shipsWhenImporting":{
@@ -57,6 +58,7 @@
 		    "silly_thingamajing",
 
 		    "silly_zigguratmk1",
+		    "silly_penance",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -91,6 +93,7 @@
 			"pdburst",
 			"amblaster",
 			"sillyrepeater",
+			"silly_flareLauncher",
 
 			"heavyblaster",
 			"ionpulser",
@@ -101,6 +104,7 @@
 			"autopulse",
 			"guardian",
 			"gigacannon",
+			"silly_rubberCannon",
 
 			"gorgon",
 			"gazer",

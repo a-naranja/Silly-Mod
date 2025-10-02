@@ -1,0 +1,78 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 50,
+    "fluxVents": 30,
+    "goalVariant": false,
+    "hullId": "silly_penance",
+    "hullMods": [
+        "heavyarmor",
+        "unstable_injector",
+        "autorepair"
+    ],
+    "quality": 0.5,
+    "variantId": "silly_penance_custom",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 009": "devastator",
+                "WS 008": "devastator",
+                "WS 005": "devastator"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 011": "sillyFlak",
+                "WS 010": "sillyFlak"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 007": "sabotpod",
+                "WS 006": "sabotpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "lightdualmg",
+                "WS 003": "lightdualmg",
+                "WS 002": "lightdualmg",
+                "WS 001": "lightdualmg",
+                "WS 000": "lightdualmg"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 014": "gazer",
+                "WS 015": "gazer",
+                "WS 013": "gazer",
+                "WS 012": "gazer"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 017": "gorgon",
+                "WS 016": "gorgon"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 019": "vulcan",
+                "WS 018": "vulcan"
+            }
+        }
+    ]
+}
