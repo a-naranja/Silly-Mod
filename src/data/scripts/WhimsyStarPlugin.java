@@ -87,7 +87,7 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		lemat_market.addIndustry(Industries.FARMING);
 		lemat_market.addIndustry(Industries.PATROLHQ);
 		lemat_market.addIndustry(Industries.HEAVYINDUSTRY);
-		lemat_market.addIndustry(sillyIndustries.SILLY_STATION);
+		lemat_market.addIndustry(sillyIndustries.SILLY_BATTLESTATION);
 		lemat_market.addIndustry(sillyIndustries.SILLY_RESEARCH);
 		//add submarkets for open market, black market and storage; maybe add custom doohickey or silly later?
 		lemat_market.addSubmarket(Submarkets.SUBMARKET_OPEN);

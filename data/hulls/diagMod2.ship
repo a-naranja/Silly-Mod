@@ -1,0 +1,115 @@
+{
+    "hullName": "Experimental Support Module",
+    "hullId": "diagMod2",
+    "hullSize": "CRUISER",
+    "style": "SILLY_TECH",
+    "spriteName": "graphics/ships/station/diagMod2.png",
+    "height": 140,
+    "width": 160,
+    "center": [
+        80, 70
+    ],
+    "collisionRadius": 85.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 101.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "missile_reload",
+        "supercomputer",
+        "missleracks"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 180,
+            "angle": 0,
+            "locations": [
+                      58,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "LARGE",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 80,
+            "angle": 0,
+            "locations": [
+                    18.5,        0
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 145,
+            "angle": 0,
+            "locations": [
+                    50.5,       50
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 145,
+            "angle": 0,
+            "locations": [
+                    50.5,      -50
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 80,
+            "angle": 0,
+            "locations": [
+                      27,       56
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "TURRET",
+            "arc": 80,
+            "angle": 0,
+            "locations": [
+                      27,      -56
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             -49,        6,
+           -66.5,       15,
+           -65.5,     37.5,
+             -18,       46,
+               6,     73.5,
+        
+              57,       61,
+            56.5,       27,
+              67,        0,
+            56.5,      -27,
+              57,      -61,
+        
+               6,    -73.5,
+             -18,      -46,
+           -65.5,    -37.5,
+           -66.5,      -15,
+             -49,       -6
+    # 15 points total.
+    ]
+}

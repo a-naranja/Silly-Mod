@@ -3,23 +3,25 @@
     "fluxCapacitors": 20,
     "fluxVents": 20,
     "goalVariant": true,
-    "hullId": "diagMod",
+    "hullId": "shieldMod",
     "hullMods": [],
     "quality": 0.3,
-    "variantId": "diagMod_custom",
+    "variantId": "shieldMod_custom",
     "weaponGroups": [
         {
             "autofire": false,
             "mode": "LINKED",
             "weapons": {
-                "WS 001": "dragonpod"
+                "WS 003": "sploinkBeam",
+                "WS 002": "sploinkBeam"
             }
         },
         {
             "autofire": true,
             "mode": "LINKED",
             "weapons": {
-                "WS 000": "silly_flareLauncher"
+                "WS 001": "pdlaser",
+                "WS 000": "pdlaser"
             }
         }
     ]

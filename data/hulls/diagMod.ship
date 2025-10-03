@@ -1,24 +1,25 @@
 {
     "hullName": "Experimental Support Module",
     "hullId": "diagMod",
-    "hullSize": "CAPITAL_SHIP",
+    "hullSize": "DESTROYER",
     "style": "SILLY_TECH",
     "spriteName": "graphics/ships/station/diagMod.png",
     "height": 140,
     "width": 100,
     "center": [
-        50, 70
+        50, 65.5
     ],
-    "collisionRadius": 75.5,
+    "collisionRadius": 73.5,
     "coversColor": "",
     "shieldCenter": [
-        0, 0
+        2.5, 0
     ],
-    "shieldRadius": 81,
+    "shieldRadius": 85,
     "viewOffset": 0,
     "builtInMods": [
+        "missile_reload",
         "supercomputer",
-        "missile_reload"
+        "missleracks"
     ],
     "builtInWings": [],
     "builtInModules": null,
@@ -27,53 +28,44 @@
             "id": "WS 000",
             "size": "SMALL",
             "type": "MISSILE",
-            "mount": "HARDPOINT",
-            "arc": 160,
+            "mount": "TURRET",
+            "arc": 180,
             "angle": 0,
             "locations": [
-                      58,        0
+                    62.5,        0
             ]
         },
         {
             "id": "WS 001",
             "size": "LARGE",
             "type": "MISSILE",
-            "mount": "HARDPOINT",
-            "arc": 90,
+            "mount": "TURRET",
+            "arc": 80,
             "angle": 0,
             "locations": [
-                    19.5,        0
+                      24,        0
             ]
         }
     ],
     "engineSlots": [],
     "bounds": [
-           -47.5,      5.5,
-           -66.5,     16.5,
-           -66.5,     37.5,
-             -54,       44,
-           -35.5,     44.5,
+             -43,      6.5,
+             -63,     14.5,
+           -63.5,       37,
+             -49,     45.5,
+               0,       40,
         
-             -12,     35.5,
-            -6.5,     40.5,
-            54.5,       32,
-            57.5,       26,
-            50.5,       20,
+              62,     25.5,
+            53.5,     19.5,
+              72,        0,
+            53.5,    -19.5,
+              62,    -25.5,
         
-            66.5,      4.5,
-            66.5,     -4.5,
-            50.5,      -20,
-            57.5,      -26,
-            54.5,      -32,
-        
-            -6.5,    -40.5,
-             -12,    -35.5,
-           -35.5,    -44.5,
-             -54,      -44,
-           -66.5,    -37.5,
-        
-           -66.5,    -16.5,
-           -47.5,     -5.5
-    # 22 points total.
+               0,      -40,
+             -49,    -45.5,
+           -63.5,      -37,
+             -63,    -14.5,
+             -43,     -6.5
+    # 15 points total.
     ]
 }

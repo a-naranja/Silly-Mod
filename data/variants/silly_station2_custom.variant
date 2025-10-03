@@ -1,0 +1,23 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 50,
+    "fluxVents": 50,
+    "goalVariant": true,
+    "hullId": "silly_station2",
+    "hullMods": [],
+    "quality": 0.3,
+    "variantId": "silly_station2_custom",
+    "weaponGroups": [],
+    "modules": {
+        "WS 007": "shieldMod_custom",
+        "WS 006": "shieldMod_custom",
+        "WS 005": "shieldMod_custom",
+        "WS 004": "shieldMod_custom",
+        "WS 000": "diagMod2_custom",
+        "WS 003": "diagMod2_custom",
+        "WS 001": "bigMod_custom",
+        "WS 002": "bigMod_custom",
+        "WS 008": "module_armour1_Standard",
+        "WS 009": "module_armour1_Standard"
+    }
+}

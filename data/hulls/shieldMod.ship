@@ -1,0 +1,93 @@
+{
+    "hullName": "Protection Module",
+    "hullId": "shieldMod",
+    "hullSize": "DESTROYER",
+    "style": "SILLY_TECH",
+    "spriteName": "graphics/ships/station/shieldMod.png",
+    "height": 100,
+    "width": 100,
+    "center": [
+        50, 50
+    ],
+    "collisionRadius": 50.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 88,
+    "viewOffset": 0,
+    "builtInMods": [
+	"sillyShield"
+        "supercomputer",
+        "reduced_explosion",
+        "always_detaches"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                    29.5,       22
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 90,
+            "angle": 0,
+            "locations": [
+                    29.5,      -22
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 0,
+            "locations": [
+                   -13.5,       13
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 140,
+            "angle": 0,
+            "locations": [
+                   -13.5,      -13
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             -35,    -24.5,
+             -27,    -24.5,
+           -27.5,      -35,
+             -10,    -44.5,
+              38,      -31,
+        
+              39,      -12,
+            45.5,       -6,
+            45.5,        6,
+              39,       12,
+              38,       31,
+        
+             -10,     44.5,
+           -27.5,       35,
+             -27,     24.5,
+             -35,     24.5
+    # 14 points total.
+    ]
+}

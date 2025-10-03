@@ -1,0 +1,36 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "diagMod2",
+    "hullMods": [],
+    "quality": 0.3,
+    "variantId": "diagMod2_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 003": "silly_flareLauncher",
+                "WS 000": "silly_flareLauncher",
+                "WS 002": "silly_flareLauncher"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "dragonpod"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "gazer",
+                "WS 004": "gazer"
+            }
+        }
+    ]
+}

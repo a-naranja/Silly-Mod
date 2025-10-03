@@ -1,20 +1,20 @@
 {
     "hullName": "Corner Module",
     "hullId": "bigMod",
-    "hullSize": "CAPITAL_SHIP",
+    "hullSize": "CRUISER",
     "style": "SILLY_TECH",
     "spriteName": "graphics/ships/station/bigMod.png",
     "height": 200,
     "width": 200,
     "center": [
-        100, 100
+        102.5, 98.5
     ],
-    "collisionRadius": 97.5,
+    "collisionRadius": 95.5,
     "coversColor": "",
     "shieldCenter": [
-        0, 0
+        1, 0
     ],
-    "shieldRadius": 113,
+    "shieldRadius": 106,
     "viewOffset": 0,
     "builtInMods": [
         "supercomputer"
@@ -25,78 +25,78 @@
         {
             "id": "WS 000",
             "size": "SMALL",
-            "type": "HYBRID",
+            "type": "MISSILE",
             "mount": "TURRET",
-            "arc": 120,
+            "arc": 100,
             "angle": 0,
             "locations": [
-                    59.5,       57
+                    61.5,     59.5
             ]
         },
         {
             "id": "WS 001",
             "size": "SMALL",
-            "type": "HYBRID",
+            "type": "MISSILE",
             "mount": "TURRET",
-            "arc": 145,
+            "arc": 160,
             "angle": 0,
             "locations": [
-                    72.5,        1
+                    74.5,      3.5
             ]
         },
         {
             "id": "WS 002",
             "size": "SMALL",
-            "type": "HYBRID",
+            "type": "MISSILE",
             "mount": "TURRET",
-            "arc": 145,
+            "arc": 160,
             "angle": 270,
             "locations": [
-                      -5,      -73
+                    -3.5,    -70.5
             ]
         },
         {
             "id": "WS 003",
             "size": "SMALL",
-            "type": "HYBRID",
+            "type": "MISSILE",
             "mount": "TURRET",
             "arc": 120,
             "angle": 270,
             "locations": [
-                     -61,      -60
+                   -59.5,      -58
             ]
         },
         {
             "id": "WS 004",
             "size": "MEDIUM",
-            "type": "HYBRID",
-            "mount": "TURRET",
-            "arc": 120,
-            "angle": 0,
-            "locations": [
-                      17,       48
-            ]
-        },
-        {
-            "id": "WS 005",
-            "size": "MEDIUM",
-            "type": "HYBRID",
-            "mount": "TURRET",
-            "arc": 120,
-            "angle": 270,
-            "locations": [
-                     -52,      -17
-            ]
-        },
-        {
-            "id": "WS 006",
-            "size": "LARGE",
             "type": "BALLISTIC",
             "mount": "TURRET",
             "arc": 120,
             "angle": 0,
             "locations": [
-                      48,       23
+                    18.5,     50.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 120,
+            "angle": 270,
+            "locations": [
+                   -50.5,      -15
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "LARGE",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 0,
+            "locations": [
+                      49,     25.5
             ]
         },
         {
@@ -104,10 +104,10 @@
             "size": "LARGE",
             "type": "ENERGY",
             "mount": "TURRET",
-            "arc": 120,
+            "arc": 160,
             "angle": 0,
             "locations": [
-                      48,      -21
+                    49.5,    -18.5
             ]
         },
         {
@@ -115,51 +115,39 @@
             "size": "LARGE",
             "type": "ENERGY",
             "mount": "TURRET",
-            "arc": 120,
+            "arc": 160,
             "angle": 270,
             "locations": [
-                    17.5,    -48.5
+                    18.5,    -45.5
             ]
         },
         {
             "id": "WS 009",
             "size": "LARGE",
-            "type": "BALLISTIC",
+            "type": "ENERGY",
             "mount": "TURRET",
-            "arc": 120,
+            "arc": 160,
             "angle": 270,
             "locations": [
-                     -27,      -49
+                   -25.5,      -46
             ]
         }
     ],
     "engineSlots": [],
     "bounds": [
-              62,       69,
-              69,       59,
-              64,     46.5,
-              76,     34.5,
-              81,      0.5,
+              79,     36.5,
+            78.5,    -29.5,
+              30,      -75,
+             -38,    -74.5,
+           -50.5,    -63.5,
         
-              75,    -31.5,
-              28,    -75.5,
-              -4,    -81.5,
-             -39,      -75,
-           -54.5,    -63.5,
+           -73.5,      -63,
+           -80.5,     -6.5,
+           -19.5,       24,
+            14.5,       82,
+              68,       70,
         
-             -62,    -70.5,
-           -74.5,    -62.5,
-           -83.5,    -20.5,
-             -63,      5.5,
-           -44.5,      7.5,
-        
-           -40.5,       15,
-             -17,       25,
-           -15.5,       36,
-            -7.5,       42,
-              -5,       60,
-        
-            18.5,     79.5
-    # 21 points total.
+            67.5,     46.5
+    # 11 points total.
     ]
 }

@@ -1,6 +1,6 @@
 {
-    "hullName": "Silly Orbital Station",
-    "hullId": "silly_station",
+    "hullName": "Silly Battlestation",
+    "hullId": "silly_station2",
     "hullSize": "CAPITAL_SHIP",
     "style": "SILLY_TECH",
     "spriteName": "graphics/ships/station/station_sillyWIP.png",
@@ -32,7 +32,7 @@
             "arc": 0,
             "angle": 45,
             "locations": [
-                      94,       93
+                   120.5,    120.5
             ]
         },
         {
@@ -43,7 +43,7 @@
             "arc": 0,
             "angle": 0,
             "locations": [
-                      71,    -70.5
+                    82.5,    -81.5
             ]
         },
         {
@@ -54,7 +54,7 @@
             "arc": 0,
             "angle": 180,
             "locations": [
-                     -71,     71.5
+                     -82,     82.5
             ]
         },
         {
@@ -65,7 +65,79 @@
             "arc": 0,
             "angle": 225,
             "locations": [
-                     -94,      -92
+                  -120.5,   -119.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     183,    -25.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 90,
+            "locations": [
+                     -23,    180.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 270,
+            "locations": [
+                    24.5,   -178.5
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 180,
+            "locations": [
+                  -180.5,     24.5
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 312,
+            "locations": [
+                   130.5,   -128.5
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 132,
+            "locations": [
+                    -132,      128
             ]
         }
     ],

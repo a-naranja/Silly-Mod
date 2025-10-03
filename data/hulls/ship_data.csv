@@ -33,6 +33,9 @@ Ziggurat-Mk1,silly_zigguratmk1,Battleship,Silly Unknown,silly_mote_control,35,30
 Penance,silly_penance,Battlecruiser,Silly Elite,orion_device,22,11000,1000,16000,17500,800,313,,80,55,45,15,15,3000,OMNI,,90,0.2,1,,,300,400,200,300,10,30,8,300000,3,12,600,0.25,35,35,,,,,,,,"elite_silly_bp, codex_unlockable",,,,0.5,2,4,,2446
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #STATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Silly Orbital Station,silly_station,Orbital Station,Silly,,100,40000,1600,1000,,100,0,,30,200,200,7,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,2005.1
-,bigMod,Corner Module,Silly,forgevats_station,1,30000,1200,25000,,1000,1000,,0,0,0,10,10,3500,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2080
-,diagMod,Experimental Support Module,Silly Elite,forgevats_station,1,20000,1000,15000,,800,1000,,0,0,0,10,10,1500,PHASE,phasecloak,180,0,0,0.06,0.04,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",module_hull_bar_only,,,,1,2,4,,2081
+Silly Orbital Station,silly_station,Orbital Station,Silly,,100,40000,1600,1000,12500,100,0,,30,200,200,7,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,50,50,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,2005.1
+,bigMod,Corner Module,Silly,forgevats_station,1,30000,1200,25000,2500,1000,900,,0,0,0,10,10,3500,NONE,,0,0,0,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,1,2,4,,2080
+,diagMod,Experimental Support Module,Silly Elite,forgevats_station,1,20000,1000,15000,2500,800,900,,0,0,0,10,10,1500,PHASE,phasecloak,180,0,0,0.06,0.04,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,1,2,4,,2081
+Silly Battlestation,silly_station2,Orbital Station,Silly Elite,,200,80000,2000,1000,17500,100,0,,30,200,200,7,2,5000,NONE,,0,0,0,,,0,0,0,0,1,0,0,500000,10,10,,,75,50,,,,,,,"STATION, UNBOARDABLE",codex_unlockable,,,,0,,,,2005.2
+,diagMod2,Experimental Support Module,Silly Elite,forgevats_station,1,30000,1200,20000,2500,800,900,,0,0,0,10,10,2000,PHASE,phasecloak,180,0,0,0.05,0.04,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,1,2,4,,2083
+,shieldMod,Protection Module,Silly Elite,fortressshield,1,10000,1000,15000,2500,1000,900,,0,0,0,10,10,1000,FRONT,,100,1,0.8,,,0,0,0,0,1,0,,500000,,1,,,0,0,,,,,,,"UNBOARDABLE, HIDE_IN_CODEX, MODULE",,,,,1,2,4,,2084
