@@ -17,7 +17,7 @@
     "shieldRadius": 88,
     "viewOffset": 0,
     "builtInMods": [
-	"sillyShield"
+	"sillyShield",
         "supercomputer",
         "reduced_explosion",
         "always_detaches"
