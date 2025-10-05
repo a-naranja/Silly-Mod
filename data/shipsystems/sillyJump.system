@@ -1,0 +1,32 @@
+{
+	"id":"sillyJump",
+	"type":"STAT_MOD",
+	"aiType":"PHASE_DISPLACER",
+	
+	"statsScript":"data.shipSystems.sillyJump",
+	
+	"jitterColor":[200,0,200,10],
+	"jitterCopies":3,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":0.3,
+	
+	"weaponGlowColor":[125,0,125,125],
+	"weaponTypes":[ENERGY],
+	
+	"engineGlowColor":[200,0,200,125],
+
+	"range":300,
+	"randomRange":0,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"system_phase_skimmer",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":300,
+		"burstMovementPotential":300,
+		"averageSpeedIncrease":200,
+	}
+}
