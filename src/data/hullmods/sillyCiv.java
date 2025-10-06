@@ -20,6 +20,12 @@ public class sillyCiv extends BaseHullMod {
         }
 
     }
+    public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
+        if (index == 0) return "worsens";
+        if (index == 1) return "reduces burn by 1";
+        if (index == 2) return "halves";
+        return null;
+    }
 
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
