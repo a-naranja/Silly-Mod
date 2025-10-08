@@ -1,5 +1,5 @@
 name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
 Proto Mote Attractor,silly_mote_control,,,,,,0,,,,0.1,,0.4,,,,,,,,,,,,,"restricted, offensive, defensive",graphics/icons/hullsys/mote_attractor.png
 Silly Missiles,sillyArrowMissiles,,,,250,,,,,,0.2,3,1,6,,,,,,,,,,,,offensive,graphics/icons/hullsys/sillyMissiles.png
-Silly Temporal Shell,sillyTemp,1,,,42,0.25,,,,,4,10,2,10,,,,,,,,,,,,movement,graphics/icons/hullsys/temporal_shell.png
-Silly Jump,sillyJump,,,,100,,,,,,0.1,1,0,4,,,,,,,,,,,,movement,graphics/icons/hullsys/displacer.png
+Silly Temporal Shell,sillyTemp,1,,,42,0.25,,,,,4,10,2,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Silly Jump,sillyJump,,,,100,,,,,,0.1,1,0,4,,,,,,,,,,,,,graphics/icons/hullsys/displacer.png

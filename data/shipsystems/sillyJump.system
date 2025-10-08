@@ -1,7 +1,8 @@
 {
 	"id":"sillyJump",
 	"type":"STAT_MOD",
-	"aiType":"PHASE_DISPLACER",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipSystems.sillyJumpAI",
 	
 	"statsScript":"data.shipSystems.sillyJump",
 	
@@ -14,11 +15,6 @@
 	"weaponTypes":[ENERGY],
 	
 	"engineGlowColor":[200,0,200,125],
-
-	"range":300,
-	"randomRange":0,
-	
-	"renderCopyDuringTeleport":true,
 	
 	"fadeActivationSoundOnChargedown":false,
 	"useSound":"system_phase_skimmer",
@@ -26,7 +22,7 @@
 	
 	"aiHints":{
 		"activeSpeedIncrease":300,
-		"burstMovementPotential":300,
+		"burstMovementPotential":0,
 		"averageSpeedIncrease":200,
 	}
 }

@@ -50,6 +50,7 @@ silly_rubberCannon,WEAPON,"More of a disruption tool than a weapon, the Lead Can
 silly_mote_control,SHIP_SYSTEM,Energy motes deal heavy EMP damage to ships and obliterate fighters and missiles. Using the system creates a temporary attractor point for the motes. The motes automatically target nearby missiles and fighters unless an attractor point is set on an enemy ship.,,,,
 sillyArrowMissiles,SHIP_SYSTEM,Integrated missile launchers on both sides of the Arrow shoot their Silly Particle-energized munitions on system use. Tracking capabilities ensure contact with enemy combatants at unprecedent rate.,,,,
 sillyTemp,SHIP_SYSTEM,"Increases timeflow twofold. Using Silly Refined Particles increases the area affected, facilitating use on big hullsizes but the performance is worse than the usual Temporal Shell.",,,,
+sillyJump,SHIP_SYSTEM,Dumps Silly Particles into the engines to greatly boost movement for a short burst.,,,,
 ,,,,,,
 #ITEMS,,,,,,
 silly_particles,RESOURCE,"Exotic particles used in experimental applications. Some superstitious folk don't like working nor handling them and claim the containers are a ""bad luck charm"".",,,,
