@@ -8,7 +8,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class IndustrialReprocessing {
         public static int demandReduction = 1;
-        public static float upkeepReduction = (0.2f);
+        public static float upkeepReduction = (0.5f);
 
     public static class Level1 implements CharacterStatsSkillEffect {
         public void apply(MutableCharacterStatsAPI stats, String id, float level) {
@@ -41,7 +41,7 @@ public class IndustrialReprocessing {
 		}
 
 		public String getEffectDescription(float level) {
-			return (int)upkeepReduction + "% upkeep for colonies";
+			return "-50% upkeep for industries";
 		}
 
 		public String getEffectPerLevelDescription() {
