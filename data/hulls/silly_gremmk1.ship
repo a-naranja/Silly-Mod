@@ -7,14 +7,14 @@
     "height": 238,
     "width": 237,
     "center": [
-        119.5, 109.5
+        118, 121.5
     ],
-    "collisionRadius": 101.5,
+    "collisionRadius": 105,
     "coversColor": "",
     "shieldCenter": [
-        9.5, 1
+        -2.5, -0.5
     ],
-    "shieldRadius": 0,
+    "shieldRadius": 123.5,
     "viewOffset": 0,
     "builtInMods": [
         "automated",
@@ -29,10 +29,11 @@
             "size": "SMALL",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 90,
+            "renderOrderMod": 20000,
+            "arc": 120,
             "angle": 0,
             "locations": [
-                    48.5,    -43.5
+                      51,       43
             ]
         },
         {
@@ -40,10 +41,11 @@
             "size": "SMALL",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 90,
+            "renderOrderMod": 20000,
+            "arc": 120,
             "angle": 0,
             "locations": [
-                    47.5,     42.5
+                      51,      -43
             ]
         },
         {
@@ -51,10 +53,10 @@
             "size": "SMALL",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 275,
+            "arc": 160,
             "angle": 0,
             "locations": [
-                      21,    -35.5
+                      24,       35
             ]
         },
         {
@@ -62,10 +64,10 @@
             "size": "SMALL",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 275,
+            "arc": 160,
             "angle": 0,
             "locations": [
-                    21.5,     34.5
+                      24,      -35
             ]
         },
         {
@@ -73,10 +75,10 @@
             "size": "SMALL",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 232,
-            "angle": 180,
+            "arc": 200,
+            "angle": 160,
             "locations": [
-                     -40,    -48.5
+                   -37.5,       48
             ]
         },
         {
@@ -84,10 +86,10 @@
             "size": "SMALL",
             "type": "BALLISTIC",
             "mount": "TURRET",
-            "arc": 232,
-            "angle": 180,
+            "arc": 200,
+            "angle": 200,
             "locations": [
-                     -40,     47.5
+                   -37.5,      -48
             ]
         },
         {
@@ -98,7 +100,7 @@
             "arc": 0,
             "angle": 0,
             "locations": [
-                      22,       60
+                       3,     57.5
             ]
         },
         {
@@ -109,84 +111,67 @@
             "arc": 0,
             "angle": 0,
             "locations": [
-                      22,      -65
+                       1,    -48.5
             ]
         }
     ],
     "engineSlots": [
         {
             "location": [
-                -80.5, 30.5
+                -78, 30
             ],
-            "length": 39,
-            "width": 23,
+            "length": 48,
+            "width": 16,
             "angle": 180,
             "contrailSize": 12,
             "style": "THREAT"
         },
         {
             "location": [
-                -80.5, -30.5
+                -78, -30
             ],
-            "length": 39,
-            "width": 23,
+            "length": 48,
+            "width": 16,
             "angle": 180,
             "contrailSize": 12,
             "style": "THREAT"
         },
         {
             "location": [
-                -87, 21
+                -83.5, 21
             ],
-            "length": 39,
-            "width": 20,
+            "length": 48,
+            "width": 16,
             "angle": 180,
             "contrailSize": 12,
             "style": "THREAT"
         },
         {
             "location": [
-                -87, -21
+                -83.5, -21
             ],
-            "length": 39,
-            "width": 20,
+            "length": 48,
+            "width": 16,
             "angle": 180,
             "contrailSize": 12,
             "style": "THREAT"
         }
     ],
     "bounds": [
-           -88.5,      -13,
-           -81.5,    -45.5,
-             -58,    -70.5,
-             -46,      -67,
-             -24,    -81.5,
+             -82,    -47.5,
+              -3,   -103.5,
+            36.5,    -69.5,
+            51.5,      -82,
+            84.5,      -44,
         
-              -7,   -102.5,
-              38,    -69.5,
-            50.5,    -81.5,
-              81,      -54,
-              81,      -42,
+              74,      -33,
+              74,       33,
+            84.5,       44,
+            51.5,       82,
+            36.5,     69.5,
         
-            68.5,      -31,
-              67,      -21,
-            74.5,    -15.5,
-            74.5,     15.5,
-              67,       21,
-        
-            68.5,       31,
-              81,       42,
-              81,       54,
-            50.5,     81.5,
-              38,     69.5,
-        
-              -7,    102.5,
-             -24,     81.5,
-             -46,       67,
-             -58,     70.5,
-           -81.5,     45.5,
-        
-           -88.5,       13
-    # 26 points total.
+              -3,    103.5,
+             -82,     47.5
+    # 12 points total.
     ]
 }

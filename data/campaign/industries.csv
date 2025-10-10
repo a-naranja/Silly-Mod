@@ -9,7 +9,7 @@ fleetName:Orbital Station,
 }",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A silly space station, featuring gunside and phase modules.
 
 Must be reduced before a bombardment can be attempted.",2100,
-silly_battlestation,Battlestation - Silly,100,120,,4,silly_orbitalstation,,"station, sub_item, unraidable, structure","{
+silly_battlestation,Battlestation - Silly,100,120,,4,silly_orbitalstation,,"station, unraidable, structure","{
 radius:65,
 variant:silly_station2_custom,
 fleetName:Battlestation,
