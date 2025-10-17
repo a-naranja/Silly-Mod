@@ -12,5 +12,7 @@ public class sillyResourceConditions extends ResourceDepositsCondition {
         MODIFIER.put("silly_particles_abundant", +1);
         INDUSTRY.put("silly_particles", "mining");
         BASE_MODIFIER.put("silly_particles", -2);
+        //adding to aotd stuff
+        INDUSTRY.put("silly_particles", "mining_megaplex");
     }
 }
