@@ -7,12 +7,15 @@ public class sillyResourceConditions extends ResourceDepositsCondition {
         COMMODITY.put("silly_particles_trace", "silly_particles");
         COMMODITY.put("silly_particles_moderate", "silly_particles");
         COMMODITY.put("silly_particles_abundant", "silly_particles");
+
         MODIFIER.put("silly_particles_trace", -1);
         MODIFIER.put("silly_particles_moderate", 0);
         MODIFIER.put("silly_particles_abundant", +1);
+
         INDUSTRY.put("silly_particles", "mining");
+
         BASE_MODIFIER.put("silly_particles", -2);
-        //adding to aotd stuff
-        INDUSTRY.put("silly_particles", "mining_megaplex");
+
+        COMMODITY.put("silly_refined_particles", "silly_refining");
     }
 }
