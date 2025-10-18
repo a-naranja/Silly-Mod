@@ -269,7 +269,48 @@
             ]
         }
     ],
-    "engineSlots": [],
+    "engineSlots": [
+        {
+            "location": [
+                -142.5, 90
+            ],
+            "length": 50,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 36,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -142.5, -90
+            ],
+            "length": 50,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 36,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -153.5, 66.5
+            ],
+            "length": 80,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 70,
+            "style": "LOW_TECH"
+        },
+        {
+            "location": [
+                -153.5, -66.5
+            ],
+            "length": 80,
+            "width": 32,
+            "angle": 180,
+            "contrailSize": 70,
+            "style": "LOW_TECH"
+        }
+    ],
     "bounds": [
           -117.5,     44.5,
           -152.5,     57.5,
