@@ -16,6 +16,8 @@ public class sillyResourceConditions extends ResourceDepositsCondition {
 
         BASE_MODIFIER.put("silly_particles", -2);
 
-        COMMODITY.put("silly_refined_particles", "silly_refining");
+        //COMMODITY.put("silly_refined_particles", "silly_refining");
+
+        INDUSTRY.put("silly_refined_particles", "silly_refining");
     }
 }

@@ -6,21 +6,15 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.EconomyAPI;
-import com.fs.starfarer.api.campaign.rules.MemKeys;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
-import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
-import data.kaysaar.aotd.vok.campaign.econ.globalproduction.models.GPManager;
-import data.scripts.aotdvok.sillyGPManager;
+import data.scripts.aotdvok.aotdIndFixes;
 
 //em fokin colours
 import java.awt.*;
-
-import static data.kaysaar.aotd.vok.campaign.econ.globalproduction.models.GPManager.commodities;
-
 
 public class WhimsyStarPlugin extends BaseModPlugin {
     @Override
@@ -153,5 +147,6 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		super.onGameLoad(newGame);
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
 		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
+		Global.getSector().getListenerManager().addListener(new aotdIndFixes());
 	}
 }
