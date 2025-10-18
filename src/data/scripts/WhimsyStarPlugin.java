@@ -156,7 +156,9 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		super.onGameLoad(newGame);
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
 		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
-		Global.getSector().getListenerManager().addListener(new aotdIndFixes());
-		GPManager.commodities.put(sillyCommodities.REFINED_SILLY_PARTICLES, GPManager.GPResourceType.COMMODITY);
+		if(Global.getSettings().getModManager().isModEnabled("aotd_vok")){
+			Global.getSector().getListenerManager().addListener(new aotdIndFixes());
+			GPManager.commodities.put(sillyCommodities.REFINED_SILLY_PARTICLES, GPManager.GPResourceType.COMMODITY);
+		}
 	}
 }
