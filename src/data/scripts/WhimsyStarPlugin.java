@@ -9,8 +9,10 @@ import com.fs.starfarer.api.campaign.econ.EconomyAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
+import data.kaysaar.aotd.vok.campaign.econ.globalproduction.models.GPManager;
 import data.scripts.aotdvok.aotdIndFixes;
 
 //em fokin colours
@@ -133,12 +135,19 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		//planet_id.setCustomDescriptionId("column_1_id");
 		lemat.setCustomDescriptionId("lemat_description");
 
-		//add relations with other factions
-		Global.getSector().getFaction(Factions.INDEPENDENT).setRelationship(sillyFactions.DOOHICKEYCORP, 0.25f);
-		Global.getSector().getFaction(Factions.HEGEMONY).setRelationship(sillyFactions.DOOHICKEYCORP, 0.10f);
-		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.INDEPENDENT, 0.25f);
-		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.HEGEMONY, 0.10f);
+		//add relations from others to corp
+		Global.getSector().getFaction(Factions.INDEPENDENT).setRelationship(sillyFactions.DOOHICKEYCORP, RepLevel.FRIENDLY);
+		Global.getSector().getFaction(Factions.HEGEMONY).setRelationship(sillyFactions.DOOHICKEYCORP, RepLevel.FAVORABLE);
+		Global.getSector().getFaction(Factions.PIRATES).setRelationship(sillyFactions.DOOHICKEYCORP, RepLevel.HOSTILE);
+		Global.getSector().getFaction(Factions.LUDDIC_PATH).setRelationship(sillyFactions.DOOHICKEYCORP, RepLevel.HOSTILE);
+		Global.getSector().getFaction(Factions.TRITACHYON).setRelationship(sillyFactions.DOOHICKEYCORP, RepLevel.SUSPICIOUS);
+		Global.getSector().getFaction(Factions.PERSEAN).setRelationship(sillyFactions.DOOHICKEYCORP, RepLevel.SUSPICIOUS);
+
+		//corp to others
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.INDEPENDENT, RepLevel.FRIENDLY);
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.HEGEMONY, RepLevel.FAVORABLE);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PIRATES, RepLevel.HOSTILE);
+		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.LUDDIC_PATH, RepLevel.HOSTILE);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.TRITACHYON, RepLevel.SUSPICIOUS);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PERSEAN, RepLevel.SUSPICIOUS);
     }
@@ -148,5 +157,6 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
 		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
 		Global.getSector().getListenerManager().addListener(new aotdIndFixes());
+		GPManager.commodities.put(sillyCommodities.REFINED_SILLY_PARTICLES, GPManager.GPResourceType.COMMODITY);
 	}
 }
