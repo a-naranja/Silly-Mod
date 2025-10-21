@@ -9,6 +9,9 @@ import com.fs.starfarer.api.campaign.econ.EconomyAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
+import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
+import com.fs.starfarer.api.util.Misc;
 import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
@@ -128,7 +131,15 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		traitor.setMarket(traitor_market);
 		traitor_market.setSurveyLevel(MarketAPI.SurveyLevel.FULL);
 
+		//hyperspace jump points, needed to actually enter/leave the system
 		system.autogenerateHyperspaceJumpPoints(true, true);
+		//cleaning up hyperspace so the system isnt covered in clouds
+		HyperspaceTerrainPlugin HSplugin = (HyperspaceTerrainPlugin) Misc.getHyperspaceTerrain().getPlugin();
+		NebulaEditor Nebeditor = new NebulaEditor(HSplugin);
+		float minRadius = HSplugin.getTileSize() * 2.0F;
+		float radius = system.getMaxRadiusInHyperspace();
+		Nebeditor.clearArc(system.getLocation().x, system.getLocation().y, 0.0F, radius + minRadius * 0.5F, 0.0F, 360.0F);
+		Nebeditor.clearArc(system.getLocation().x, system.getLocation().y, 0.0F, radius + minRadius, 0.0F, 360.0F, 0.25F);
 
 		//remember to add descriptions in a data/strings/descriptions.csv
 		//column 1(id) for id, column 2(type) MUST be CUSTOM, column 3(text 1) for description shown to the player
