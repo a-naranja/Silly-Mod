@@ -7,3 +7,5 @@ Does not make the ship a civilian-hull for other bonuses, as this is a conversio
 Disabled Shipsystem,sillyNoSystem,0,,Silly,special,Special,2500,,,,1,2,3,5,data.hullmods.sillyNoSystem,Makes the ship unable to use its system. This cheapens maintenance.,Shipsystem unusable.,,graphics/hullmods/delicate_machinery.png
 Chopped and Cooked,sillyDual,,,Silly Elite,"no_drop, no_drop_salvage, codex_unlockable",,,,TRUE,,0,0,0,0,data.hullmods.sillyDual,"Special modifications on this ship reduce ballistic weapon damage to a %s of their original value but double their rate of fire.
 These modifications also increase energy weapon damage by %s but halve their rate of fire.",Decreases ballistic damage but increases RoF. Increases energy damage but decreases RoF.,,graphics/hullmods/delicate_machinery.png
+,,,,,,,,,,,,,,,,,,,
+gremSpawner,silly_gremspawner,,,Silly Elite,"no_drop, no_drop_salvage, hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.sillyGremSpawner,you shouldnt see this,,,graphics/hullmods/delicate_machinery.png
