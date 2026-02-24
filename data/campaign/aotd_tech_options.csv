@@ -1,0 +1,3 @@
+id,name,tier,timeToResearch,reqToResearchFirst,itemReqToResearch,iconId,rewards,columnNumber,rowNumber,isResearchedFromStart,otherReq,tags,modId
+silly_refining_tech,Silly Particles Refining,3,30,aotd_tech_streamlined_production,research_databank:6,none,silly_refining:industry,2,2,false,,,orange_sillyMod
+silly_biomed_tech,RSP Biomedical Laboratory,3,60,silly_refining,research_databank:8,none,silly_biomed:structure,3,2,false,,,orange_sillyMod

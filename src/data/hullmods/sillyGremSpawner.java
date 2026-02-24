@@ -3,18 +3,25 @@ package data.hullmods;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
+import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
+import com.fs.starfarer.api.impl.campaign.ids.Stats;
 
 public class sillyGremSpawner extends BaseHullMod {
-    //dont use, doesnt work, crashes
+
+    public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
+        stats.getDynamic().getStat(Stats.EXPLOSION_DAMAGE_MULT).modifyMult(id, 0f);
+        stats.getDynamic().getStat(Stats.EXPLOSION_RADIUS_MULT).modifyMult(id, 0f);
+    }
+
     @Override
     public void advanceInCombat(ShipAPI ship, float amount) {
         super.advanceInCombat(ship, amount);
-        boolean once = false;
-        if(ship.isHulk()&& !once){
+
+        if(ship.isHulk()){
             CombatEngineAPI engine = Global.getCombatEngine();
-            engine.getFleetManager(ship.getOriginalOwner()).spawnShipOrWing("silly_gremmk1_custom", ship.getLocation(), ship.getFacing());
-            once = true;
+            engine.getFleetManager(ship.getOriginalOwner()).spawnShipOrWing("silly_burden_Custom", ship.getLocation(), ship.getFacing());
+            engine.removeEntity(ship);
         }
     }
 }

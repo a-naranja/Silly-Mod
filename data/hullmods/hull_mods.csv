@@ -9,3 +9,4 @@ Chopped and Cooked,sillyDual,,,Silly Elite,"no_drop, no_drop_salvage, codex_unlo
 These modifications also increase energy weapon damage by %s but halve their rate of fire.",Decreases ballistic damage but increases RoF. Increases energy damage but decreases RoF.,,graphics/hullmods/delicate_machinery.png
 ,,,,,,,,,,,,,,,,,,,
 gremSpawner,silly_gremspawner,,,Silly Elite,"no_drop, no_drop_salvage, hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.sillyGremSpawner,you shouldnt see this,,,graphics/hullmods/delicate_machinery.png
+fishyyyyy,sillyFishy,,,Silly,"no_drop, no_drop_salvage, hide_in_codex",,,,,,1,1,1,1,data.hullmods.sillyOnGIF,"doo doo doo doo doo, doo doo doo, doo dooooo",,,graphics/hullmods/delicate_machinery.png

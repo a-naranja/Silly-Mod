@@ -1,9 +1,11 @@
 package data.scripts;
 
+import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
 import com.fs.starfarer.api.impl.campaign.ids.Commodities;
 import com.fs.starfarer.api.util.Pair;
 import data.ids.sillyCommodities;
+import data.kaysaar.aotd.vok.scripts.research.AoTDMainResearchManager;
 
 public class sillyRefining extends BaseIndustry {
 
@@ -28,4 +30,11 @@ public class sillyRefining extends BaseIndustry {
     public float getPatherInterest() {
         return 2f + super.getPatherInterest();
     }
+
+    //aotd check
+    //public boolean isAvailableToBuild(){
+        //if(Global.getSettings().getModManager().isModEnabled("aotd_vok")){
+            //return AoTDMainResearchManager.getInstance().isAvailableForThisMarket("silly_refining_tech", this.market);
+        //} else return true;
+    //}
 }

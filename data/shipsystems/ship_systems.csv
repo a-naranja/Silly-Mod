@@ -3,3 +3,4 @@ Proto Mote Attractor,silly_mote_control,,,,,,0,,,,0.1,,0.4,,,,,,,,,,,,,"restrict
 Silly Missiles,sillyArrowMissiles,,,,250,,,,,,0.2,3,1,6,,,,,,,,,,,,offensive,graphics/icons/hullsys/sillyMissiles.png
 Silly Temporal Shell,sillyTemp,1,,,42,0.25,,,,,4,10,2,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
 Silly Jump,sillyJump,,,,100,,,,,,0.1,1,0,4,,,,,,,,,,,,,graphics/icons/hullsys/displacer.png
+Summon,sillySummon,,,,500,,,,,,0.1,,0.1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/temporal_shell.png

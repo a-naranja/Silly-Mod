@@ -3,7 +3,7 @@
     "hullId": "silly_ziggModBL",
     "hullSize": "DESTROYER",
     "style": "LOW_TECH",
-    "spriteName": "graphics/ships/z_mk1_bl.png",
+    "spriteName": "mods/Silly-Mod/graphics/ships/z_mk1_bl.png",
     "height": 161,
     "width": 79,
     "center": [
@@ -17,7 +17,8 @@
     "shieldRadius": 91,
     "viewOffset": 0,
     "builtInMods": [
-        "silly_no_ai"
+        "silly_no_ai",
+        "silly_gremspawner"
     ],
     "builtInWings": [],
     "builtInModules": null,

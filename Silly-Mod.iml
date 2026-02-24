@@ -39,5 +39,8 @@
     <orderEntry type="library" name="starfarer.api" level="project" />
     <orderEntry type="library" name="SecondInCommand" level="project" />
     <orderEntry type="library" name="Vok" level="project" />
+    <orderEntry type="library" name="Starsector-98" level="project" />
+    <orderEntry type="library" name="VideoLib" level="project" />
+    <orderEntry type="library" name="BoggledTerraformingAndStationConstruction" level="project" />
   </component>
 </module>

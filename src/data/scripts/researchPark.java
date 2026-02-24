@@ -29,7 +29,7 @@ public class researchPark extends BaseIndustry {
             supply(Commodities.SHIPS, 1);
             supply(Commodities.HAND_WEAPONS,1);
         }
-        if (isFunctional()) {
+        if (isFunctional()&&getAllDeficit().isEmpty()) {
             SubmarketAPI open = market.getSubmarket(Submarkets.GENERIC_MILITARY);
             if (open == null) {
                 if (saved != null) {
@@ -54,5 +54,8 @@ public class researchPark extends BaseIndustry {
         saved = mil;
         market.removeSubmarket(Submarkets.GENERIC_MILITARY);
         getIncome().unmodify("Silly Research Park");
+    }
+    public float getPatherInterest() {
+        return 4f + super.getPatherInterest();
     }
 }

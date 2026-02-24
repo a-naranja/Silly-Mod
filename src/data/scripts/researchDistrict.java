@@ -25,8 +25,9 @@ public class researchDistrict extends BaseIndustry {
         demand(Commodities.RARE_METALS, size -2);
         demand(Commodities.DRUGS, size -2);
         demand(sillyCommodities.SILLY_PARTICLES, size -2);
+
         //add doohikey mil market if working and get supplied silly particles
-        if (isFunctional()) {
+        if (isFunctional()&&getAllDeficit().isEmpty()) {
             SubmarketAPI open = market.getSubmarket(Submarkets.GENERIC_MILITARY);
             if (open == null) {
                 if (saved != null) {
@@ -49,5 +50,8 @@ public class researchDistrict extends BaseIndustry {
         SubmarketAPI mil = market.getSubmarket(Submarkets.GENERIC_MILITARY);
         saved = mil;
         market.removeSubmarket(Submarkets.GENERIC_MILITARY);
+    }
+    public float getPatherInterest() {
+        return 2f + super.getPatherInterest();
     }
 }

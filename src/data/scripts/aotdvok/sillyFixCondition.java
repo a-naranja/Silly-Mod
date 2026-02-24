@@ -7,7 +7,7 @@ public class sillyFixCondition extends ResourceDepositsCondition {
     public void apply(String id){
         for(Industry industry : market.getIndustries()){
             if(market.hasCondition("silly_particles_aotd")){
-                if(industry.getId().equals("mining_megaplex")){
+                if(industry.getId().equals("aotd_mining_megaplex")){
                     industry.getSupply("silly_particles").getQuantity().modifyFlat("sillyAotdFix",7);
                 }
             }

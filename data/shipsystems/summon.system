@@ -1,0 +1,32 @@
+{
+	"id":"sillySummon",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"silly_skong_custom",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":300,
+	"launchDelay":1,
+	"maxDrones":7,
+	"droneBehavior":[
+		{"droneIndex":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14],
+		 "defaultFacing":"MATCH_DRONE_HEADING",	# MATCH_DRONE_HEADING, MATCH_SHIP_HEADING, MATCH_SHIP_FACING, AWAY_FROM_SHIP
+		 "faceEnemy":false,
+		 "holdRoamRange":800,
+		 "freeRoamRange":2000,
+		 "targetPriority":[SHIP, MISSILE, FIGHTER], # also SHIP_TARGET to prefer targeting the mothership's target
+		 "initialOrbitAngle":100,
+		 "orbitRadius":1050, 				# plus ship radius
+		 "orbitDir":1, 					# -1 or 1
+		 "orbitSpeed":100, 				# pixels/second
+		},
+	],
+	
+	"useSound":"drone_launch",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

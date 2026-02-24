@@ -3,7 +3,7 @@
     "hullId": "silly_ap",
     "hullSize": "FRIGATE",
     "style": "HIGH_TECH",
-    "spriteName": "graphics/ships/ap.png",
+    "spriteName": "mods/Silly-Mod/graphics/ships/ap.png",
     "height": 112,
     "width": 124,
     "center": [
