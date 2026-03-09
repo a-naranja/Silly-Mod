@@ -3,7 +3,7 @@
     "hullId": "silly_jumper",
     "hullSize": "DESTROYER",
     "style": "SILLY_TECH",
-    "spriteName": "graphics/ships/silly_jumper.png",
+    "spriteName": "mods/Silly-Mod/graphics/ships/silly_jumper.png",
     "height": 187,
     "width": 120,
     "center": [
@@ -110,7 +110,7 @@
             "width": 12,
             "angle": 180,
             "contrailSize": 12,
-            "style": "MIDLINE"
+            "style": "SILLYENGINE"
         },
         {
             "location": [
@@ -120,7 +120,7 @@
             "width": 12,
             "angle": 180,
             "contrailSize": 12,
-            "style": "MIDLINE"
+            "style": "SILLYENGINE"
         },
         {
             "location": [
@@ -150,7 +150,7 @@
             "width": 32,
             "angle": 180,
             "contrailSize": 12,
-            "style": "MIDLINE"
+            "style": "SILLYENGINE"
         },
         {
             "location": [
@@ -160,7 +160,7 @@
             "width": 32,
             "angle": 180,
             "contrailSize": 12,
-            "style": "MIDLINE"
+            "style": "SILLYENGINE"
         },
         {
             "location": [
