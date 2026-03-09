@@ -53,6 +53,6 @@ public class sillyCiv extends BaseHullMod {
                 " This worsens the ships sensors, flux grid and burn. Does not make the ship a civilian-hull for" +
                 " other bonuses, as this is a conversion.", 10f);
         tooltip.addPara("Half monthly supply cost for this ship.", Misc.getPositiveHighlightColor(),3f);
-        tooltip.addPara("Reduces sensor strength, flux capacity and dissipation, maximum burn and increases sensor profile", Misc.getNegativeHighlightColor(),3f);
+        tooltip.addPara("Reduces sensor strength, flux capacity and dissipation, maximum burn and increases sensor profile.", Misc.getNegativeHighlightColor(),3f);
     }
 }

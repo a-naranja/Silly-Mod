@@ -28,7 +28,7 @@ public class sillyEngineInjection  extends BaseHullMod {
     @Override
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
         tooltip.addPara("Adulterates the engine's combustible with Silly Particles, improving quickstart but reducing stability.", 10f);
-        tooltip.addPara("Reduce engine repair speed to 1/3", Misc.getPositiveHighlightColor(),10f);
-        tooltip.addPara("Reduce engine durability to 1/3", Misc.getNegativeHighlightColor(),10f);
+        tooltip.addPara("Reduce engine repair speed to 1/3.", Misc.getPositiveHighlightColor(),3f);
+        tooltip.addPara("Reduce engine durability to 1/3.", Misc.getNegativeHighlightColor(),3f);
     }
 }

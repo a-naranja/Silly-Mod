@@ -24,6 +24,7 @@ public class sillyNoSystem extends BaseHullMod {
     @Override
     public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
         tooltip.addPara("Skillfully jams the ship's system using blunt force, software bloat and/or more.", 10f);
-        tooltip.addPara("Reduces monthly supply maintenance by 25%", Misc.getPositiveHighlightColor(),3f);
+        tooltip.addPara("Reduces monthly supply maintenance by 25%.", Misc.getPositiveHighlightColor(),3f);
+        tooltip.addPara("Shipsystem Disabled.", Misc.getNegativeHighlightColor(),3f);
     }
 }
