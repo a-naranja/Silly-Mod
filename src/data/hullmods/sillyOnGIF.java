@@ -8,6 +8,7 @@ import videolib.VideoPaths;
 
 public class sillyOnGIF extends BaseHullMod {
 
+    //this is a "placeholder" to use videolib overrider WITH TOGGLE, check settings.json too for permanent override
     boolean run=false;
     AutoTexProjectorAPI projector = VideoPaths.getAutoTexProjectorOverride("graphics/ships/skong.png");
     int videoTextureId = projector.getCurrentTextureId(); // store this somewhere for later

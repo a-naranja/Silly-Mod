@@ -4,6 +4,8 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.impl.campaign.ids.HullMods;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
+import com.fs.starfarer.api.util.Misc;
 
 public class sillyCiv extends BaseHullMod {
     public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
@@ -38,5 +40,19 @@ public class sillyCiv extends BaseHullMod {
             return "Can only be installed on military-grade hulls";
         }
         return super.getUnapplicableReason(ship);
+    }
+
+    //description helpers
+    @Override
+    public boolean shouldAddDescriptionToTooltip(ShipAPI.HullSize hullSize, ShipAPI ship, boolean isForModSpec) {
+        return false;
+    }
+    @Override
+    public void addPostDescriptionSection(TooltipMakerAPI tooltip, ShipAPI.HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {
+        tooltip.addPara("Removes many military-grade subsystems and equipment to reduce supply consumption." +
+                " This worsens the ships sensors, flux grid and burn. Does not make the ship a civilian-hull for" +
+                " other bonuses, as this is a conversion.", 10f);
+        tooltip.addPara("Half monthly supply cost for this ship.", Misc.getPositiveHighlightColor(),3f);
+        tooltip.addPara("Reduces sensor strength, flux capacity and dissipation, maximum burn and increases sensor profile", Misc.getNegativeHighlightColor(),3f);
     }
 }
