@@ -1,13 +1,21 @@
 {
 	"SILLYENGINE":{
 		"engineColor":[225,0,225,255],
-		"contrailParticleSizeMult":1,
-		"contrailParticleDuration":2,
-		"contrailParticleFinalSizeMult":2.5,
-		"contrailMaxSpeedMult":0.5,
+
+        "mode":"PARTICLES", # PARTICLES or QUAD_STRIP, determines which params are used
+		"contrailParticleSizeMult":0,
+		"contrailParticleDuration":0,
+		"contrailParticleFinalSizeMult":0,
+		"contrailMaxSpeedMult":0,
 		"contrailAngularVelocityMult":0,
 		"contrailColor":[170,0,170,25],
 		"contrailCampaignColor":[170,0,170,75],
-		"type":"SMOKE" # GLOW or SMOKE
+		"type":"GLOW", # GLOW or SMOKE
+
+        "omegaMode":true, #dumbass setting needed for fancy png
+        #"glowSprite":"graphics/fx/sillyStrip.png",
+		"glowOutline":"graphics/fx/sillyRing.png",
+		"glowSizeMult":0.7,
+		#"glowAlternateColor":[170,0,170,75],
 	},
 }

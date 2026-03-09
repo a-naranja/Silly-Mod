@@ -3,7 +3,7 @@
 		"blueprint_packages":{
 			"silly_package":"graphics/icons/cargo/package_silly.png",
 			"silly_elite_package":"graphics/icons/cargo/package_silly_elite.png",
-			"sillyshieldfx": "graphics/fx/sillyShield2.png"
+			"sillyshieldfx": "graphics/fx/sillyShieldFX.png"
 		},
 		"characters":{
 			"mrsilly.png":"graphics/characters/mrsilly.png"
@@ -21,16 +21,16 @@
 				"vl_fteto" : "data/videos/freaky-teto.gif"
 			},
 			"images" : {
-			},
-			"autoTexProjectorOverrides" : {
-				"graphics/ships/skong.png" : {
-					"width" : 160,
-					"height" : 150,
-					"campaignRunWhilePaused" : true,
-					"combatRunWhilePaused" : false,
-					"videoId" : "vl_spin"
-				}
-			}
+			}#,
+			 #"autoTexProjectorOverrides" : {
+			#	"graphics/ships/skong.png" : {
+			#		"width" : 160,
+			#		"height" : 150,
+			#		"campaignRunWhilePaused" : true,
+			#		"combatRunWhilePaused" : false,
+			#		"videoId" : "vl_spin"
+			#	}
+			#}
 		}
 	}
 }

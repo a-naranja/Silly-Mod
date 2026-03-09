@@ -3,7 +3,7 @@
     "hullId": "silly_arrow",
     "hullSize": "CRUISER",
     "style": "SILLY_TECH",
-    "spriteName": "graphics/ships/silly_arrowF.png",
+    "spriteName": "mods/Silly-Mod/graphics/ships/silly_arrowF.png",
     "height": 218,
     "width": 168,
     "center": [
@@ -166,20 +166,20 @@
     "engineSlots": [
         {
             "location": [
-                -87, 36
+                -86.5, 35
             ],
             "length": 80,
-            "width": 30,
+            "width": 24,
             "angle": 180,
             "contrailSize": 64,
             "style": "SILLYENGINE"
         },
         {
             "location": [
-                -87, -36
+                -86.5, -35
             ],
             "length": 80,
-            "width": 30,
+            "width": 24,
             "angle": 180,
             "contrailSize": 64,
             "style": "SILLYENGINE"
@@ -189,7 +189,7 @@
                 -81.5, 26.5
             ],
             "length": 70,
-            "width": 20,
+            "width": 12,
             "angle": 180,
             "contrailSize": 64,
             "style": "SILLYENGINE"
@@ -199,7 +199,7 @@
                 -81.5, -26.5
             ],
             "length": 70,
-            "width": 20,
+            "width": 12,
             "angle": 180,
             "contrailSize": 64,
             "style": "SILLYENGINE"
