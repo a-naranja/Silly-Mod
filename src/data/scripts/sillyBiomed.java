@@ -36,6 +36,8 @@ public class sillyBiomed extends BaseIndustry {
         addPostDescriptionSection(tooltip, mode);
         if (isFunctional()&& getAllDeficit().isEmpty()){
             tooltip.addPara("Reducing Hazard Rating by 15%", Misc.getPositiveHighlightColor(),10f);
+        } else if (isFunctional()&& !getAllDeficit().isEmpty()){
+            tooltip.addPara("Shortage! No hazard reduction!", Misc.getNegativeHighlightColor(), 10f);
         }
     }
 

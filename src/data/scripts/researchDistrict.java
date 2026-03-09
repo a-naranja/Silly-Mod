@@ -4,6 +4,8 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.econ.SubmarketAPI;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
 import com.fs.starfarer.api.impl.campaign.ids.Commodities;
+import com.fs.starfarer.api.ui.TooltipMakerAPI;
+import com.fs.starfarer.api.util.Misc;
 import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
@@ -53,5 +55,14 @@ public class researchDistrict extends BaseIndustry {
     }
     public float getPatherInterest() {
         return 2f + super.getPatherInterest();
+    }
+    //letters
+    protected void addPostSupplySection(TooltipMakerAPI tooltip, boolean hasSupply, IndustryTooltipMode mode) {
+        addPostDescriptionSection(tooltip, mode);
+        if (isFunctional()&& getAllDeficit().isEmpty()){
+            tooltip.addPara("Special Doohickey Market open.", Misc.getPositiveHighlightColor(),10f);
+        } else if (isFunctional()&& !getAllDeficit().isEmpty()){
+            tooltip.addPara("Shortage! Doohickey Market closed!", Misc.getNegativeHighlightColor(), 10f);
+        }
     }
 }
