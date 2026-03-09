@@ -50,9 +50,14 @@ public class sillyBiomed extends BaseIndustry {
     }
 
     //aotd check
-    //public boolean isAvailableToBuild(){
-        //if(Global.getSettings().getModManager().isModEnabled("aotd_vok")){
-            //return AoTDMainResearchManager.getInstance().isAvailableForThisMarket("silly_biomed_tech", this.market);
-        //} else return true;
-    //}
+    public boolean isAvailableToBuild(){
+        if(Global.getSettings().getModManager().isModEnabled("aotd_vok")){
+            return AoTDMainResearchManager.getInstance().isAvailableForThisMarket("silly_biomed_tech", this.market);
+        } else return true;
+    }
+    public boolean showWhenUnavailable() {
+        if(Global.getSettings().getModManager().isModEnabled("aotd_vok")){
+            return AoTDMainResearchManager.getInstance().isAvailableForThisMarket("silly_biomed_tech", this.market);
+        } else return true;
+    }
 }

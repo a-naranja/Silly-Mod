@@ -3,8 +3,12 @@
 		"blueprint_packages":{
 			"silly_package":"graphics/icons/cargo/package_silly.png",
 			"silly_elite_package":"graphics/icons/cargo/package_silly_elite.png",
-			"sillyshieldfx": "graphics/fx/sillyShieldFX.png"
+			"sillyshieldfx": "graphics/fx/sillyShieldFX.png",
 		},
+        "ui_icons_tech_tree":{
+            "sillyBiomedTech":"graphics/icons/tech/sillyBiomed.png",
+            "sillyRefiningTech":"graphics/icons/tech/sillyRef.png"
+        },
 		"characters":{
 			"mrsilly.png":"graphics/characters/mrsilly.png"
 		},
