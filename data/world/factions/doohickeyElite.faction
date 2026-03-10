@@ -110,6 +110,7 @@
 			"gazer",
 			"dragon",
 			"sabot",
+            "sillySlinger",
 
             "gorgonpod",
             "gazerpod",
@@ -151,9 +152,10 @@
 		"autopulse":10,
 		"silly_rubberCannon":5,
 		
-		"grogon":5,
-		"gazer":5,
+		"grogon":3,
+		"gazer":3,
 		"dragon":5,
+        "sillySlinger":5,
 		
 		"squall":10,
 		"locust":10,
@@ -162,12 +164,13 @@
 	    "silly_cargo_wing":5,
 	},
 	"hullmodSellFrequency":{
-		"adaptive_coils":5,
-		"phase_anchor":5,
-		"hardenedshieldemitter":10,
+		"adaptive_coils":3,
+		"phase_anchor":3,
+		"hardenedshieldemitter":5,
 		"insulatedengine":5,
 		"sillyCiv":10,
 		"sillyNoSystem":10,
+        "sillyInjection":10,
 	},		
 	"factionDoctrine":{
 		"warships":4,
@@ -263,9 +266,9 @@
 		},
 	},	
 	"fleetTypeNames":{
-		"trade":"Doohickey Trader",
-		"tradeSmuggler":"Silly Smuggler",
-		"smallTrader":"Doohickey Supplier",
+		"trade":"Special Gizmo Trader",
+		"tradeSmuggler":"Whatchamacallit Smuggler",
+		"smallTrader":"Odd Curiosity Supplier",
 		
 		"patrolSmall":"Security Patrol",
 		"patrolMedium":"Security Flotilla",

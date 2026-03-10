@@ -157,6 +157,7 @@
 			"breach",
 			"sabot",
 			"sabot_single",
+            "sillySlinger",
 
             "gorgonpod",
             "gazerpod",
@@ -211,7 +212,8 @@
 		
 		"grogon":5,
 		"gazer":5,
-		"dragon":5,
+		"dragon":3,
+        "sillySlinger":10,
 		
 		"squall":10,
 		"locust":10,
@@ -220,15 +222,16 @@
 	    "silly_cargo_wing":5,
 	},
 	"hullmodSellFrequency":{
-		"adaptive_coils":5,
-		"phase_anchor":5,
-		"hardenedshieldemitter":10,
-		"hiressensors":10,
-		"insulatedengine":5,
+		"adaptive_coils":3,
+		"phase_anchor":3,
+		"hardenedshieldemitter":5,
+		"hiressensors":5,
+		"insulatedengine":3,
 		"surveying_equipment":5,
 		"efficiency_overhaul":10,
 		"sillyCiv":10,
 		"sillyNoSystem":10,
+        "sillyInjection":10,
 	},		
 	"factionDoctrine":{
 		"warships":4,
@@ -246,7 +249,7 @@
 		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet
 		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
 		"combatFreighterCombatUseFractionWhenPriority":0.33,# as part of normal combat lineup, when marked as priority ship
-		"autofitRandomizeProbability":0.1,
+		"autofitRandomizeProbability":0.2,
 
 		"officerSkillsShuffleProbability":1f,
 		"officerSkills":[
@@ -326,7 +329,7 @@
 		},
 	},	
 	"fleetTypeNames":{
-		"trade":"Doohickey Trader",
+		"trade":"Thingamajing Trader",
 		"tradeSmuggler":"Silly Smuggler",
 		"smallTrader":"Doohickey Supplier",
 		
