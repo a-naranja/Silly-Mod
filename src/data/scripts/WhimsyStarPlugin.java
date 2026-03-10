@@ -6,17 +6,24 @@ import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.EconomyAPI;
+import com.fs.starfarer.api.characters.FullName;
+import com.fs.starfarer.api.characters.ImportantPeopleAPI;
+import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
+import com.fs.starfarer.rpg.ImportantPeople;
+import com.fs.starfarer.rpg.Person;
 import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
 import data.kaysaar.aotd.vok.campaign.econ.globalproduction.models.GPManager;
 import data.scripts.aotdvok.aotdIndFixes;
+import data.skills.IndustrialReprocessing;
+import org.magiclib.util.MagicCampaign;
 
 //em fokin colours
 import java.awt.*;
@@ -162,8 +169,31 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.LUDDIC_PATH, RepLevel.HOSTILE);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.TRITACHYON, RepLevel.SUSPICIOUS);
 		Global.getSector().getFaction(sillyFactions.DOOHICKEYCORP).setRelationship(Factions.PERSEAN, RepLevel.SUSPICIOUS);
+
+		//creating persons :iunderstand:
+
+		//PersonAPI mrsilly = lemat_market.getAdmin();
+		//lemat_market.addPerson(mrsilly);
+		//lemat_market.getCommDirectory().addPerson(mrsilly);
+		//mrsilly.setId("mrsilly");
+		//mrsilly.getName().setFirst("Mr.");
+		//mrsilly.getName().setLast("Silly");
+		//mrsilly.getName().setGender(FullName.Gender.MALE);
+		//mrsilly.setRankId(Ranks.SENIOR_EXECUTIVE);
+		//mrsilly.setPostId("factionLeader");
+		//mrsilly.setPortraitSprite("graphics/characters/mrsilly.png");
+
+		//using magicbs, seems like adding him as admin just makes him not spawn at all
+		PersonAPI mrsilly = MagicCampaign.addCustomPerson(lemat_market,"Mr.","Silly","mrsilly.png", FullName.Gender.MALE,sillyFactions.DOOHICKEYCORP,Ranks.SENIOR_EXECUTIVE,Ranks.POST_FACTION_LEADER,false,1,1);
+		mrsilly.setPersonality("steady");
+		mrsilly.addTag(Tags.CONTACT_SCIENCE);
+		mrsilly.addTag(Tags.CONTACT_MILITARY);
+		mrsilly.setImportance(PersonImportance.VERY_HIGH);
+		mrsilly.setVoice(Voices.SCIENTIST);
+		mrsilly.getStats().setSkillLevel("silly_recycle",1f);
     }
 	@Override
+	//I really should put everything from on new game here so mod can be added mid save but oof
 	public void onGameLoad(boolean newGame){
 		super.onGameLoad(newGame);
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
