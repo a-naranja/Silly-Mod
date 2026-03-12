@@ -1,0 +1,44 @@
+{
+    "knownShips":{
+    	"hulls":[
+    		"silly_burden",
+            "silly_ap",
+            "silly_mudskipper7",
+            "silly_hound",
+
+            "silly_nitro",
+
+            "silly_falalaf",
+            "silly_shortquest",
+    	],
+    },
+	"knownWeapons":{
+		"weapons":[
+			"silly_flareLauncher",
+            
+            "sploinkBeam",
+            "sillySlinger",
+        
+            "silly_rubberCannon",
+		],
+	},
+	"weaponSellFrequency":{
+	    "silly_flareLauncher":0.5,
+        "sploinkBeam":0.3,
+        "sillySlinger":0.1,
+        "silly_rubberCannon":0.1,
+	},
+	"hullFrequency":{
+    	"hulls":{
+    		"silly_burden":0.3,
+            "silly_ap":0.8,
+            "silly_mudskipper7":0.5,
+            "silly_hound":0.5,
+
+            "silly_nitro":0.5,
+
+            "silly_falalaf":0.5,
+            "silly_shortquest":0.5,
+    	},
+    },
+},
