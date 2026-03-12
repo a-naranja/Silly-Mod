@@ -1,9 +1,9 @@
 {
 	tips:[
-         {"freq":0.5, "tip":"[Silly-Mod] Silly Particles can be mined with Vanilla's Mining Industry!"},
-        {"freq":0.5,"tip":"[Silly-Mod] Keep an eye out for silly bounties in the Bounty Board!"},
-        {"freq":0.5,"tip":"[Silly-Mod] You can create a Doohickey market at your colony with the Research Park structure!"},
-        {"freq":0.5,"tip":"[Silly-Mod] Most industries from this mod require no shortages to work!"}
-        {"freq":0.01,"tip":"[Silly-Mod] Getting silly with it, straight up whimsypilled goofymaxxing, pinkslopping all over it"}
-     ],
+        {"freq":0.5, "tip":"[Silly-Mod] Silly Particles can be mined with Vanilla's Mining Industry!"},
+        {"freq":0.5, "tip":"[Silly-Mod] Keep an eye out for silly bounties in the Bounty Board!"},
+        {"freq":0.5, "tip":"[Silly-Mod] You can create a Doohickey market at your colony with the Research Park structure!"},
+        {"freq":0.5, "tip":"[Silly-Mod] Most industries from this mod require no shortages to work!"},
+        {"freq":0.01, "tip":"[Silly-Mod] Getting silly with it, straight up whimsypilled goofymaxxing, pinkslopping all over it"}
+     ]
 }
