@@ -1,3 +1,5 @@
 id,name,tier,timeToResearch,reqToResearchFirst,itemReqToResearch,iconId,rewards,columnNumber,rowNumber,isResearchedFromStart,otherReq,tags,modId,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-silly_refining_tech,Silly Particles Refining,1,30,aotd_tech_nanometal,,sillyRefiningTech,silly_refining:industry,0,0,false,,,orange-sillyMod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-silly_biomed_tech,RSP Biomedical Laboratory,2,60,silly_refining_tech,,sillyBiomedTech,silly_biomed:industry,0,0,false,,,orange-sillyMod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+silly_refining_tech,Silly Particles Refining,1,30,aotd_tech_nanometal,gamma_core:3,sillyRefiningTech,silly_refining:industry,0,0,false,,,orange-sillyMod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+silly_effects,Refined Particles Uses,2,60,silly_refining_tech,alpha_core:1,sillyEffects,Allows further research into RSPs :modifier,0,0,false,,,orange-sillyMod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+silly_biomed_tech,RSP Biomedical Laboratory,3,60,silly_effects,"gamma_core:1,beta_core:1",sillyBiomedTech,silly_biomed:industry,0,0,false,,,orange-sillyMod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+silly_filter_tech,Behaviour Influence,3,60,silly_effects,alpha_core:1,sillyWIP,silly_filter:industry,0,1,false,,,orange-sillyMod,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

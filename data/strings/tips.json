@@ -1,7 +1,9 @@
 {
-# Tips are a good way to give suggestions on how to use ships/weapons, background info on your faction, or other useful information.
 	tips:[
-#         {"freq":0, "tip":"You can change the frequency of tips by adding a json object instead of a string, like so. For example, this tip has a frequency of 0 and will never show up. The default freq value is 1."},
-#         "Example tip.",
+         {"freq":0.5, "tip":"[Silly-Mod] Silly Particles can be mined with Vanilla's Mining Industry!"},
+        {"freq":0.5,"tip":"[Silly-Mod] Keep an eye out for silly bounties in the Bounty Board!"},
+        {"freq":0.5,"tip":"[Silly-Mod] You can create a Doohickey market at your colony with the Research Park structure!"},
+        {"freq":0.5,"tip":"[Silly-Mod] Most industries from this mod require no shortages to work!"}
+        {"freq":0.01,"tip":"[Silly-Mod] Getting silly with it, straight up whimsypilled goofymaxxing, pinkslopping all over it"}
      ],
 }

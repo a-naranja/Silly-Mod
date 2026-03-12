@@ -1,0 +1,11 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": true,
+    "hullId": "silly_crystal",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "silly_crystal_custom",
+    "weaponGroups": []
+}
