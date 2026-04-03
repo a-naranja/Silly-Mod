@@ -94,6 +94,7 @@
 			"amblaster",
 			"sillyrepeater",
 			"silly_flareLauncher",
+            "sillyGlitch",
 
 			"heavyblaster",
 			"ionpulser",
@@ -156,6 +157,7 @@
 		"gazer":3,
 		"dragon":5,
         "sillySlinger":5,
+        "sillyGlitch":5,
 		
 		"squall":10,
 		"locust":10,

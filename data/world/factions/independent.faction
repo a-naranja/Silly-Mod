@@ -41,4 +41,9 @@
             "silly_shortquest":0.5,
     	},
     },
+	"hullmodSellFrequency":{
+		"sillyCiv":1,
+		"sillyNoSystem":1,
+        "sillyInjection":1,
+	},	
 },

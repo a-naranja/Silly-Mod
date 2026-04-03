@@ -1,6 +1,6 @@
 {
 	"id":"silly_logi",
-	"governingAptitude":"industry",
+	"governingAptitude":"silly",
 	"compressHullmods":false,
 	"elite":false,
 	"scope":"PILOTED_SHIP", # if specified, scope is shown on a separate line and not shown for individual skill effects

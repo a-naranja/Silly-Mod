@@ -3,7 +3,7 @@
     "hullId": "silly_zigguratmk1",
     "hullSize": "CAPITAL_SHIP",
     "style": "LOW_TECH",
-    "spriteName": "graphics/ships/ziggurat_mk1.png",
+    "spriteName": "graphics/ships/mk1/ziggurat_mk1.png",
     "height": 318,
     "width": 402,
     "center": [
@@ -360,7 +360,7 @@
             "width": 22,
             "angle": 180,
             "contrailSize": 72,
-            "style": "LOW_TECH"
+            "style": "ONSLAUGHT_MKI"
         },
         {
             "location": [
@@ -370,7 +370,7 @@
             "width": 22,
             "angle": 180,
             "contrailSize": 72,
-            "style": "LOW_TECH"
+            "style": "ONSLAUGHT_MKI"
         },
         {
             "location": [
@@ -380,7 +380,7 @@
             "width": 23,
             "angle": 180,
             "contrailSize": 72,
-            "style": "LOW_TECH"
+            "style": "ONSLAUGHT_MKI"
         },
         {
             "location": [
@@ -390,7 +390,7 @@
             "width": 23,
             "angle": 180,
             "contrailSize": 72,
-            "style": "LOW_TECH"
+            "style": "ONSLAUGHT_MKI"
         }
     ],
     "bounds": [

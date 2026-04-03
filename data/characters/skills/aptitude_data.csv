@@ -1,0 +1,2 @@
+id,name,color,description,order,effect_skill_id,sound1,sound2,sound3,sound4,sound5,sound_story,elite_overlay,elite_overlay_medium,elite_overlay_small
+silly,Silly,"170,0,170,255","Skills that improve the efficiency and resilience of your fleet, and make it easier to recover from losses.",4,aptitude_silly,industry1,industry2,industry3,industry4,industry5,ui_char_spent_story_point_industry,graphics/icons/skills/elite_industry.png,graphics/icons/skills/elite_industry48.png,graphics/icons/skills/elite_industry32.png

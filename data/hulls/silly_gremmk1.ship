@@ -3,7 +3,7 @@
     "hullId": "silly_gremmk1",
     "hullSize": "FRIGATE",
     "style": "THREAT",
-    "spriteName": "graphics/ships/mk1grem.png",
+    "spriteName": "graphics/ships/mk1/mk1grem.png",
     "height": 238,
     "width": 237,
     "center": [
@@ -124,7 +124,7 @@
             "width": 16,
             "angle": 180,
             "contrailSize": 12,
-            "style": "THREAT"
+            "style": "ONSLAUGHT_MKI"
         },
         {
             "location": [
@@ -134,7 +134,7 @@
             "width": 16,
             "angle": 180,
             "contrailSize": 12,
-            "style": "THREAT"
+            "style": "ONSLAUGHT_MKI"
         },
         {
             "location": [
@@ -144,7 +144,7 @@
             "width": 16,
             "angle": 180,
             "contrailSize": 12,
-            "style": "THREAT"
+            "style": "ONSLAUGHT_MKI"
         },
         {
             "location": [
@@ -154,7 +154,7 @@
             "width": 16,
             "angle": 180,
             "contrailSize": 12,
-            "style": "THREAT"
+            "style": "ONSLAUGHT_MKI"
         }
     ],
     "bounds": [

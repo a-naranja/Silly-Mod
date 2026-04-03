@@ -3,7 +3,7 @@
     "hullId": "silly_gremmk1ModuleR",
     "hullSize": "FRIGATE",
     "style": "THREAT",
-    "spriteName": "graphics/ships/mk1gremModuleRight.png",
+    "spriteName": "graphics/ships/mk1/mk1gremModuleRight.png",
     "height": 200,
     "width": 120,
     "center": [

@@ -3,7 +3,7 @@
     "hullId": "silly_ziggModTR",
     "hullSize": "DESTROYER",
     "style": "LOW_TECH",
-    "spriteName": "mods/Silly-Mod/graphics/ships/z_mk1_tr.png",
+    "spriteName": "mods/Silly-Mod/graphics/ships/mk1/zigmk1TR.png",
     "height": 186,
     "width": 153,
     "center": [

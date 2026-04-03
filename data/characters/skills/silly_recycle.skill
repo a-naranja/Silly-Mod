@@ -1,6 +1,6 @@
 {
 	"id":"silly_recycle",
-	"governingAptitude":"industry",
+	"governingAptitude":"silly",
 	"compressHullmods":false,
 	"scope":"GOVERNED_OUTPOST",
 	"effectGroups":[

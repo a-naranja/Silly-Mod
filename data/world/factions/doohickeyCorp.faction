@@ -131,6 +131,7 @@
 			"amblaster",
 			"sillyrepeater",
 			"silly_flareLauncher",
+            "sillyGlitch",
 			
 			"phasebeam",
 			"gravitonbeam",
@@ -214,6 +215,7 @@
 		"gazer":5,
 		"dragon":3,
         "sillySlinger":10,
+        "sillyGlitch":5,
 		
 		"squall":10,
 		"locust":10,
