@@ -1,4 +1,7 @@
 id,name,order,tier,reqPoints,reqPointsPerExtraSkill,description,author,combat officer,admiral,admin,tags,icon,
+#aptitude icon,,,,,,,,,,,,,
+aptitude_silly,,55,,,,,,,,,,graphics/icons/skills/category_silly.png,
+,,,,,,,,,,,,,
 #COMBAT,,,,,,,,,,,,,
 silly_logi,Quartermaster,1600,1,0,0,"Y'know, they say there was an old game, old before those new limelight highs... It was quite a simple one, just stack pieces on top of each other. Can you believe it?",Logistics' officer rumor,TRUE,,,,graphics/icons/skills/logistics.png,
 ,,,,,,,,,,,,,

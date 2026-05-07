@@ -3,7 +3,7 @@
     "hullId": "silly_arrow",
     "hullSize": "CRUISER",
     "style": "SILLY_TECH",
-    "spriteName": "mods/Silly-Mod/graphics/ships/silly_arrowF.png",
+    "spriteName": "graphics/ships/silly_arrowF.png",
     "height": 218,
     "width": 168,
     "center": [

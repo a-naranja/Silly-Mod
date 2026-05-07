@@ -4,3 +4,4 @@ Silly Missiles,sillyArrowMissiles,,,,250,,,,,,0.6,2,0.6,6,,,,,,,,,,,,offensive,g
 Silly Temporal Shell,sillyTemp,1,,,42,0.25,,,,,4,10,2,10,,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
 Silly Jump,sillyJump,,,,100,,,,,,0.1,1,0,4,,,,,,,,,,,,,graphics/icons/hullsys/displacer.png
 Summon,sillySummon,,,,500,,,,,,0.1,,0.1,10,,,,,,,,,,,,offensive,graphics/icons/hullsys/temporal_shell.png
+Switch,sillySwitch,,,,20,,,,,,1,,1,4,TRUE,,,,,,,,,,,movement,graphics/icons/hullsys/displacer.png

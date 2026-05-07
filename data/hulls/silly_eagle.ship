@@ -3,7 +3,7 @@
     "hullId": "silly_eagle",
     "hullSize": "CRUISER",
     "style": "SILLY_TECH",
-    "spriteName": "mods/Silly-Mod/graphics/ships/silly_eagle.png",
+    "spriteName": "graphics/ships/silly_eagle.png",
     "height": 218,
     "width": 168,
     "center": [

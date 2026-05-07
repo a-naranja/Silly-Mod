@@ -1,0 +1,32 @@
+{
+    "hullName": "Switcher Flap",
+    "hullId": "silly_switchFlapL",
+    "hullSize": "FRIGATE",
+    "style": "SILLY_TECH",
+    "spriteName": "graphics/ships/sillySwitch/flapL.png",
+    "height": 68,
+    "width": 28,
+    "center": [
+        14, 34
+    ],
+    "collisionRadius": 36.5,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 39,
+    "viewOffset": 0,
+    "builtInMods": [
+        "reduced_explosion",
+        "always_detaches"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": [
+            31.5,       -7,
+             -17,       13,
+             -33,       -7
+    ]
+}

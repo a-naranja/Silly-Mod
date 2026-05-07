@@ -1,0 +1,27 @@
+{
+	"id":"sillySwitch",
+	"type":"STAT_MOD",
+	"aiType":"MANEUVERING_JETS",
+	
+	"statsScript":"data.shipSystems.sillySwitch",
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.75,
+	"soundFilterGainHF":0.5,
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_temporalshell_loop",
+	"deactivateSound":"system_maneuvering_jets",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":40,  # not right since it's ship-dependent, but hopefully close enough
+		"burstMovementPotential":0,
+		"averageSpeedMult":1.20,
+	}
+}
+
+
+
+

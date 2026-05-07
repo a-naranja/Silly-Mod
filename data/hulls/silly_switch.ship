@@ -1,0 +1,296 @@
+{
+    "hullName": "Switcher",
+    "hullId": "silly_switch",
+    "hullSize": "CRUISER",
+    "style": "SILLY_TECH",
+    "spriteName": "graphics/ships/sillySwitch/switch.png",
+    "height": 218,
+    "width": 168,
+    "center": [
+        84, 104.5
+    ],
+    "collisionRadius": 97.5,
+    "coversColor": "",
+    "shieldCenter": [
+        -0.5, 0
+    ],
+    "shieldRadius": 111.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "sillyShield",
+        "sillySwitchHullmod"
+    ],
+    "builtInWeapons": {
+        "tpc1": "sillySlinger",
+        "tpc2": "sillySlinger"
+    },
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "MISSILE",
+            "mount": "HARDPOINT",
+            "arc": 5,
+            "angle": 0,
+            "locations": [
+                    77.5,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 240,
+            "angle": 0,
+            "locations": [
+                    54.5,        0
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 190,
+            "angle": 75,
+            "locations": [
+                     2.5,     46.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 190,
+            "angle": 285,
+            "locations": [
+                     2.5,    -46.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "BALLISTIC",
+            "mount": "TURRET",
+            "arc": 160,
+            "angle": 180,
+            "locations": [
+                     -42,        0
+            ]
+        },
+        {
+            "id": "tpc1",
+            "size": "MEDIUM",
+            "type": "BUILT_IN",
+            "mount": "HARDPOINT",
+            "renderOrderMod": -6000,
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      27,       35
+            ]
+        },
+        {
+            "id": "tpc2",
+            "size": "MEDIUM",
+            "type": "BUILT_IN",
+            "mount": "HARDPOINT",
+            "renderOrderMod": -6000,
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      27,      -35
+            ]
+        },
+        {
+            "id": "flapL",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      16,       62
+            ]
+        },
+        {
+            "id": "flapR",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                      16,      -62
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                -69.5, 19
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -69.5, -19
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -70.5, -22
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -70.5, 22
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -71.5, 25
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -71.5, -25
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -72.5, 28
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -72.5, -28
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -73.5, 31
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -74, -31
+            ],
+            "length": 24,
+            "width": 4,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -78.5, 39
+            ],
+            "length": 48,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -78.5, -39
+            ],
+            "length": 48,
+            "width": 16,
+            "angle": 180,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -5.5, 50.5
+            ],
+            "length": 48,
+            "width": 16,
+            "angle": 145,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -5.5, -50.5
+            ],
+            "length": 48,
+            "width": 16,
+            "angle": 215,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        }
+    ],
+    "bounds": [
+             -50,     10.5,
+             -69,       17,
+             -79,     44.5,
+             -52,       49,
+             -49,       62,
+        
+              11,     57.5,
+            15.5,       41,
+              87,     14.5,
+              87,    -14.5,
+            15.5,      -41,
+        
+              11,    -57.5,
+             -49,      -62,
+             -52,      -49,
+             -79,    -44.5,
+             -69,      -17,
+        
+             -50,    -10.5
+    # 16 points total.
+    ]
+}

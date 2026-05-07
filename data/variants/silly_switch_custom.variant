@@ -1,0 +1,51 @@
+{
+    "displayName": "Custom",
+    "fluxCapacitors": 30,
+    "fluxVents": 30,
+    "goalVariant": true,
+    "hullId": "silly_switch",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "frontemitter",
+        "heavyarmor"
+    ],
+    "quality": 1.0,
+    "variantId": "silly_switch_custom",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "tpc1": "sillySlinger",
+                "tpc2": "sillySlinger"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "arbalest"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 000": "sillyGlitch"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 004": "vulcan",
+                "WS 003": "lightdualmg",
+                "WS 002": "lightdualmg"
+            }
+        }
+    ],
+    "modules": {
+        "flapL": "silly_switchFlapL_custom",
+        "flapR": "silly_switchFlapR_custom"
+    }
+}
