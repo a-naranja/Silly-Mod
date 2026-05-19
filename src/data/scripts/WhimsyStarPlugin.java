@@ -20,7 +20,6 @@ import com.fs.starfarer.rpg.Person;
 import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
-import data.kaysaar.aotd.vok.campaign.econ.globalproduction.models.GPManager;
 import data.scripts.aotdvok.aotdIndFixes;
 import data.skills.IndustrialReprocessing;
 import org.magiclib.util.MagicCampaign;
@@ -200,7 +199,6 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
 		if(Global.getSettings().getModManager().isModEnabled("aotd_vok")){
 			Global.getSector().getListenerManager().addListener(new aotdIndFixes());
-			GPManager.commodities.put(sillyCommodities.REFINED_SILLY_PARTICLES, GPManager.GPResourceType.COMMODITY);
 		}
 	}
 }
