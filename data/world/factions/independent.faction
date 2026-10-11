@@ -7,6 +7,7 @@
             "silly_hound",
 
             "silly_nitro",
+            "silly_chudling",
 
             "silly_falalaf",
             "silly_shortquest",
@@ -35,7 +36,8 @@
             "silly_mudskipper7":0.5,
             "silly_hound":0.5,
 
-            "silly_nitro":0.5,
+            "silly_nitro":0.5,  
+            "silly_chudling":0.5,
 
             "silly_falalaf":0.5,
             "silly_shortquest":0.5,

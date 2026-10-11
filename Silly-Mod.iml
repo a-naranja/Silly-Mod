@@ -41,6 +41,8 @@
     <orderEntry type="library" name="Vok" level="project" />
     <orderEntry type="library" name="Starsector-98" level="project" />
     <orderEntry type="library" name="VideoLib" level="project" />
-    <orderEntry type="library" name="BoggledTerraformingAndStationConstruction" level="project" />
+    <orderEntry type="library" name="ExerelinCore" level="project" />
+    <orderEntry type="library" name="MagicLib" level="project" />
+    <orderEntry type="library" name="LazyLib" level="project" />
   </component>
 </module>

@@ -10,7 +10,7 @@
 		],
 	},
 	"weaponSellFrequency":{
-	    "sillyFlak":1,
+	    "sillyFlak":0.5,
 	},
 	"hullFrequency":{
     	"hulls":{
