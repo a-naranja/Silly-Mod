@@ -1,0 +1,22 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 10,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "silly_zapper",
+    "hullMods": [
+        "hardenedshieldemitter",
+        "advancedshieldemitter"
+    ],
+    "variantId": "silly_zapper_standard",
+    "weaponGroups": [
+        {
+            "autofire": true,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 000": "pdburst",
+                "WS 001": "pdburst"
+            }
+        }
+    ]
+}

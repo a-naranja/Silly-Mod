@@ -14,10 +14,14 @@ fleetName:Orbital Station,
 }",graphics/icons/industry/orbital_station.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A silly space station, featuring gunside and phase modules.
 
 Must be reduced before a bombardment can be attempted.",2100,
-silly_battlestation,Battlestation - Silly,100,120,,4,silly_orbitalstation,,"station, unraidable, structure","{
+silly_battlestation,Battlestation - Silly,100,120,,4,silly_orbitalstation,silly_starfortress,"station, battlestation, unraidable, structure","{
 radius:65,
 variant:silly_station2_custom,
 fleetName:Battlestation,
 }",graphics/icons/industry/battlestation.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A silly battlestation, featuring shields and phase modules.
 
 Must be reduced before a bombardment can be attempted.",2150,
+silly_starfortress,Star Fortress - Silly,150,150,,5,silly_battlestation,,"station, starfortress, unraidable, structure","{ radius:70, variant:silly_station3_custom, fleetName: Star Fortress}",graphics/icons/industry/star_fortress.png,com.fs.starfarer.api.impl.campaign.econ.impl.OrbitalStation,"A silly improved battlestation, featuring Zapper-class defense drones and long-range targeted mine teleporters. Must be reduced before a bombardment can be attempted.",2200,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,

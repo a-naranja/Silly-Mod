@@ -1,0 +1,11 @@
+{
+    "displayName": "Standard",
+    "fluxCapacitors": 0,
+    "fluxVents": 0,
+    "goalVariant": false,
+    "hullId": "silly_bump",
+    "hullMods": [],
+    "quality": 0.0,
+    "variantId": "silly_bump_standard",
+    "weaponGroups": []
+}

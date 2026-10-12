@@ -1,0 +1,39 @@
+{
+    "hullName": "Bump",
+    "hullId": "silly_bump",
+    "hullSize": "FRIGATE",
+    "style": "SILLY_TECH",
+    "spriteName": "mods/Silly-Mod/graphics/ships/station/sillyStationDef.png",
+    "height": 96,
+    "width": 200,
+    "center": [
+        100.5, 8.5
+    ],
+    "moduleAnchor": [
+        9, 0
+    ],
+    "collisionRadius": 97.5,
+    "coversColor": "",
+    "shieldCenter": [
+        14, 0.5
+    ],
+    "shieldRadius": 99.5,
+    "viewOffset": 0,
+    "builtInMods": [
+        "reduced_explosion",
+        "always_detaches"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [],
+    "engineSlots": [],
+    "bounds": [
+             8.5,      -68,
+            36.5,      -90,
+              69,    -15.5,
+              69,     15.5,
+            36.5,       90,
+        
+             8.5,       68
+    ]
+}

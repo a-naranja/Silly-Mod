@@ -1,0 +1,122 @@
+{
+    "hullName": "Zapper",
+    "hullId": "silly_zapper",
+    "hullSize": "FRIGATE",
+    "style": "SILLY_TECH",
+    "spriteName": "mods/Silly-Mod/graphics/ships/station/sillyDrone.png",
+    "height": 120,
+    "width": 92,
+    "center": [
+        46, 60
+    ],
+    "collisionRadius": 63,
+    "coversColor": "",
+    "shieldCenter": [
+        0, 0
+    ],
+    "shieldRadius": 77,
+    "viewOffset": 0,
+    "builtInMods": [
+        "supercomputer",
+        "magazines"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 260,
+            "angle": 0,
+            "locations": [
+                      17,        0
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "MEDIUM",
+            "type": "ENERGY",
+            "mount": "TURRET",
+            "arc": 260,
+            "angle": -180,
+            "locations": [
+                     -10,        0
+            ]
+        }
+    ],
+    "engineSlots": [
+        {
+            "location": [
+                45.5, 14
+            ],
+            "length": 10,
+            "width": 4,
+            "angle": 48,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                45.5, -14
+            ],
+            "length": 10,
+            "width": 4,
+            "angle": 312,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                2.5, 28.5
+            ],
+            "length": 30,
+            "width": 12,
+            "angle": 90,
+            "contrailSize": 24,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                2.5, -28.5
+            ],
+            "length": 30,
+            "width": 12,
+            "angle": 270,
+            "contrailSize": 24,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -41, 13.5
+            ],
+            "length": 10,
+            "width": 4,
+            "angle": 135,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        },
+        {
+            "location": [
+                -41, -13.5
+            ],
+            "length": 10,
+            "width": 4,
+            "angle": 225,
+            "contrailSize": 12,
+            "style": "SILLYENGINE"
+        }
+    ],
+    "bounds": [
+             2.5,       28,
+           -22.5,       43,
+           -51.5,     -0.5,
+           -22.5,      -43,
+             2.5,      -28,
+        
+            27.5,      -42,
+              56,        0,
+            27.5,       42
+    ]
+}

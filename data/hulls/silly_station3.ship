@@ -1,0 +1,187 @@
+{
+    "hullName": "Silly Star Fortress",
+    "hullId": "silly_station3",
+    "hullSize": "CAPITAL_SHIP",
+    "style": "SILLY_TECH",
+    "spriteName": "mods/Silly-Mod/graphics/ships/station/station_sillyWIP.png",
+    "height": 512,
+    "width": 512,
+    "center": [
+        260.5, 252
+    ],
+    "collisionRadius": 229.5,
+    "coversColor": "",
+    "shieldCenter": [
+        2, 1
+    ],
+    "shieldRadius": 258,
+    "viewOffset": 0,
+    "builtInMods": [
+        "shared_flux_sink",
+        "vastbulk",
+        "axialrotation",
+        "stealth_minefield"
+    ],
+    "builtInWings": [],
+    "builtInModules": null,
+    "weaponSlots": [
+        {
+            "id": "WS 000",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 45,
+            "locations": [
+                   120.5,    120.5
+            ]
+        },
+        {
+            "id": "WS 001",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                    82.5,    -81.5
+            ]
+        },
+        {
+            "id": "WS 002",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 180,
+            "locations": [
+                     -82,     82.5
+            ]
+        },
+        {
+            "id": "WS 003",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 225,
+            "locations": [
+                  -120.5,   -119.5
+            ]
+        },
+        {
+            "id": "WS 004",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 0,
+            "locations": [
+                     183,    -25.5
+            ]
+        },
+        {
+            "id": "WS 005",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 90,
+            "locations": [
+                     -23,    180.5
+            ]
+        },
+        {
+            "id": "WS 006",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 270,
+            "locations": [
+                    24.5,   -178.5
+            ]
+        },
+        {
+            "id": "WS 007",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "renderOrderMod": -1000,
+            "arc": 0,
+            "angle": 180,
+            "locations": [
+                  -180.5,     24.5
+            ]
+        },
+        {
+            "id": "WS 008",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": -48,
+            "locations": [
+                     128,     -127
+            ]
+        },
+        {
+            "id": "WS 009",
+            "size": "SMALL",
+            "type": "STATION_MODULE",
+            "mount": "TURRET",
+            "arc": 0,
+            "angle": 133,
+            "locations": [
+                    -131,    124.5
+            ]
+        }
+    ],
+    "engineSlots": [],
+    "bounds": [
+             217,       29,
+           139.5,     -8.5,
+             110,     12.5,
+              76,       -5,
+            55.5,      -60,
+        
+               3,    -75.5,
+           -12.5,     -100,
+             8.5,   -139.5,
+           -18.5,   -153.5,
+           -31.5,   -216.5,
+        
+           -46.5,     -156,
+             -71,   -142.5,
+             -51,     -111,
+           -67.5,      -75,
+          -107.5,      -50,
+        
+            -142,      -71,
+          -155.5,      -48,
+            -219,    -32.5,
+          -154.5,      -18,
+            -140,     10.5,
+        
+          -105.5,      -16,
+           -75.5,        3,
+             -56,       60,
+              -8,       74,
+              14,    105.5,
+        
+            -9.5,    139.5,
+            21.5,    155.5,
+              31,    218.5,
+            44.5,    156.5,
+            72.5,    138.5,
+        
+              50,    102.5,
+              75,       70,
+           107.5,       48,
+             139,     71.5
+    # 34 points total.
+    ]
+}
