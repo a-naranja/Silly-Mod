@@ -1,3 +1,5 @@
 name,id,demand class,base price,export value,price variability,utility,origin,tags,stack size,cargo space,icon,sound id,sound id drop,order,economyTier,econUnitOrigUnused,econUnit,baseRaidDanger,eU * base value,iconWidthMult,plugin,desc
 Silly Particles,silly_particles,silly_particles,300,8000,3,1,,"expensive, exotic",1000,1,graphics/icons/cargo/sillyParticles.png,ui_cargo_volatiles,ui_cargo_volatiles_drop,11.1,1,0,200,MEDIUM,60000,1,,
 Refined Silly Particles,silly_refined_particles,silly_refined_particles,500,10000,3,1,,"expensive, exotic",1000,1,graphics/icons/cargo/refinedParticles.png,ui_cargo_volatiles,ui_cargo_volatiles_drop,11.2,2,0,100,HIGH,50000,0.7,1,
+,,,,,,,,,,,,,,,,,,,,,,
+Freaky Core,silly_freakyCore,ai_cores,,,,1,,"nonecon, ai_core, no_loss_from_combat, codex_unlockable",670,1,graphics/icons/cargo/freaky_core.png,ai_core_pickup,ui_beta_core_drop,42,,,,HIGH,,1,,

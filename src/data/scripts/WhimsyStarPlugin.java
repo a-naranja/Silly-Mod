@@ -7,7 +7,6 @@ import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.*;
 import com.fs.starfarer.api.campaign.econ.EconomyAPI;
 import com.fs.starfarer.api.characters.FullName;
-import com.fs.starfarer.api.characters.ImportantPeopleAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.impl.campaign.ids.*;
 
@@ -15,13 +14,10 @@ import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.terrain.HyperspaceTerrainPlugin;
 import com.fs.starfarer.api.util.Misc;
-import com.fs.starfarer.rpg.ImportantPeople;
-import com.fs.starfarer.rpg.Person;
-import data.ids.sillyCommodities;
 import data.ids.sillyFactions;
 import data.ids.sillyIndustries;
+import data.plugins.pluginFreakyCore;
 import data.scripts.aotdvok.aotdIndFixes;
-import data.skills.IndustrialReprocessing;
 import org.magiclib.util.MagicCampaign;
 
 //em fokin colours
@@ -197,6 +193,8 @@ public class WhimsyStarPlugin extends BaseModPlugin {
 		super.onGameLoad(newGame);
 		Global.getSector().getListenerManager().addListener(new sillyDescriptions(), true);
 		Global.getSector().getListenerManager().addListener(new linkRelations(true), true);
+		Global.getSector().registerPlugin(new pluginFreakyCore());
+		
 		if(Global.getSettings().getModManager().isModEnabled("aotd_vok")){
 			Global.getSector().getListenerManager().addListener(new aotdIndFixes());
 		}

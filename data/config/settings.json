@@ -13,31 +13,42 @@
 			"silly_refining": "graphics/icons/tech/subicon_silly_refining.png"
         },
 		"characters":{
-			"mrsilly.png":"graphics/characters/mrsilly.png"
+			"mrsilly.png":"graphics/characters/mrsilly.png",
+            "FCportrait.png":"graphics/portraits/sillyFCportrait.png"
 		},
 		"icons": {
 			"uma": "graphics/uma.png",
 			"uma1": "graphics/uma1.png",
-			"uma2": "graphics/uma2.png"
+			"uma2": "graphics/uma2.png",
+            "freakyCore":"graphics/icons/cargo/freaky_core.png"
 		}
 	},
 	"VideoLib" : {
 		"orange-sillyMod" : {
 			"videos" : {
 				"vl_spin" : "data/videos/spin.gif",
-				"vl_fteto" : "data/videos/freaky-teto.gif"
+				"vl_fteto" : "data/videos/freaky-teto.gif",
+                "vl_freakyCore" : "data/videos/freaky-core.gif",
+				"vl_FCportrait" : "data/videos/sillyFCportrait.gif"
 			},
 			"images" : {
-			}#,
-			 #"autoTexProjectorOverrides" : {
-			#	"graphics/ships/skong.png" : {
-			#		"width" : 160,
-			#		"height" : 150,
-			#		"campaignRunWhilePaused" : true,
-			#		"combatRunWhilePaused" : false,
-			#		"videoId" : "vl_spin"
-			#	}
-			#}
+			},
+			 "autoTexProjectorOverrides" : {
+				"graphics/icons/cargo/freaky_core.png" : {
+					"width" : 80,
+					"height" : 80,
+					"campaignRunWhilePaused" : true,
+					"combatRunWhilePaused" : true,
+					"videoId" : "vl_freakyCore"
+				},
+				 "graphics/portraits/sillyFCportrait.png": {
+					 "width" : 128,
+					 "height" : 128,
+					 "campaignRunWhilePaused" : true,
+					 "combatRunWhilePaused" : true,
+					 "videoId" : "vl_FCportrait"
+				 }
+			}
 		}
 	}
 }

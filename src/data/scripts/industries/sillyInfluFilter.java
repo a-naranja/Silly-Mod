@@ -1,4 +1,4 @@
-package data.scripts;
+package data.scripts.industries;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.impl.campaign.econ.impl.BaseIndustry;
